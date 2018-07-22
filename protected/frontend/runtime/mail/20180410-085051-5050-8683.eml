@@ -1,0 +1,65 @@
+Message-ID: <56ce9fe8c8e369c716635c8e15124304@localhost>
+Date: Tue, 10 Apr 2018 08:50:51 +0700
+Subject: New Customer Registration
+From: Super Admin <super_admin@jeans.id>
+To: pdyanp1@yahoo.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1523325051_346fda4df4c4d0b88824e7fcc68453ec_=_"
+
+
+--_=_swift_v4_1523325051_346fda4df4c4d0b88824e7fcc68453ec_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Welcome Para Mudi. Your account has been created successfully at Jeans.id=
+
+
+Your login details are as below
+Username: username
+Password: @user1
+
+Please confirm your email by clicking the link below =
+to activate your account.
+Confirm your email account
+
+Thanks,
+System Admin
+
+--_=_swift_v4_1523325051_346fda4df4c4d0b88824e7fcc68453ec_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/=
+xhtml">
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/ht=
+ml; charset=3DUTF-8" />
+    <title></title>
+    </head>
+<body>
+    =
+    <p>Welcome Para Mudi. Your account has been created successfully at Jea=
+ns.id</p>
+
+<p>Your login details are as below<br /><br/>
+    <strong>Username:</strong> username<br />
+    <strong>Password</strong>: @user1</p>
+
+Please confirm your email by clicking the link below to activate your accou=
+nt.<br/><br/>
+<a href=3D'http://localhost/jeans.id/customer/site/validate-email-address?h=
+ash=3DJDJ5JDEzJFVWYUtvQy9oZW9yZXZIWTNJYTY1eC52d1h1WEk2WXZqa3lydGhNeHp2SW9pe=
+Xp5R2NmTHJH&email=3Dpdyanp1@yahoo.com'>Confirm your email account</a><br/><=
+br/>
+
+Thanks,<br />
+System Admin
+
+    </body>
+</html>
+
+
+--_=_swift_v4_1523325051_346fda4df4c4d0b88824e7fcc68453ec_=_--

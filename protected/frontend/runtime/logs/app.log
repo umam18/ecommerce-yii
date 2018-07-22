@@ -1,0 +1,1633 @@
+2018-04-10 08:33:58 [::1][4][-][error][ReflectionException] ReflectionException: Class taxes\Module does not exist in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\di\Container.php:424
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\di\Container.php(424): ReflectionClass->__construct('taxes\\Module')
+#1 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\di\Container.php(364): yii\di\Container->getDependencies('taxes\\Module')
+#2 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('taxes\\Module', Array, Array)
+#3 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('taxes\\Module', Array, Array)
+#4 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Module.php(423): yii\BaseYii::createObject(Array, Array)
+#5 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Module.php(414): yii\base\Module->getModule('tax', true)
+#6 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\traits\ApplicationTrait.php(95): yii\base\Module->getModule('localization/ta...', true)
+#7 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\components\ModuleManager.php(114): usni\library\web\Application->getModule('localization/ta...', true)
+#8 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\components\ModuleManager.php(116): usni\library\components\ModuleManager->loadInstalledModules(Array, 'localization')
+#9 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\components\ModuleManager.php(49): usni\library\components\ModuleManager->loadInstalledModules(Array)
+#10 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\web\Application.php(30): usni\library\components\ModuleManager->bootstrap()
+#11 D:\xampp\htdocs\jeans.id\protected\frontend\web\Application.php(23): usni\library\web\Application->init()
+#12 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Object.php(107): frontend\web\Application->init()
+#13 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(205): yii\base\Object->__construct(Array)
+#14 D:\xampp\htdocs\jeans.id\index.php(38): yii\base\Application->__construct(Array)
+#15 {main}
+2018-04-23 11:34:32 [::1][7][ut2vmviatrn22bj6dnmk00ook1][error][Error] Error: Call to a member function getItemCode() on null in C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\models\ItemCollection.php:103
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\business\Manager.php(249): cart\models\ItemCollection->remove(NULL)
+#1 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\controllers\DefaultController.php(92): cart\business\Manager->removeItem('60', Object(cart\dto\CartDTO))
+#2 [internal function]: cart\controllers\DefaultController->actionRemove()
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('remove', Array)
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('cart/default/re...', Array)
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#9 {main}
+2018-04-23 11:34:19 [::1][7][ut2vmviatrn22bj6dnmk00ook1][info][application] $_POST = [
+    'item_code' => '60'
+]
+2018-04-23 11:34:35 [::1][7][ut2vmviatrn22bj6dnmk00ook1][error][Error] Error: Call to a member function getItemCode() on null in C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\models\ItemCollection.php:103
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\business\Manager.php(249): cart\models\ItemCollection->remove(NULL)
+#1 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\controllers\DefaultController.php(92): cart\business\Manager->removeItem('60', Object(cart\dto\CartDTO))
+#2 [internal function]: cart\controllers\DefaultController->actionRemove()
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('remove', Array)
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('cart/default/re...', Array)
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#9 {main}
+2018-04-23 11:34:20 [::1][7][ut2vmviatrn22bj6dnmk00ook1][info][application] $_POST = [
+    'item_code' => '60'
+]
+2018-04-23 11:34:38 [::1][7][ut2vmviatrn22bj6dnmk00ook1][error][Error] Error: Call to a member function getItemCode() on null in C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\models\ItemCollection.php:103
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\business\Manager.php(249): cart\models\ItemCollection->remove(NULL)
+#1 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\controllers\DefaultController.php(92): cart\business\Manager->removeItem('60', Object(cart\dto\CartDTO))
+#2 [internal function]: cart\controllers\DefaultController->actionRemove()
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('remove', Array)
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('cart/default/re...', Array)
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#9 {main}
+2018-04-23 11:34:20 [::1][7][ut2vmviatrn22bj6dnmk00ook1][info][application] $_POST = [
+    'item_code' => '60'
+]
+2018-04-23 11:34:44 [::1][7][ut2vmviatrn22bj6dnmk00ook1][error][Error] Error: Call to a member function getItemCode() on null in C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\models\ItemCollection.php:103
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\business\Manager.php(249): cart\models\ItemCollection->remove(NULL)
+#1 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\controllers\DefaultController.php(92): cart\business\Manager->removeItem('60', Object(cart\dto\CartDTO))
+#2 [internal function]: cart\controllers\DefaultController->actionRemove()
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('remove', Array)
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('cart/default/re...', Array)
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#9 {main}
+2018-04-23 11:34:21 [::1][7][ut2vmviatrn22bj6dnmk00ook1][info][application] $_POST = [
+    'item_code' => '60'
+]
+2018-04-23 11:34:50 [::1][7][ut2vmviatrn22bj6dnmk00ook1][error][Error] Error: Call to a member function getItemCode() on null in C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\models\ItemCollection.php:103
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\business\Manager.php(249): cart\models\ItemCollection->remove(NULL)
+#1 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\controllers\DefaultController.php(92): cart\business\Manager->removeItem('60', Object(cart\dto\CartDTO))
+#2 [internal function]: cart\controllers\DefaultController->actionRemove()
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('remove', Array)
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('cart/default/re...', Array)
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#9 {main}
+2018-04-23 11:34:21 [::1][7][ut2vmviatrn22bj6dnmk00ook1][info][application] $_POST = [
+    'item_code' => '60'
+]
+2018-04-23 11:34:56 [::1][7][ut2vmviatrn22bj6dnmk00ook1][error][Error] Error: Call to a member function getItemCode() on null in C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\models\ItemCollection.php:103
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\business\Manager.php(249): cart\models\ItemCollection->remove(NULL)
+#1 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\controllers\DefaultController.php(92): cart\business\Manager->removeItem('60', Object(cart\dto\CartDTO))
+#2 [internal function]: cart\controllers\DefaultController->actionRemove()
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('remove', Array)
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('cart/default/re...', Array)
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#9 {main}
+2018-04-23 11:34:24 [::1][7][ut2vmviatrn22bj6dnmk00ook1][info][application] $_POST = [
+    'item_code' => '60'
+]
+2018-04-23 11:35:07 [::1][7][ut2vmviatrn22bj6dnmk00ook1][error][Error] Error: Call to a member function getItemCode() on null in C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\models\ItemCollection.php:103
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\business\Manager.php(249): cart\models\ItemCollection->remove(NULL)
+#1 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\controllers\DefaultController.php(92): cart\business\Manager->removeItem('60', Object(cart\dto\CartDTO))
+#2 [internal function]: cart\controllers\DefaultController->actionRemove()
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('remove', Array)
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('cart/default/re...', Array)
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#9 {main}
+2018-04-23 11:34:37 [::1][7][ut2vmviatrn22bj6dnmk00ook1][info][application] $_POST = [
+    'item_code' => '60'
+]
+2018-04-23 11:35:13 [::1][7][ut2vmviatrn22bj6dnmk00ook1][error][Error] Error: Call to a member function getItemCode() on null in C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\models\ItemCollection.php:103
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\business\Manager.php(249): cart\models\ItemCollection->remove(NULL)
+#1 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\controllers\DefaultController.php(92): cart\business\Manager->removeItem('60', Object(cart\dto\CartDTO))
+#2 [internal function]: cart\controllers\DefaultController->actionRemove()
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('remove', Array)
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('cart/default/re...', Array)
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#9 {main}
+2018-04-23 11:34:40 [::1][7][ut2vmviatrn22bj6dnmk00ook1][info][application] $_POST = [
+    'item_code' => '60'
+]
+2018-04-23 11:35:16 [::1][7][ut2vmviatrn22bj6dnmk00ook1][error][Error] Error: Call to a member function getItemCode() on null in C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\models\ItemCollection.php:103
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\business\Manager.php(249): cart\models\ItemCollection->remove(NULL)
+#1 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\controllers\DefaultController.php(92): cart\business\Manager->removeItem('60', Object(cart\dto\CartDTO))
+#2 [internal function]: cart\controllers\DefaultController->actionRemove()
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('remove', Array)
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('cart/default/re...', Array)
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#9 {main}
+2018-04-23 11:34:44 [::1][7][ut2vmviatrn22bj6dnmk00ook1][info][application] $_POST = [
+    'item_code' => '60'
+]
+2018-04-27 22:13:57 [::1][-][4qhuvr0vt625md6rjo4s76feoe][error][Error] Error: Call to a member function save() on null in D:\xampp\htdocs\Dropbox\jeans\vendor\ushainformatique\yiichimp\library\modules\users\traits\UserManagerTrait.php:92
+Stack trace:
+#0 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\business\Manager.php(278): customer\business\Manager->processInputData(Object(customer\dto\FormDTO))
+#1 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php(122): customer\business\Manager->processEdit(Object(customer\dto\FormDTO))
+#2 [internal function]: customer\controllers\SiteController->actionRegister()
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('register', Array)
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/r...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-04-27 22:13:57 [::1][-][4qhuvr0vt625md6rjo4s76feoe][info][application] $_POST = [
+    '_frontendCSRF' => 'Uy13QVVQSExrX081LxguBB5ADSlsIR8nFB4.AGEfASUaYDs2NAl4Dw=='
+    'Customer' => [
+        'username' => 'dyan'
+        'status' => '2'
+        'groups' => '2'
+        'password' => 'Dyan@1'
+        'confirmPassword' => 'Dyan@1'
+    ]
+    'Person' => [
+        'firstname' => 'Dyan'
+        'lastname' => 'Dyan'
+        'email' => 'dyan@dyan.com'
+        'mobilephone' => '089669664343'
+        'profile_image' => ''
+    ]
+    'Alamat' => [
+        'address1' => 'Kebumen'
+        'address2' => 'Kebumen'
+        'city' => 'Kebumen'
+        'state' => 'Kebumen'
+        'country' => 'ID'
+        'postal_code' => '54351'
+    ]
+]
+2018-04-27 22:15:53 [::1][-][4qhuvr0vt625md6rjo4s76feoe][error][Error] Error: Call to a member function save() on null in D:\xampp\htdocs\Dropbox\jeans\vendor\ushainformatique\yiichimp\library\modules\users\traits\UserManagerTrait.php:92
+Stack trace:
+#0 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\business\Manager.php(278): customer\business\Manager->processInputData(Object(customer\dto\FormDTO))
+#1 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php(122): customer\business\Manager->processEdit(Object(customer\dto\FormDTO))
+#2 [internal function]: customer\controllers\SiteController->actionRegister()
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('register', Array)
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/r...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-04-27 22:15:52 [::1][-][4qhuvr0vt625md6rjo4s76feoe][info][application] $_POST = [
+    '_frontendCSRF' => 'Uy13QVVQSExrX081LxguBB5ADSlsIR8nFB4.AGEfASUaYDs2NAl4Dw=='
+    'Customer' => [
+        'username' => 'dyan'
+        'status' => '2'
+        'groups' => '2'
+        'password' => 'Dyan@1'
+        'confirmPassword' => 'Dyan@1'
+    ]
+    'Person' => [
+        'firstname' => 'Dyan'
+        'lastname' => 'Dyan'
+        'email' => 'dyan@dyan.com'
+        'mobilephone' => '089669664343'
+        'profile_image' => ''
+    ]
+    'Alamat' => [
+        'address1' => 'Kebumen'
+        'address2' => 'Kebumen'
+        'city' => 'Kebumen'
+        'state' => 'Kebumen'
+        'country' => 'ID'
+        'postal_code' => '54351'
+    ]
+]
+2018-04-28 06:02:33 [::1][-][4qhuvr0vt625md6rjo4s76feoe][error][Error] Error: Call to a member function save() on null in D:\xampp\htdocs\Dropbox\jeans\vendor\ushainformatique\yiichimp\library\modules\users\traits\UserManagerTrait.php:90
+Stack trace:
+#0 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\business\Manager.php(278): customer\business\Manager->processInputData(Object(customer\dto\FormDTO))
+#1 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php(122): customer\business\Manager->processEdit(Object(customer\dto\FormDTO))
+#2 [internal function]: customer\controllers\SiteController->actionRegister()
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('register', Array)
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/r...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-04-28 06:02:33 [::1][-][4qhuvr0vt625md6rjo4s76feoe][info][application] $_POST = [
+    '_frontendCSRF' => 'Uy13QVVQSExrX081LxguBB5ADSlsIR8nFB4.AGEfASUaYDs2NAl4Dw=='
+    'Customer' => [
+        'username' => 'dyan'
+        'status' => '2'
+        'groups' => '2'
+        'password' => 'Dyan@1'
+        'confirmPassword' => 'Dyan@1'
+    ]
+    'Person' => [
+        'firstname' => 'Dyan'
+        'lastname' => 'Dyan'
+        'email' => 'dyan@dyan.com'
+        'mobilephone' => '089669664343'
+        'profile_image' => ''
+    ]
+    'Alamat' => [
+        'address1' => 'Kebumen'
+        'address2' => 'Kebumen'
+        'city' => 'Kebumen'
+        'state' => 'Kebumen'
+        'country' => 'ID'
+        'postal_code' => '54351'
+    ]
+]
+2018-04-28 06:02:50 [::1][-][4qhuvr0vt625md6rjo4s76feoe][error][Error] Error: Call to a member function save() on null in D:\xampp\htdocs\Dropbox\jeans\vendor\ushainformatique\yiichimp\library\modules\users\traits\UserManagerTrait.php:90
+Stack trace:
+#0 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\business\Manager.php(278): customer\business\Manager->processInputData(Object(customer\dto\FormDTO))
+#1 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php(122): customer\business\Manager->processEdit(Object(customer\dto\FormDTO))
+#2 [internal function]: customer\controllers\SiteController->actionRegister()
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('register', Array)
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/r...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-04-28 06:02:50 [::1][-][4qhuvr0vt625md6rjo4s76feoe][info][application] $_POST = [
+    '_frontendCSRF' => 'Uy13QVVQSExrX081LxguBB5ADSlsIR8nFB4.AGEfASUaYDs2NAl4Dw=='
+    'Customer' => [
+        'username' => 'dyan'
+        'status' => '2'
+        'groups' => '2'
+        'password' => 'Dyan@1'
+        'confirmPassword' => 'Dyan@1'
+    ]
+    'Person' => [
+        'firstname' => 'Dyan'
+        'lastname' => 'Dyan'
+        'email' => 'dyan@dyan.com'
+        'mobilephone' => '089669664343'
+        'profile_image' => ''
+    ]
+    'Alamat' => [
+        'address1' => 'Kebumen'
+        'address2' => 'Kebumen'
+        'city' => 'Kebumen'
+        'state' => 'Kebumen'
+        'country' => 'ID'
+        'postal_code' => '54351'
+    ]
+]
+2018-04-28 06:05:05 [::1][-][4qhuvr0vt625md6rjo4s76feoe][error][ParseError] ParseError: syntax error, unexpected 'exit' (T_EXIT) in D:\xampp\htdocs\Dropbox\jeans\vendor\ushainformatique\yiichimp\library\modules\users\traits\UserManagerTrait.php:91
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('usni\\library\\mo...')
+#1 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\business\Manager.php(41): spl_autoload_call('usni\\library\\mo...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\BaseYii.php(288): include('D:\\xampp\\htdocs...')
+#3 [internal function]: yii\BaseYii::autoload('customer\\busine...')
+#4 D:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php(71): spl_autoload_call('customer\\busine...')
+#5 D:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php(39): frontend\web\BeforeActionBehavior->updateOnlineUsers()
+#6 [internal function]: frontend\web\BeforeActionBehavior->handleOnBeforeAction(Object(yii\base\ActionEvent))
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#8 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(676): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#9 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(144): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#10 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('register', Array)
+#11 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/r...', Array)
+#12 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#14 {main}
+2018-04-28 06:05:05 [::1][-][4qhuvr0vt625md6rjo4s76feoe][info][application] $_POST = [
+    '_frontendCSRF' => 'Uy13QVVQSExrX081LxguBB5ADSlsIR8nFB4.AGEfASUaYDs2NAl4Dw=='
+    'Customer' => [
+        'username' => 'dyan'
+        'status' => '2'
+        'groups' => '2'
+        'password' => 'Dyan@1'
+        'confirmPassword' => 'Dyan@1'
+    ]
+    'Person' => [
+        'firstname' => 'Dyan'
+        'lastname' => 'Dyan'
+        'email' => 'dyan@dyan.com'
+        'mobilephone' => '089669664343'
+        'profile_image' => ''
+    ]
+    'Alamat' => [
+        'address1' => 'Kebumen'
+        'address2' => 'Kebumen'
+        'city' => 'Kebumen'
+        'state' => 'Kebumen'
+        'country' => 'ID'
+        'postal_code' => '54351'
+    ]
+]
+2018-04-28 06:05:06 [::1][-][4qhuvr0vt625md6rjo4s76feoe][error][ParseError] ParseError: syntax error, unexpected 'exit' (T_EXIT) in D:\xampp\htdocs\Dropbox\jeans\vendor\ushainformatique\yiichimp\library\modules\users\traits\UserManagerTrait.php:91
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('usni\\library\\mo...')
+#1 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\business\Manager.php(41): spl_autoload_call('usni\\library\\mo...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\BaseYii.php(288): include('D:\\xampp\\htdocs...')
+#3 [internal function]: yii\BaseYii::autoload('customer\\busine...')
+#4 D:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php(71): spl_autoload_call('customer\\busine...')
+#5 D:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php(39): frontend\web\BeforeActionBehavior->updateOnlineUsers()
+#6 [internal function]: frontend\web\BeforeActionBehavior->handleOnBeforeAction(Object(yii\base\ActionEvent))
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#8 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(676): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#9 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(144): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#10 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('toolbar', Array)
+#11 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('debug/default/t...', Array)
+#12 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#14 {main}
+2018-04-28 06:05:06 [::1][-][4qhuvr0vt625md6rjo4s76feoe][info][application] $_GET = [
+    'tag' => '5ae3aca1c6748'
+]
+2018-04-28 06:05:29 [::1][-][4qhuvr0vt625md6rjo4s76feoe][error][ParseError] ParseError: syntax error, unexpected 'if' (T_IF) in D:\xampp\htdocs\Dropbox\jeans\vendor\ushainformatique\yiichimp\library\modules\users\traits\UserManagerTrait.php:91
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('usni\\library\\mo...')
+#1 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\business\Manager.php(41): spl_autoload_call('usni\\library\\mo...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\BaseYii.php(288): include('D:\\xampp\\htdocs...')
+#3 [internal function]: yii\BaseYii::autoload('customer\\busine...')
+#4 D:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php(71): spl_autoload_call('customer\\busine...')
+#5 D:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php(39): frontend\web\BeforeActionBehavior->updateOnlineUsers()
+#6 [internal function]: frontend\web\BeforeActionBehavior->handleOnBeforeAction(Object(yii\base\ActionEvent))
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#8 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(676): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#9 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(144): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#10 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('register', Array)
+#11 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/r...', Array)
+#12 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#14 {main}
+2018-04-28 06:05:29 [::1][-][4qhuvr0vt625md6rjo4s76feoe][info][application] $_POST = [
+    '_frontendCSRF' => 'Uy13QVVQSExrX081LxguBB5ADSlsIR8nFB4.AGEfASUaYDs2NAl4Dw=='
+    'Customer' => [
+        'username' => 'dyan'
+        'status' => '2'
+        'groups' => '2'
+        'password' => 'Dyan@1'
+        'confirmPassword' => 'Dyan@1'
+    ]
+    'Person' => [
+        'firstname' => 'Dyan'
+        'lastname' => 'Dyan'
+        'email' => 'dyan@dyan.com'
+        'mobilephone' => '089669664343'
+        'profile_image' => ''
+    ]
+    'Alamat' => [
+        'address1' => 'Kebumen'
+        'address2' => 'Kebumen'
+        'city' => 'Kebumen'
+        'state' => 'Kebumen'
+        'country' => 'ID'
+        'postal_code' => '54351'
+    ]
+]
+2018-04-28 06:05:30 [::1][-][4qhuvr0vt625md6rjo4s76feoe][error][ParseError] ParseError: syntax error, unexpected 'if' (T_IF) in D:\xampp\htdocs\Dropbox\jeans\vendor\ushainformatique\yiichimp\library\modules\users\traits\UserManagerTrait.php:91
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('usni\\library\\mo...')
+#1 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\business\Manager.php(41): spl_autoload_call('usni\\library\\mo...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\BaseYii.php(288): include('D:\\xampp\\htdocs...')
+#3 [internal function]: yii\BaseYii::autoload('customer\\busine...')
+#4 D:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php(71): spl_autoload_call('customer\\busine...')
+#5 D:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php(39): frontend\web\BeforeActionBehavior->updateOnlineUsers()
+#6 [internal function]: frontend\web\BeforeActionBehavior->handleOnBeforeAction(Object(yii\base\ActionEvent))
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#8 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(676): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#9 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(144): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#10 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('toolbar', Array)
+#11 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('debug/default/t...', Array)
+#12 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#14 {main}
+2018-04-28 06:05:30 [::1][-][4qhuvr0vt625md6rjo4s76feoe][info][application] $_GET = [
+    'tag' => '5ae3acb9bdf87'
+]
+2018-05-08 01:43:04 [::1][18][-][error][Error] Error: Call to a member function hasErrors() on null in C:\xampp\htdocs\Dropbox\jeans\vendor\ushainformatique\yiichimp\library\widgets\TabbedActiveFormAlert.php:36
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Widget.php(139): usni\library\widgets\TabbedActiveFormAlert->run()
+#1 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\views\front\_tabform.php(16): yii\base\Widget::widget(Array)
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#5 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\views\front\measurementprofile.php(20): yii\base\View->render('/front/_tabform', Array)
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#8 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(customer\controllers\SiteController))
+#9 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('/front/measurem...', Array, Object(customer\controllers\SiteController))
+#10 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php(174): yii\base\Controller->render('/front/measurem...', Array)
+#11 [internal function]: customer\controllers\SiteController->actionMeasurementProfile(18)
+#12 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#13 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#15 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#16 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 C:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#18 {main}
+2018-05-08 01:43:19 [::1][18][-][error][Error] Error: Call to a member function hasErrors() on null in C:\xampp\htdocs\Dropbox\jeans\vendor\ushainformatique\yiichimp\library\widgets\TabbedActiveFormAlert.php:36
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Widget.php(139): usni\library\widgets\TabbedActiveFormAlert->run()
+#1 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\views\front\_tabform.php(16): yii\base\Widget::widget(Array)
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#5 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\views\front\measurementprofile.php(20): yii\base\View->render('/front/_tabform', Array)
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#8 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(customer\controllers\SiteController))
+#9 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('/front/measurem...', Array, Object(customer\controllers\SiteController))
+#10 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php(174): yii\base\Controller->render('/front/measurem...', Array)
+#11 [internal function]: customer\controllers\SiteController->actionMeasurementProfile(18)
+#12 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#13 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#14 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#15 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#16 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 C:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#18 {main}
+2018-05-08 02:44:31 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Call to a member function isAttributeRequired() on null in D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\widgets\ActiveField.php:859
+Stack trace:
+#0 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\widgets\ActiveField.php(393): yii\widgets\ActiveField->addAriaAttributes(Array)
+#1 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\views\measurement-profile\_form.php(15): yii\widgets\ActiveField->textInput()
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(customer\controllers\SiteController))
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('/measurement-pr...', Array, Object(customer\controllers\SiteController))
+#6 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php(174): yii\base\Controller->render('/measurement-pr...', Array)
+#7 [internal function]: customer\controllers\SiteController->actionMeasurementProfile(18)
+#8 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#11 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#12 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#14 {main}
+2018-05-08 02:46:36 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Call to a member function isAttributeRequired() on null in D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\widgets\ActiveField.php:859
+Stack trace:
+#0 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\widgets\ActiveField.php(393): yii\widgets\ActiveField->addAriaAttributes(Array)
+#1 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\views\measurement-profile\_form.php(15): yii\widgets\ActiveField->textInput()
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(customer\controllers\SiteController))
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('/measurement-pr...', Array, Object(customer\controllers\SiteController))
+#6 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php(174): yii\base\Controller->render('/measurement-pr...', Array)
+#7 [internal function]: customer\controllers\SiteController->actionMeasurementProfile(18)
+#8 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#11 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#12 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#14 {main}
+2018-05-08 02:50:26 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected '/', expecting ',' or ';' in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:30
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('measurement-pro...')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/measuremen...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 02:52:55 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected '/', expecting ',' or ';' in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:30
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('measurement-pro...')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/measuremen...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 02:53:26 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected '/', expecting ',' or ';' in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:30
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('measurement-pro...')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/measuremen...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 02:53:47 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected '/', expecting ',' or ';' in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:30
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('measurement-pro...')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/measuremen...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 02:54:03 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected '/', expecting ',' or ';' in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:30
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('measurement-pro...')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/measuremen...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 02:54:20 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected '/', expecting ',' or ';' in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:30
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('measurement-pro...')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/measuremen...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 02:55:32 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected '/', expecting ',' or ';' in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:30
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('edit-profile')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/edit-profi...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/e...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 02:55:43 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected '/', expecting ',' or ';' in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:30
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('my-account')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/my-account')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 02:55:49 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected '/', expecting ',' or ';' in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:30
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('my-account')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/my-account')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 02:55:56 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected '/', expecting ',' or ';' in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:30
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('my-account')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/my-account')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 02:56:01 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected '/', expecting ',' or ';' in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:30
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('my-account')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/my-account')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 02:58:10 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Call to a member function isAttributeRequired() on null in D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\widgets\ActiveField.php:859
+Stack trace:
+#0 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\widgets\ActiveField.php(393): yii\widgets\ActiveField->addAriaAttributes(Array)
+#1 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\views\measurement-profile\_form.php(15): yii\widgets\ActiveField->textInput()
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(customer\controllers\SiteController))
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('/measurement-pr...', Array, Object(customer\controllers\SiteController))
+#6 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php(160): yii\base\Controller->render('/measurement-pr...')
+#7 [internal function]: customer\controllers\SiteController->actionMeasurementProfile(NULL)
+#8 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#11 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#12 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#14 {main}
+2018-05-08 02:58:54 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Class 'customer\controllers\MeasurementProfile' not found in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:160
+Stack trace:
+#0 [internal function]: customer\controllers\SiteController->actionMeasurementProfile(NULL)
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#7 {main}
+2018-05-08 02:59:25 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Class 'customer\controllers\MeasurementProfile' not found in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:160
+Stack trace:
+#0 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#7 {main}
+2018-05-08 03:00:35 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Class 'customer\controllers\MeasurementProfile' not found in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:160
+Stack trace:
+#0 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#7 {main}
+2018-05-08 03:06:23 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Call to a member function isAttributeRequired() on null in D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\widgets\ActiveField.php:859
+Stack trace:
+#0 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\widgets\ActiveField.php(393): yii\widgets\ActiveField->addAriaAttributes(Array)
+#1 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\views\front\_form.php(15): yii\widgets\ActiveField->textInput()
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(customer\controllers\SiteController))
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('/front/_form', Array, Object(customer\controllers\SiteController))
+#6 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php(174): yii\base\Controller->render('/front/_form', Array)
+#7 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#8 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#11 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#12 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#14 {main}
+2018-05-08 03:06:44 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected 'default' (T_DEFAULT) in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:176
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('measurement-pro...')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/measuremen...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 03:07:06 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected 'default' (T_DEFAULT) in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:177
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('measurement-pro...')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/measuremen...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 03:08:05 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected 'default' (T_DEFAULT) in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:177
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('measurement-pro...')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/measuremen...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 03:08:42 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected 'default' (T_DEFAULT) in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:178
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('measurement-pro...')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/measuremen...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 03:09:43 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Call to a member function isAttributeRequired() on null in D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\widgets\ActiveField.php:859
+Stack trace:
+#0 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\widgets\ActiveField.php(393): yii\widgets\ActiveField->addAriaAttributes(Array)
+#1 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\views\front\_form.php(15): yii\widgets\ActiveField->textInput()
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(customer\controllers\SiteController))
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('/front/_form', Array, Object(customer\controllers\SiteController))
+#6 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php(161): yii\base\Controller->render('/front/_form', Array)
+#7 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#8 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#11 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#12 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#14 {main}
+2018-05-08 03:14:23 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Call to a member function isAttributeRequired() on null in D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\widgets\ActiveField.php:859
+Stack trace:
+#0 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\widgets\ActiveField.php(393): yii\widgets\ActiveField->addAriaAttributes(Array)
+#1 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\views\front\_form.php(15): yii\widgets\ActiveField->textInput()
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(customer\controllers\SiteController))
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('/front/_form', Array, Object(customer\controllers\SiteController))
+#6 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php(163): yii\base\Controller->render('/front/_form', Array)
+#7 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#8 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#10 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#11 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#12 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#14 {main}
+2018-05-08 03:21:02 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Class 'customer\controllers\Yii' not found in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:162
+Stack trace:
+#0 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#7 {main}
+2018-05-08 03:22:14 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Class 'customer\controllers\Yii' not found in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:163
+Stack trace:
+#0 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#7 {main}
+2018-05-08 03:22:37 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Class 'customer\controllers\Yii' not found in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:163
+Stack trace:
+#0 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#7 {main}
+2018-05-08 03:22:43 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Class 'customer\controllers\Yii' not found in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:163
+Stack trace:
+#0 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#7 {main}
+2018-05-08 03:23:35 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected 'e' (T_STRING), expecting '|' or variable (T_VARIABLE) in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:170
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('measurement-pro...')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/measuremen...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 03:23:37 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected 'e' (T_STRING), expecting '|' or variable (T_VARIABLE) in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:170
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('measurement-pro...')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/measuremen...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 03:23:38 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected 'e' (T_STRING), expecting '|' or variable (T_VARIABLE) in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:170
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('measurement-pro...')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/measuremen...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 03:23:39 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected 'e' (T_STRING), expecting '|' or variable (T_VARIABLE) in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:170
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('measurement-pro...')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/measuremen...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 03:23:39 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected 'e' (T_STRING), expecting '|' or variable (T_VARIABLE) in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:170
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('measurement-pro...')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/measuremen...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 03:23:39 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected 'e' (T_STRING), expecting '|' or variable (T_VARIABLE) in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:170
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('measurement-pro...')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/measuremen...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 03:23:40 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected 'e' (T_STRING), expecting '|' or variable (T_VARIABLE) in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:170
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('measurement-pro...')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/measuremen...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 03:23:40 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected 'e' (T_STRING), expecting '|' or variable (T_VARIABLE) in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:170
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('measurement-pro...')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/measuremen...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 03:23:41 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected 'e' (T_STRING), expecting '|' or variable (T_VARIABLE) in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:170
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('measurement-pro...')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/measuremen...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 03:23:41 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected 'e' (T_STRING), expecting '|' or variable (T_VARIABLE) in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:170
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('measurement-pro...')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/measuremen...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 03:23:41 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected 'e' (T_STRING), expecting '|' or variable (T_VARIABLE) in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:170
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('measurement-pro...')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/measuremen...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 03:23:42 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected 'e' (T_STRING), expecting '|' or variable (T_VARIABLE) in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:170
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('measurement-pro...')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/measuremen...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 03:23:42 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected 'e' (T_STRING), expecting '|' or variable (T_VARIABLE) in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:170
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('measurement-pro...')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/measuremen...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 03:23:49 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected 'e' (T_STRING), expecting '|' or variable (T_VARIABLE) in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:170
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('measurement-pro...')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/measuremen...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 03:23:56 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected 'e' (T_STRING), expecting '|' or variable (T_VARIABLE) in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:170
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('measurement-pro...')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/measuremen...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 03:24:07 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Class 'customer\controllers\Yii' not found in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:163
+Stack trace:
+#0 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#7 {main}
+2018-05-08 03:24:25 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected 'public' (T_PUBLIC) in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:177
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('measurement-pro...')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/measuremen...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 03:24:31 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected 'public' (T_PUBLIC) in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:178
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('measurement-pro...')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/measuremen...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 03:24:35 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected 'public' (T_PUBLIC) in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:178
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('measurement-pro...')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/measuremen...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 03:24:50 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][ParseError] ParseError: syntax error, unexpected 'public' (T_PUBLIC) in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:178
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('measurement-pro...')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/measuremen...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-08 03:25:10 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Class 'customer\controllers\Yii' not found in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:163
+Stack trace:
+#0 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#7 {main}
+2018-05-08 03:25:31 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Class 'customer\controllers\Yii' not found in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:164
+Stack trace:
+#0 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#7 {main}
+2018-05-08 03:26:02 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Class 'customer\controllers\Yii' not found in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:163
+Stack trace:
+#0 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#7 {main}
+2018-05-08 03:26:25 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Class 'customer\controllers\Yii' not found in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:163
+Stack trace:
+#0 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#7 {main}
+2018-05-08 03:40:06 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Class 'customer\controllers\Yii' not found in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:163
+Stack trace:
+#0 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#7 {main}
+2018-05-08 03:41:16 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Class 'customer\controllers\Yii' not found in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:163
+Stack trace:
+#0 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#7 {main}
+2018-05-08 03:41:34 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Class 'customer\controllers\Yii' not found in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:163
+Stack trace:
+#0 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#7 {main}
+2018-05-08 03:41:51 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Class 'customer\controllers\Yii' not found in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:163
+Stack trace:
+#0 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#7 {main}
+2018-05-08 03:42:02 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Class 'customer\controllers\Yii' not found in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:163
+Stack trace:
+#0 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#7 {main}
+2018-05-08 03:42:32 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Class 'customer\controllers\Yii' not found in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:163
+Stack trace:
+#0 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#7 {main}
+2018-05-08 03:42:50 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Class 'customer\controllers\Yii' not found in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:163
+Stack trace:
+#0 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#7 {main}
+2018-05-08 03:44:46 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Class 'customer\controllers\Yii' not found in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:162
+Stack trace:
+#0 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#7 {main}
+2018-05-08 03:45:23 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Class 'customer\controllers\Yii' not found in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:162
+Stack trace:
+#0 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#7 {main}
+2018-05-08 03:45:46 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Class 'customer\controllers\Yii' not found in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:162
+Stack trace:
+#0 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#7 {main}
+2018-05-08 03:45:58 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Class 'customer\controllers\Yii' not found in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:162
+Stack trace:
+#0 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#7 {main}
+2018-05-08 03:46:46 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Class 'customer\controllers\Yii' not found in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:162
+Stack trace:
+#0 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#7 {main}
+2018-05-08 03:47:12 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Class 'customer\controllers\Yii' not found in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:162
+Stack trace:
+#0 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#7 {main}
+2018-05-08 03:47:18 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Class 'customer\controllers\Yii' not found in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:162
+Stack trace:
+#0 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#7 {main}
+2018-05-08 06:43:12 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Call to a member function processEdit() on null in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:171
+Stack trace:
+#0 [internal function]: customer\controllers\SiteController->actionMeasurementProfile(18)
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#7 {main}
+2018-05-08 06:45:31 [::1][18][cl8mqeauggnppomtar8q6g49oj][error][Error] Error: Class 'customer\business\MeasurementProfile' not found in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\business\SiteManager.php:84
+Stack trace:
+#0 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\business\Manager.php(275): customer\business\SiteManager->populateFormDTO(Object(customer\dto\FormDTO))
+#1 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php(171): customer\business\Manager->processEdit(Object(customer\dto\FormDTO))
+#2 [internal function]: customer\controllers\SiteController->actionMeasurementProfile(18)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-12 17:27:14 [::1][6][73skuupfl2j9ot2s0ae2377tn7][error][Error] Error: Call to a member function getItemCode() on null in C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\models\ItemCollection.php:103
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\business\Manager.php(249): cart\models\ItemCollection->remove(NULL)
+#1 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\controllers\DefaultController.php(92): cart\business\Manager->removeItem('61', Object(cart\dto\CartDTO))
+#2 [internal function]: cart\controllers\DefaultController->actionRemove()
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('remove', Array)
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('cart/default/re...', Array)
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-12 17:27:13 [::1][6][73skuupfl2j9ot2s0ae2377tn7][info][application] $_POST = [
+    'item_code' => '61'
+]
+2018-05-12 17:27:15 [::1][6][73skuupfl2j9ot2s0ae2377tn7][error][Error] Error: Call to a member function getItemCode() on null in C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\models\ItemCollection.php:103
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\business\Manager.php(249): cart\models\ItemCollection->remove(NULL)
+#1 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\controllers\DefaultController.php(92): cart\business\Manager->removeItem('61', Object(cart\dto\CartDTO))
+#2 [internal function]: cart\controllers\DefaultController->actionRemove()
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('remove', Array)
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('cart/default/re...', Array)
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-12 17:27:13 [::1][6][73skuupfl2j9ot2s0ae2377tn7][info][application] $_POST = [
+    'item_code' => '61'
+]
+2018-05-12 17:27:16 [::1][6][73skuupfl2j9ot2s0ae2377tn7][error][Error] Error: Call to a member function getItemCode() on null in C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\models\ItemCollection.php:103
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\business\Manager.php(249): cart\models\ItemCollection->remove(NULL)
+#1 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\controllers\DefaultController.php(92): cart\business\Manager->removeItem('61', Object(cart\dto\CartDTO))
+#2 [internal function]: cart\controllers\DefaultController->actionRemove()
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('remove', Array)
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('cart/default/re...', Array)
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-12 17:27:13 [::1][6][73skuupfl2j9ot2s0ae2377tn7][info][application] $_POST = [
+    'item_code' => '61'
+]
+2018-05-12 17:27:16 [::1][6][73skuupfl2j9ot2s0ae2377tn7][error][Error] Error: Call to a member function getItemCode() on null in C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\models\ItemCollection.php:103
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\business\Manager.php(249): cart\models\ItemCollection->remove(NULL)
+#1 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\controllers\DefaultController.php(92): cart\business\Manager->removeItem('61', Object(cart\dto\CartDTO))
+#2 [internal function]: cart\controllers\DefaultController->actionRemove()
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('remove', Array)
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('cart/default/re...', Array)
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#9 {main}
+2018-05-12 17:27:13 [::1][6][73skuupfl2j9ot2s0ae2377tn7][info][application] $_POST = [
+    'item_code' => '61'
+]
+2018-05-12 17:44:30 [::1][6][73skuupfl2j9ot2s0ae2377tn7][error][Error] Error: Call to a member function validate() on null in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Model.php:893
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\ushainformatique\yiichimp\library\modules\users\traits\UserManagerTrait.php(76): yii\base\Model::validateMultiple(Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\business\Manager.php(277): customer\business\Manager->processInputData(Object(customer\dto\FormDTO))
+#2 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php(172): customer\business\Manager->processEdit(Object(customer\dto\FormDTO))
+#3 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#8 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#10 {main}
+2018-05-12 17:44:29 [::1][6][73skuupfl2j9ot2s0ae2377tn7][info][application] $_POST = [
+    '_frontendCSRF' => 'cUJYMmZxTVIQDDVRUz4ZCz8SL1lTXCcACXsLR1MiOBU3O29.MAJ6DQ=='
+    'MeasurementProfile' => [
+        'customer_id' => ''
+        'name' => ''
+        'gender' => ''
+        'fit' => ''
+        'length' => ''
+        'waist' => ''
+        'seat' => ''
+        'front_rise' => ''
+        'back_rise' => ''
+        'thighs_type' => ''
+        'thighs' => ''
+        'knee_type' => ''
+        'knee' => ''
+        'leg_opening' => ''
+        'measurement_profile_name' => ''
+    ]
+]
+2018-05-12 17:45:57 [::1][6][73skuupfl2j9ot2s0ae2377tn7][error][Error] Error: Call to a member function validate() on null in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Model.php:893
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\ushainformatique\yiichimp\library\modules\users\traits\UserManagerTrait.php(76): yii\base\Model::validateMultiple(Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\business\Manager.php(277): customer\business\Manager->processInputData(Object(customer\dto\FormDTO))
+#2 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php(172): customer\business\Manager->processEdit(Object(customer\dto\FormDTO))
+#3 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#8 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#10 {main}
+2018-05-12 17:45:54 [::1][6][73skuupfl2j9ot2s0ae2377tn7][info][application] $_POST = [
+    '_frontendCSRF' => 'SjNFNGZ5cDIrfShXUzYkawRjMl9TVBpgMgoWQVMqBXUMSnJ4MApHbQ=='
+    'MeasurementProfile' => [
+        'customer_id' => '2'
+        'name' => 'A'
+        'gender' => 'L'
+        'fit' => '1'
+        'length' => '1'
+        'waist' => '1'
+        'seat' => '1'
+        'front_rise' => '1'
+        'back_rise' => '1'
+        'thighs_type' => '1'
+        'thighs' => '1'
+        'knee_type' => '1'
+        'knee' => '1'
+        'leg_opening' => '1'
+        'measurement_profile_name' => '1'
+    ]
+]
+2018-05-14 11:59:31 [::1][6][obqbt2eg8360c2fch3mhfp0ho7][error][Error] Error: Call to a member function validate() on null in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Model.php:893
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\ushainformatique\yiichimp\library\modules\users\traits\UserManagerTrait.php(76): yii\base\Model::validateMultiple(Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\business\Manager.php(277): customer\business\Manager->processInputData(Object(customer\dto\FormDTO))
+#2 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php(172): customer\business\Manager->processEdit(Object(customer\dto\FormDTO))
+#3 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#8 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#10 {main}
+2018-05-14 11:59:27 [::1][6][obqbt2eg8360c2fch3mhfp0ho7][info][application] $_POST = [
+    '_frontendCSRF' => 'cW81VkZ3WEQUIQwcB0FoIRU4YhIWJQwjASNZJBAedRIcKXYFAkMdFw=='
+    'MeasurementProfile' => [
+        'customer_id' => '1'
+        'name' => '1'
+        'gender' => '1'
+        'fit' => '1'
+        'length' => '1'
+        'waist' => '1'
+        'seat' => '1'
+        'front_rise' => '1'
+        'back_rise' => '1'
+        'thighs_type' => '1'
+        'thighs' => '1'
+        'knee_type' => '1'
+        'knee' => '1'
+        'leg_opening' => '1'
+        'measurement_profile_name' => '1'
+    ]
+]
+2018-05-14 11:59:37 [::1][6][obqbt2eg8360c2fch3mhfp0ho7][error][Error] Error: Call to a member function validate() on null in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Model.php:893
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\ushainformatique\yiichimp\library\modules\users\traits\UserManagerTrait.php(76): yii\base\Model::validateMultiple(Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\business\Manager.php(277): customer\business\Manager->processInputData(Object(customer\dto\FormDTO))
+#2 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php(172): customer\business\Manager->processEdit(Object(customer\dto\FormDTO))
+#3 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#8 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\Dropbox\jeans\index.php(40): yii\base\Application->run()
+#10 {main}
+2018-05-14 11:59:28 [::1][6][obqbt2eg8360c2fch3mhfp0ho7][info][application] $_POST = [
+    '_frontendCSRF' => 'cW81VkZ3WEQUIQwcB0FoIRU4YhIWJQwjASNZJBAedRIcKXYFAkMdFw=='
+    'MeasurementProfile' => [
+        'customer_id' => '1'
+        'name' => '1'
+        'gender' => '1'
+        'fit' => '1'
+        'length' => '1'
+        'waist' => '1'
+        'seat' => '1'
+        'front_rise' => '1'
+        'back_rise' => '1'
+        'thighs_type' => '1'
+        'thighs' => '1'
+        'knee_type' => '1'
+        'knee' => '1'
+        'leg_opening' => '1'
+        'measurement_profile_name' => '1'
+    ]
+]
+2018-06-08 05:01:06 [::1][18][th91a8cafujav1209lkb3j8cn5][error][ParseError] ParseError: syntax error, unexpected '/' in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:164
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('measurement-pro...')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/measuremen...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(43): yii\base\Application->run()
+#9 {main}
+2018-06-08 05:01:06 [::1][18][th91a8cafujav1209lkb3j8cn5][info][application] $_POST = [
+    '_frontendCSRF' => 'bk96MnN3Qm0bDg8CNxoWJwwLL389JDglAwMKXCkxCgsJIztZGy4xJg=='
+    'MeasurementProfile' => [
+        'customer_id' => '1'
+        'name' => '1'
+        'gender' => '1'
+        'fit' => '1'
+        'length' => '1'
+        'waist' => '1'
+        'seat' => '1'
+        'front_rise' => '1'
+        'back_rise' => '1'
+        'thighs_type' => '1'
+        'thighs' => '1'
+        'knee_type' => '1'
+        'knee' => '1'
+        'leg_opening' => '1'
+        'measurement_profile_name' => '1'
+    ]
+]
+2018-06-08 05:21:44 [::1][18][th91a8cafujav1209lkb3j8cn5][error][Error] Error: Class 'customer\controllers\MeasurementProfileSearch' not found in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:165
+Stack trace:
+#0 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\Dropbox\jeans\index.php(43): yii\base\Application->run()
+#7 {main}
+2018-06-08 05:21:44 [::1][18][th91a8cafujav1209lkb3j8cn5][info][application] $_POST = [
+    '_frontendCSRF' => 'bk96MnN3Qm0bDg8CNxoWJwwLL389JDglAwMKXCkxCgsJIztZGy4xJg=='
+    'MeasurementProfile' => [
+        'customer_id' => '1'
+        'name' => '1'
+        'gender' => '1'
+        'fit' => '1'
+        'length' => '1'
+        'waist' => '1'
+        'seat' => '1'
+        'front_rise' => '1'
+        'back_rise' => '1'
+        'thighs_type' => '1'
+        'thighs' => '1'
+        'knee_type' => '1'
+        'knee' => '1'
+        'leg_opening' => '1'
+        'measurement_profile_name' => '1'
+    ]
+]
+2018-06-08 05:22:14 [::1][18][th91a8cafujav1209lkb3j8cn5][error][Error] Error: Class 'customer\controllers\Yii' not found in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:166
+Stack trace:
+#0 [internal function]: customer\controllers\SiteController->actionMeasurementProfile()
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\Dropbox\jeans\index.php(43): yii\base\Application->run()
+#7 {main}
+2018-06-08 05:22:14 [::1][18][th91a8cafujav1209lkb3j8cn5][info][application] $_POST = [
+    '_frontendCSRF' => 'bk96MnN3Qm0bDg8CNxoWJwwLL389JDglAwMKXCkxCgsJIztZGy4xJg=='
+    'MeasurementProfile' => [
+        'customer_id' => '1'
+        'name' => '1'
+        'gender' => '1'
+        'fit' => '1'
+        'length' => '1'
+        'waist' => '1'
+        'seat' => '1'
+        'front_rise' => '1'
+        'back_rise' => '1'
+        'thighs_type' => '1'
+        'thighs' => '1'
+        'knee_type' => '1'
+        'knee' => '1'
+        'leg_opening' => '1'
+        'measurement_profile_name' => '1'
+    ]
+]
+2018-06-08 05:38:59 [::1][18][th91a8cafujav1209lkb3j8cn5][error][ParseError] ParseError: syntax error, unexpected '}', expecting ';' in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php:179
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('customer\\contro...')
+#1 [internal function]: spl_autoload_call('customer\\contro...')
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(633): class_exists('customer\\contro...')
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(591): yii\base\Module->createControllerByID('site')
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('create-measurem...')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('site/create-mea...')
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/c...', Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\xampp\htdocs\Dropbox\jeans\index.php(43): yii\base\Application->run()
+#9 {main}
+2018-06-08 05:38:59 [::1][18][th91a8cafujav1209lkb3j8cn5][info][application] $_POST = [
+    '_frontendCSRF' => 'MUxta1J3MnhEDRhbFhpmMlMIOCYcJEgwXAAdBQgxeh5WICwAOi5BMw=='
+    'MeasurementProfile' => [
+        'customer_id' => '4'
+        'name' => '4'
+        'gender' => '4'
+        'fit' => '4'
+        'length' => '4'
+        'waist' => '4'
+        'seat' => '4'
+        'front_rise' => '4'
+        'back_rise' => '4'
+        'thighs_type' => '4'
+        'thighs' => '4'
+        'knee_type' => '4'
+        'knee' => '4'
+        'leg_opening' => '4'
+        'measurement_profile_name' => '4'
+    ]
+]
+2018-06-08 14:43:27 [::1][18][-][error][ParseError] ParseError: syntax error, unexpected 'Ukuran' (T_STRING), expecting ',' or ';' in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\views\_cartdetails.php:17
+Stack trace:
+#0 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, NULL)
+#2 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\widgets\CartSubView.php(163): yii\base\View->render('/_cartdetails', Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\widgets\CartSubView.php(149): cart\widgets\CartSubView->renderCart()
+#4 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\widgets\CartSubView.php(132): cart\widgets\CartSubView->renderSection('{cart}')
+#5 [internal function]: cart\widgets\CartSubView->cart\widgets\{closure}(Array)
+#6 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\widgets\CartSubView.php(135): preg_replace_callback('/{\\w+}/', Object(Closure), '{cart}\n{buttons...')
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Widget.php(139): cart\widgets\CartSubView->run()
+#8 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\views\view.php(16): yii\base\Widget::widget()
+#9 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('D:\\xampp\\htdocs...')
+#10 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#11 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(cart\controllers\DefaultController))
+#12 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('/view', Array, Object(cart\controllers\DefaultController))
+#13 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\controllers\DefaultController.php(78): yii\base\Controller->render('/view')
+#14 [internal function]: cart\controllers\DefaultController->actionView()
+#15 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#16 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#17 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view', Array)
+#18 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('cart/default/vi...', Array)
+#19 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 D:\xampp\htdocs\Dropbox\jeans\index.php(43): yii\base\Application->run()
+#21 {main}
+2018-06-08 14:43:46 [::1][18][-][error][ParseError] ParseError: syntax error, unexpected '' ?></td>' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\views\_cartdetails.php:18
+Stack trace:
+#0 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, NULL)
+#2 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\widgets\CartSubView.php(163): yii\base\View->render('/_cartdetails', Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\widgets\CartSubView.php(149): cart\widgets\CartSubView->renderCart()
+#4 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\widgets\CartSubView.php(132): cart\widgets\CartSubView->renderSection('{cart}')
+#5 [internal function]: cart\widgets\CartSubView->cart\widgets\{closure}(Array)
+#6 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\widgets\CartSubView.php(135): preg_replace_callback('/{\\w+}/', Object(Closure), '{cart}\n{buttons...')
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Widget.php(139): cart\widgets\CartSubView->run()
+#8 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\views\view.php(16): yii\base\Widget::widget()
+#9 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('D:\\xampp\\htdocs...')
+#10 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#11 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(cart\controllers\DefaultController))
+#12 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('/view', Array, Object(cart\controllers\DefaultController))
+#13 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\cart\controllers\DefaultController.php(78): yii\base\Controller->render('/view')
+#14 [internal function]: cart\controllers\DefaultController->actionView()
+#15 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#16 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#17 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view', Array)
+#18 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('cart/default/vi...', Array)
+#19 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 D:\xampp\htdocs\Dropbox\jeans\index.php(43): yii\base\Application->run()
+#21 {main}
+2018-07-02 23:23:35 [::1][18][ravn5vra31u7e47236vh86nolq][error][Error] Error: Class 'customer\controllers\UsniAdaptor' not found in D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\MeasurementProfileController.php:62
+Stack trace:
+#0 [internal function]: customer\controllers\MeasurementProfileController->actionCreate()
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('create', Array)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/measur...', Array)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\xampp\htdocs\Dropbox\jeans\index.php(43): yii\base\Application->run()
+#7 {main}

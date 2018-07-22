@@ -1,0 +1,1 @@
+a:2:{i:0;a:1:{i:0;a:0:{}}i:1;O:24:"yii\caching\DbDependency":5:{s:2:"db";s:2:"db";s:3:"sql";s:52:"SELECT MAX(modified_datetime) FROM tbl_order_history";s:6:"params";a:0:{}s:4:"data";a:1:{s:22:"MAX(modified_datetime)";s:19:"2018-05-12 17:42:24";}s:8:"reusable";b:0;}}

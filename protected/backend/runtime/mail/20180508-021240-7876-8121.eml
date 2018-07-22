@@ -1,0 +1,59 @@
+Message-ID: <a51ed424a43afed2924c1e3927528d91@localhost>
+Date: Tue, 08 May 2018 02:12:40 +0700
+Subject: Order Completion
+From: Super Admin <super_admin@jeans.id>
+To: pdyanp@yahoo.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1525720360_2d47d252dc6821727ddbcda584a005b2_=_"
+
+
+--_=_swift_v4_1525720360_2d47d252dc6821727ddbcda584a005b2_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear, 1 1
+
+Your order #1 processing is completed on May 8, 2018 2:10:51=
+ AM.
+
+To view your order click on the link below:
+http://localhost/dr=
+opbox/jeans/customer/site/order-view?id=3D1
+
+Thank You, =20
+System Admin
+
+--_=_swift_v4_1525720360_2d47d252dc6821727ddbcda584a005b2_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/=
+xhtml">
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/ht=
+ml; charset=3DUTF-8" />
+    <title></title>
+    </head>
+<body>
+    =
+    <p>Dear, 1 1</p>
+<p>
+    Your order #1 processing is completed on May 8, 2018 2:10:51 AM.
+</p>
+<p style=3D"margin-top: 0px; margin-bottom: 20px;">To view your order click=
+ on the link below:</p>
+                                <p style=3D"margi=
+n-top: 0px; margin-bottom: 20px;"><a href=3D"{orderLink}"><a href=3D'http:/=
+/localhost/dropbox/jeans/customer/site/order-view?id=3D1'>http://localhost/=
+dropbox/jeans/customer/site/order-view?id=3D1</a></a></p>
+<p>
+    Thank You, <br/>=20
+    System Admin
+</p>    </body>
+</html>
+
+
+--_=_swift_v4_1525720360_2d47d252dc6821727ddbcda584a005b2_=_--

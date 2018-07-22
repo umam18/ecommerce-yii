@@ -1,0 +1,1186 @@
+2018-04-09 19:45:25 [::1][1][ki21q629ga0qmj21fdk8mue15a][error][yii\db\Exception] yii\db\Exception: products are associated to category. in D:\xampp\htdocs\jeans.id\protected\common\modules\catalog\modules\productCategories\models\ProductCategory.php:139
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\db\ActiveRecord.php(642): productCategories\models\ProductCategory->beforeDelete()
+#1 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\db\ActiveRecord.php(613): yii\db\ActiveRecord->deleteInternal()
+#2 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\business\Manager.php(343): yii\db\ActiveRecord->delete()
+#3 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\business\Manager.php(306): usni\library\business\Manager->deleteModel(Object(productCategories\models\ProductCategory))
+#4 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\web\actions\BulkDeleteAction.php(49): usni\library\business\Manager->processBulkDelete(Object(usni\library\dto\GridViewDTO))
+#5 [internal function]: usni\library\web\actions\BulkDeleteAction->run()
+#6 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\Action->runWithParams(Array)
+#8 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('bulk-delete', Array)
+#9 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('catalog/product...', Array)
+#10 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\xampp\htdocs\jeans.id\backend\index.php(47): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+)
+
+2018-04-09 19:45:25 [::1][1][ki21q629ga0qmj21fdk8mue15a][info][application] $_GET = [
+    'id' => [
+        0 => '1'
+        1 => '2'
+        2 => '3'
+    ]
+]
+
+$_COOKIE = [
+    '_backendUser' => 'd91e5ffccd81ee104dbacac655b3811efb3e7282a491e027e6a1d8c62f7cfdaaa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"MiJtJDYVXLKUui0nFndU3tfnw3AJG4l6\",2592000]\";}'
+    'PHPFRONTSESSID' => '1fmbp39vje1kvvmfifm95jt8bq'
+    '_frontendCSRF' => '1eff61f6f446e7508e3cc685d7184524cf928412cd57f3b1a381252332f45488a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"9-wqB-3ZaJlRonz9KFJhC0Y7dgCVZSC5\";}'
+    'PHPBACKSESSID' => 'ki21q629ga0qmj21fdk8mue15a'
+    '_csrf' => '261753020424286bf4d1bd7bfa119812c331dcf3a4526487462ce6e0c2203d49a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"v9x7kd8deyvOeLkFinyaG6mPGZCaSU6j\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'customer' => 'O:27:\"backend\\components\\Customer\":5:{s:4:\"cart\";O:21:\"cart\\models\\AdminCart\":6:{s:9:\"itemsList\";O:26:\"cart\\models\\ItemCollection\":1:{s:34:\"\0cart\\models\\ItemCollection\0_items\";a:0:{}}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:8:\"checkout\";O:41:\"common\\modules\\order\\models\\AdminCheckout\":13:{s:5:\"order\";O:33:\"common\\modules\\order\\models\\Order\":13:{s:36:\"\0yii\\db\\BaseActiveRecord\0_attributes\";a:0:{}s:39:\"\0yii\\db\\BaseActiveRecord\0_oldAttributes\";N;s:33:\"\0yii\\db\\BaseActiveRecord\0_related\";a:0:{}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:5:{s:12:\"beforeInsert\";a:2:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:19:\"updateCreatedFields\";}i:1;N;}i:1;a:2:{i:0;a:2:{i:0;r:11;i:1;s:20:\"updateModifiedFields\";}i:1;N;}}s:12:\"beforeUpdate\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:20:\"updateModifiedFields\";}i:1;N;}}s:9:\"afterFind\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:12:\"onFindRecord\";}i:1;N;}}s:11:\"afterInsert\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:11:\"afterInsert\";}i:1;N;}}s:11:\"afterUpdate\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:11:\"afterUpdate\";}i:1;N;}}}s:30:\"\0yii\\base\\Component\0_behaviors\";a:0:{}s:8:\"relation\";s:12:\"translations\";s:11:\"localeField\";s:8:\"language\";s:21:\"translationAttributes\";a:1:{i:0;s:17:\"shipping_comments\";}s:10:\"\0*\0_models\";a:0:{}s:51:\"\0usni\\library\\db\\TranslatableActiveRecord\0_language\";N;}s:19:\"billingInfoEditForm\";O:31:\"cart\\models\\BillingInfoEditForm\":16:{s:5:\"email\";N;s:9:\"firstname\";N;s:8:\"lastname\";N;s:11:\"mobilephone\";N;s:11:\"officephone\";N;s:8:\"address1\";N;s:4:\"city\";N;s:7:\"country\";N;s:11:\"postal_code\";N;s:8:\"address2\";N;s:5:\"state\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:20:\"deliveryInfoEditForm\";O:32:\"cart\\models\\DeliveryInfoEditForm\":17:{s:20:\"sameAsBillingAddress\";N;s:5:\"email\";N;s:9:\"firstname\";N;s:8:\"lastname\";N;s:11:\"mobilephone\";N;s:11:\"officephone\";N;s:8:\"address1\";N;s:4:\"city\";N;s:7:\"country\";N;s:11:\"postal_code\";N;s:8:\"address2\";N;s:5:\"state\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:23:\"deliveryOptionsEditForm\";O:35:\"cart\\models\\DeliveryOptionsEditForm\":8:{s:8:\"shipping\";N;s:8:\"comments\";N;s:12:\"shipping_fee\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:21:\"paymentMethodEditForm\";O:33:\"cart\\models\\PaymentMethodEditForm\":8:{s:14:\"payment_method\";N;s:8:\"comments\";N;s:5:\"agree\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:20:\"confirmOrderEditForm\";O:53:\"common\\modules\\order\\models\\AdminConfirmOrderEditForm\":7:{s:6:\"status\";N;s:8:\"comments\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:12:\"customerForm\";O:40:\"common\\modules\\order\\models\\CustomerForm\":8:{s:10:\"customerId\";N;s:7:\"storeId\";N;s:12:\"currencyCode\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:16:\"orderProductForm\";O:44:\"common\\modules\\order\\models\\OrderProductForm\":7:{s:10:\"product_id\";N;s:8:\"quantity\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:10:\"customerId\";N;s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'NnNuUnVKUWxAShZlHi5pCFMKGB0QBjoqXx0XMzJ8PDxxKS0zJh9nBg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/jeans.id//backend/index.php/catalog/productCategories/default/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=d91e5ffccd81ee104dbacac655b3811efb3e7282a491e027e6a1d8c62f7cfdaaa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MiJtJDYVXLKUui0nFndU3tfnw3AJG4l6%22%2C2592000%5D%22%3B%7D; PHPFRONTSESSID=1fmbp39vje1kvvmfifm95jt8bq; _frontendCSRF=1eff61f6f446e7508e3cc685d7184524cf928412cd57f3b1a381252332f45488a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%229-wqB-3ZaJlRonz9KFJhC0Y7dgCVZSC5%22%3B%7D; PHPBACKSESSID=ki21q629ga0qmj21fdk8mue15a; _csrf=261753020424286bf4d1bd7bfa119812c331dcf3a4526487462ce6e0c2203d49a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22v9x7kd8deyvOeLkFinyaG6mPGZCaSU6j%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\Programs\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\pdyanp.net\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\pdyanp.net\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/jeans.id/backend/index.php'
+    'REMOTE_PORT' => '59450'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id%5B%5D=1&id%5B%5D=2&id%5B%5D=3'
+    'REQUEST_URI' => '/jeans.id//backend/index.php/catalog/productCategories/default/bulk-delete?id%5B%5D=1&id%5B%5D=2&id%5B%5D=3'
+    'SCRIPT_NAME' => '/jeans.id//backend/index.php'
+    'PATH_INFO' => '/catalog/productCategories/default/bulk-delete'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\catalog\\productCategories\\default\\bulk-delete'
+    'PHP_SELF' => '/jeans.id//backend/index.php/catalog/productCategories/default/bulk-delete'
+    'REQUEST_TIME_FLOAT' => 1523277925.295
+    'REQUEST_TIME' => 1523277925
+]
+2018-04-09 19:53:32 [::1][1][ki21q629ga0qmj21fdk8mue15a][error][yii\db\Exception] yii\db\Exception: products are associated to category. in D:\xampp\htdocs\jeans.id\protected\common\modules\catalog\modules\productCategories\models\ProductCategory.php:139
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\db\ActiveRecord.php(642): productCategories\models\ProductCategory->beforeDelete()
+#1 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\db\ActiveRecord.php(613): yii\db\ActiveRecord->deleteInternal()
+#2 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\business\Manager.php(343): yii\db\ActiveRecord->delete()
+#3 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\business\Manager.php(306): usni\library\business\Manager->deleteModel(Object(productCategories\models\ProductCategory))
+#4 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\web\actions\BulkDeleteAction.php(49): usni\library\business\Manager->processBulkDelete(Object(usni\library\dto\GridViewDTO))
+#5 [internal function]: usni\library\web\actions\BulkDeleteAction->run()
+#6 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\Action->runWithParams(Array)
+#8 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('bulk-delete', Array)
+#9 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('catalog/product...', Array)
+#10 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\xampp\htdocs\jeans.id\backend\index.php(47): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+)
+
+2018-04-09 19:53:32 [::1][1][ki21q629ga0qmj21fdk8mue15a][info][application] $_GET = [
+    'id' => [
+        0 => '1'
+        1 => '2'
+        2 => '3'
+    ]
+]
+
+$_COOKIE = [
+    '_backendUser' => 'd91e5ffccd81ee104dbacac655b3811efb3e7282a491e027e6a1d8c62f7cfdaaa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"MiJtJDYVXLKUui0nFndU3tfnw3AJG4l6\",2592000]\";}'
+    'PHPFRONTSESSID' => '1fmbp39vje1kvvmfifm95jt8bq'
+    '_frontendCSRF' => '1eff61f6f446e7508e3cc685d7184524cf928412cd57f3b1a381252332f45488a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"9-wqB-3ZaJlRonz9KFJhC0Y7dgCVZSC5\";}'
+    'PHPBACKSESSID' => 'ki21q629ga0qmj21fdk8mue15a'
+    '_csrf' => '261753020424286bf4d1bd7bfa119812c331dcf3a4526487462ce6e0c2203d49a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"v9x7kd8deyvOeLkFinyaG6mPGZCaSU6j\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'customer' => 'O:27:\"backend\\components\\Customer\":5:{s:4:\"cart\";O:21:\"cart\\models\\AdminCart\":6:{s:9:\"itemsList\";O:26:\"cart\\models\\ItemCollection\":1:{s:34:\"\0cart\\models\\ItemCollection\0_items\";a:0:{}}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:8:\"checkout\";O:41:\"common\\modules\\order\\models\\AdminCheckout\":13:{s:5:\"order\";O:33:\"common\\modules\\order\\models\\Order\":13:{s:36:\"\0yii\\db\\BaseActiveRecord\0_attributes\";a:0:{}s:39:\"\0yii\\db\\BaseActiveRecord\0_oldAttributes\";N;s:33:\"\0yii\\db\\BaseActiveRecord\0_related\";a:0:{}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:5:{s:12:\"beforeInsert\";a:2:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:19:\"updateCreatedFields\";}i:1;N;}i:1;a:2:{i:0;a:2:{i:0;r:11;i:1;s:20:\"updateModifiedFields\";}i:1;N;}}s:12:\"beforeUpdate\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:20:\"updateModifiedFields\";}i:1;N;}}s:9:\"afterFind\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:12:\"onFindRecord\";}i:1;N;}}s:11:\"afterInsert\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:11:\"afterInsert\";}i:1;N;}}s:11:\"afterUpdate\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:11:\"afterUpdate\";}i:1;N;}}}s:30:\"\0yii\\base\\Component\0_behaviors\";a:0:{}s:8:\"relation\";s:12:\"translations\";s:11:\"localeField\";s:8:\"language\";s:21:\"translationAttributes\";a:1:{i:0;s:17:\"shipping_comments\";}s:10:\"\0*\0_models\";a:0:{}s:51:\"\0usni\\library\\db\\TranslatableActiveRecord\0_language\";N;}s:19:\"billingInfoEditForm\";O:31:\"cart\\models\\BillingInfoEditForm\":16:{s:5:\"email\";N;s:9:\"firstname\";N;s:8:\"lastname\";N;s:11:\"mobilephone\";N;s:11:\"officephone\";N;s:8:\"address1\";N;s:4:\"city\";N;s:7:\"country\";N;s:11:\"postal_code\";N;s:8:\"address2\";N;s:5:\"state\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:20:\"deliveryInfoEditForm\";O:32:\"cart\\models\\DeliveryInfoEditForm\":17:{s:20:\"sameAsBillingAddress\";N;s:5:\"email\";N;s:9:\"firstname\";N;s:8:\"lastname\";N;s:11:\"mobilephone\";N;s:11:\"officephone\";N;s:8:\"address1\";N;s:4:\"city\";N;s:7:\"country\";N;s:11:\"postal_code\";N;s:8:\"address2\";N;s:5:\"state\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:23:\"deliveryOptionsEditForm\";O:35:\"cart\\models\\DeliveryOptionsEditForm\":8:{s:8:\"shipping\";N;s:8:\"comments\";N;s:12:\"shipping_fee\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:21:\"paymentMethodEditForm\";O:33:\"cart\\models\\PaymentMethodEditForm\":8:{s:14:\"payment_method\";N;s:8:\"comments\";N;s:5:\"agree\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:20:\"confirmOrderEditForm\";O:53:\"common\\modules\\order\\models\\AdminConfirmOrderEditForm\":7:{s:6:\"status\";N;s:8:\"comments\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:12:\"customerForm\";O:40:\"common\\modules\\order\\models\\CustomerForm\":8:{s:10:\"customerId\";N;s:7:\"storeId\";N;s:12:\"currencyCode\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:16:\"orderProductForm\";O:44:\"common\\modules\\order\\models\\OrderProductForm\":7:{s:10:\"product_id\";N;s:8:\"quantity\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:10:\"customerId\";N;s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'd3dXLlRGWEUBTi8ZPyJgIRIOIWExCjMDHhkuTxNwNRUwLRRPBxNuLw=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/jeans.id//backend/index.php/catalog/productCategories/default/index?per-page=25'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=d91e5ffccd81ee104dbacac655b3811efb3e7282a491e027e6a1d8c62f7cfdaaa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MiJtJDYVXLKUui0nFndU3tfnw3AJG4l6%22%2C2592000%5D%22%3B%7D; PHPFRONTSESSID=1fmbp39vje1kvvmfifm95jt8bq; _frontendCSRF=1eff61f6f446e7508e3cc685d7184524cf928412cd57f3b1a381252332f45488a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%229-wqB-3ZaJlRonz9KFJhC0Y7dgCVZSC5%22%3B%7D; PHPBACKSESSID=ki21q629ga0qmj21fdk8mue15a; _csrf=261753020424286bf4d1bd7bfa119812c331dcf3a4526487462ce6e0c2203d49a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22v9x7kd8deyvOeLkFinyaG6mPGZCaSU6j%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\Programs\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\pdyanp.net\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\pdyanp.net\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/jeans.id/backend/index.php'
+    'REMOTE_PORT' => '59574'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id%5B%5D=1&id%5B%5D=2&id%5B%5D=3'
+    'REQUEST_URI' => '/jeans.id//backend/index.php/catalog/productCategories/default/bulk-delete?id%5B%5D=1&id%5B%5D=2&id%5B%5D=3'
+    'SCRIPT_NAME' => '/jeans.id//backend/index.php'
+    'PATH_INFO' => '/catalog/productCategories/default/bulk-delete'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\catalog\\productCategories\\default\\bulk-delete'
+    'PHP_SELF' => '/jeans.id//backend/index.php/catalog/productCategories/default/bulk-delete'
+    'REQUEST_TIME_FLOAT' => 1523278412.31
+    'REQUEST_TIME' => 1523278412
+]
+2018-04-09 19:54:58 [::1][1][ki21q629ga0qmj21fdk8mue15a][error][yii\db\Exception] yii\db\Exception: products are associated to category. in D:\xampp\htdocs\jeans.id\protected\common\modules\catalog\modules\productCategories\models\ProductCategory.php:139
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\db\ActiveRecord.php(642): productCategories\models\ProductCategory->beforeDelete()
+#1 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\db\ActiveRecord.php(613): yii\db\ActiveRecord->deleteInternal()
+#2 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\business\Manager.php(343): yii\db\ActiveRecord->delete()
+#3 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\business\Manager.php(306): usni\library\business\Manager->deleteModel(Object(productCategories\models\ProductCategory))
+#4 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\web\actions\BulkDeleteAction.php(49): usni\library\business\Manager->processBulkDelete(Object(usni\library\dto\GridViewDTO))
+#5 [internal function]: usni\library\web\actions\BulkDeleteAction->run()
+#6 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\Action->runWithParams(Array)
+#8 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('bulk-delete', Array)
+#9 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('catalog/product...', Array)
+#10 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\xampp\htdocs\jeans.id\backend\index.php(47): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+)
+
+2018-04-09 19:54:58 [::1][1][ki21q629ga0qmj21fdk8mue15a][info][application] $_GET = [
+    'id' => [
+        0 => '1'
+        1 => '2'
+        2 => '3'
+    ]
+]
+
+$_COOKIE = [
+    '_backendUser' => 'd91e5ffccd81ee104dbacac655b3811efb3e7282a491e027e6a1d8c62f7cfdaaa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"MiJtJDYVXLKUui0nFndU3tfnw3AJG4l6\",2592000]\";}'
+    'PHPFRONTSESSID' => '1fmbp39vje1kvvmfifm95jt8bq'
+    '_frontendCSRF' => '1eff61f6f446e7508e3cc685d7184524cf928412cd57f3b1a381252332f45488a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"9-wqB-3ZaJlRonz9KFJhC0Y7dgCVZSC5\";}'
+    'PHPBACKSESSID' => 'ki21q629ga0qmj21fdk8mue15a'
+    '_csrf' => '261753020424286bf4d1bd7bfa119812c331dcf3a4526487462ce6e0c2203d49a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"v9x7kd8deyvOeLkFinyaG6mPGZCaSU6j\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'customer' => 'O:27:\"backend\\components\\Customer\":5:{s:4:\"cart\";O:21:\"cart\\models\\AdminCart\":6:{s:9:\"itemsList\";O:26:\"cart\\models\\ItemCollection\":1:{s:34:\"\0cart\\models\\ItemCollection\0_items\";a:0:{}}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:8:\"checkout\";O:41:\"common\\modules\\order\\models\\AdminCheckout\":13:{s:5:\"order\";O:33:\"common\\modules\\order\\models\\Order\":13:{s:36:\"\0yii\\db\\BaseActiveRecord\0_attributes\";a:0:{}s:39:\"\0yii\\db\\BaseActiveRecord\0_oldAttributes\";N;s:33:\"\0yii\\db\\BaseActiveRecord\0_related\";a:0:{}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:5:{s:12:\"beforeInsert\";a:2:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:19:\"updateCreatedFields\";}i:1;N;}i:1;a:2:{i:0;a:2:{i:0;r:11;i:1;s:20:\"updateModifiedFields\";}i:1;N;}}s:12:\"beforeUpdate\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:20:\"updateModifiedFields\";}i:1;N;}}s:9:\"afterFind\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:12:\"onFindRecord\";}i:1;N;}}s:11:\"afterInsert\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:11:\"afterInsert\";}i:1;N;}}s:11:\"afterUpdate\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:11:\"afterUpdate\";}i:1;N;}}}s:30:\"\0yii\\base\\Component\0_behaviors\";a:0:{}s:8:\"relation\";s:12:\"translations\";s:11:\"localeField\";s:8:\"language\";s:21:\"translationAttributes\";a:1:{i:0;s:17:\"shipping_comments\";}s:10:\"\0*\0_models\";a:0:{}s:51:\"\0usni\\library\\db\\TranslatableActiveRecord\0_language\";N;}s:19:\"billingInfoEditForm\";O:31:\"cart\\models\\BillingInfoEditForm\":16:{s:5:\"email\";N;s:9:\"firstname\";N;s:8:\"lastname\";N;s:11:\"mobilephone\";N;s:11:\"officephone\";N;s:8:\"address1\";N;s:4:\"city\";N;s:7:\"country\";N;s:11:\"postal_code\";N;s:8:\"address2\";N;s:5:\"state\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:20:\"deliveryInfoEditForm\";O:32:\"cart\\models\\DeliveryInfoEditForm\":17:{s:20:\"sameAsBillingAddress\";N;s:5:\"email\";N;s:9:\"firstname\";N;s:8:\"lastname\";N;s:11:\"mobilephone\";N;s:11:\"officephone\";N;s:8:\"address1\";N;s:4:\"city\";N;s:7:\"country\";N;s:11:\"postal_code\";N;s:8:\"address2\";N;s:5:\"state\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:23:\"deliveryOptionsEditForm\";O:35:\"cart\\models\\DeliveryOptionsEditForm\":8:{s:8:\"shipping\";N;s:8:\"comments\";N;s:12:\"shipping_fee\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:21:\"paymentMethodEditForm\";O:33:\"cart\\models\\PaymentMethodEditForm\":8:{s:14:\"payment_method\";N;s:8:\"comments\";N;s:5:\"agree\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:20:\"confirmOrderEditForm\";O:53:\"common\\modules\\order\\models\\AdminConfirmOrderEditForm\":7:{s:6:\"status\";N;s:8:\"comments\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:12:\"customerForm\";O:40:\"common\\modules\\order\\models\\CustomerForm\":8:{s:10:\"customerId\";N;s:7:\"storeId\";N;s:12:\"currencyCode\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:16:\"orderProductForm\";O:44:\"common\\modules\\order\\models\\OrderProductForm\":7:{s:10:\"product_id\";N;s:8:\"quantity\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:10:\"customerId\";N;s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'THVxSFlsX3c6TAl/MghnEykMBwc8IDQxJRsIKR5aMicLLzIpCjlpHQ=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/jeans.id//backend/index.php/catalog/productCategories/default/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=d91e5ffccd81ee104dbacac655b3811efb3e7282a491e027e6a1d8c62f7cfdaaa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MiJtJDYVXLKUui0nFndU3tfnw3AJG4l6%22%2C2592000%5D%22%3B%7D; PHPFRONTSESSID=1fmbp39vje1kvvmfifm95jt8bq; _frontendCSRF=1eff61f6f446e7508e3cc685d7184524cf928412cd57f3b1a381252332f45488a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%229-wqB-3ZaJlRonz9KFJhC0Y7dgCVZSC5%22%3B%7D; PHPBACKSESSID=ki21q629ga0qmj21fdk8mue15a; _csrf=261753020424286bf4d1bd7bfa119812c331dcf3a4526487462ce6e0c2203d49a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22v9x7kd8deyvOeLkFinyaG6mPGZCaSU6j%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\Programs\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\pdyanp.net\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\pdyanp.net\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/jeans.id/backend/index.php'
+    'REMOTE_PORT' => '59605'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id%5B%5D=1&id%5B%5D=2&id%5B%5D=3'
+    'REQUEST_URI' => '/jeans.id//backend/index.php/catalog/productCategories/default/bulk-delete?id%5B%5D=1&id%5B%5D=2&id%5B%5D=3'
+    'SCRIPT_NAME' => '/jeans.id//backend/index.php'
+    'PATH_INFO' => '/catalog/productCategories/default/bulk-delete'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\catalog\\productCategories\\default\\bulk-delete'
+    'PHP_SELF' => '/jeans.id//backend/index.php/catalog/productCategories/default/bulk-delete'
+    'REQUEST_TIME_FLOAT' => 1523278498.119
+    'REQUEST_TIME' => 1523278498
+]
+2018-04-09 19:55:48 [::1][1][ki21q629ga0qmj21fdk8mue15a][error][yii\db\Exception] yii\db\Exception: products are associated to category. in D:\xampp\htdocs\jeans.id\protected\common\modules\catalog\modules\productCategories\models\ProductCategory.php:139
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\db\ActiveRecord.php(642): productCategories\models\ProductCategory->beforeDelete()
+#1 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\db\ActiveRecord.php(613): yii\db\ActiveRecord->deleteInternal()
+#2 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\business\Manager.php(343): yii\db\ActiveRecord->delete()
+#3 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\business\Manager.php(306): usni\library\business\Manager->deleteModel(Object(productCategories\models\ProductCategory))
+#4 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\web\actions\BulkDeleteAction.php(49): usni\library\business\Manager->processBulkDelete(Object(usni\library\dto\GridViewDTO))
+#5 [internal function]: usni\library\web\actions\BulkDeleteAction->run()
+#6 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\Action->runWithParams(Array)
+#8 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('bulk-delete', Array)
+#9 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('catalog/product...', Array)
+#10 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\xampp\htdocs\jeans.id\backend\index.php(47): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+)
+
+2018-04-09 19:55:48 [::1][1][ki21q629ga0qmj21fdk8mue15a][info][application] $_GET = [
+    'id' => [
+        0 => '1'
+        1 => '2'
+        2 => '3'
+    ]
+]
+
+$_COOKIE = [
+    '_backendUser' => 'd91e5ffccd81ee104dbacac655b3811efb3e7282a491e027e6a1d8c62f7cfdaaa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"MiJtJDYVXLKUui0nFndU3tfnw3AJG4l6\",2592000]\";}'
+    'PHPFRONTSESSID' => '1fmbp39vje1kvvmfifm95jt8bq'
+    '_frontendCSRF' => '1eff61f6f446e7508e3cc685d7184524cf928412cd57f3b1a381252332f45488a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"9-wqB-3ZaJlRonz9KFJhC0Y7dgCVZSC5\";}'
+    'PHPBACKSESSID' => 'ki21q629ga0qmj21fdk8mue15a'
+    '_csrf' => '261753020424286bf4d1bd7bfa119812c331dcf3a4526487462ce6e0c2203d49a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"v9x7kd8deyvOeLkFinyaG6mPGZCaSU6j\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'customer' => 'O:27:\"backend\\components\\Customer\":5:{s:4:\"cart\";O:21:\"cart\\models\\AdminCart\":6:{s:9:\"itemsList\";O:26:\"cart\\models\\ItemCollection\":1:{s:34:\"\0cart\\models\\ItemCollection\0_items\";a:0:{}}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:8:\"checkout\";O:41:\"common\\modules\\order\\models\\AdminCheckout\":13:{s:5:\"order\";O:33:\"common\\modules\\order\\models\\Order\":13:{s:36:\"\0yii\\db\\BaseActiveRecord\0_attributes\";a:0:{}s:39:\"\0yii\\db\\BaseActiveRecord\0_oldAttributes\";N;s:33:\"\0yii\\db\\BaseActiveRecord\0_related\";a:0:{}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:5:{s:12:\"beforeInsert\";a:2:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:19:\"updateCreatedFields\";}i:1;N;}i:1;a:2:{i:0;a:2:{i:0;r:11;i:1;s:20:\"updateModifiedFields\";}i:1;N;}}s:12:\"beforeUpdate\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:20:\"updateModifiedFields\";}i:1;N;}}s:9:\"afterFind\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:12:\"onFindRecord\";}i:1;N;}}s:11:\"afterInsert\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:11:\"afterInsert\";}i:1;N;}}s:11:\"afterUpdate\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:11:\"afterUpdate\";}i:1;N;}}}s:30:\"\0yii\\base\\Component\0_behaviors\";a:0:{}s:8:\"relation\";s:12:\"translations\";s:11:\"localeField\";s:8:\"language\";s:21:\"translationAttributes\";a:1:{i:0;s:17:\"shipping_comments\";}s:10:\"\0*\0_models\";a:0:{}s:51:\"\0usni\\library\\db\\TranslatableActiveRecord\0_language\";N;}s:19:\"billingInfoEditForm\";O:31:\"cart\\models\\BillingInfoEditForm\":16:{s:5:\"email\";N;s:9:\"firstname\";N;s:8:\"lastname\";N;s:11:\"mobilephone\";N;s:11:\"officephone\";N;s:8:\"address1\";N;s:4:\"city\";N;s:7:\"country\";N;s:11:\"postal_code\";N;s:8:\"address2\";N;s:5:\"state\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:20:\"deliveryInfoEditForm\";O:32:\"cart\\models\\DeliveryInfoEditForm\":17:{s:20:\"sameAsBillingAddress\";N;s:5:\"email\";N;s:9:\"firstname\";N;s:8:\"lastname\";N;s:11:\"mobilephone\";N;s:11:\"officephone\";N;s:8:\"address1\";N;s:4:\"city\";N;s:7:\"country\";N;s:11:\"postal_code\";N;s:8:\"address2\";N;s:5:\"state\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:23:\"deliveryOptionsEditForm\";O:35:\"cart\\models\\DeliveryOptionsEditForm\":8:{s:8:\"shipping\";N;s:8:\"comments\";N;s:12:\"shipping_fee\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:21:\"paymentMethodEditForm\";O:33:\"cart\\models\\PaymentMethodEditForm\":8:{s:14:\"payment_method\";N;s:8:\"comments\";N;s:5:\"agree\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:20:\"confirmOrderEditForm\";O:53:\"common\\modules\\order\\models\\AdminConfirmOrderEditForm\":7:{s:6:\"status\";N;s:8:\"comments\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:12:\"customerForm\";O:40:\"common\\modules\\order\\models\\CustomerForm\":8:{s:10:\"customerId\";N;s:7:\"storeId\";N;s:12:\"currencyCode\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:16:\"orderProductForm\";O:44:\"common\\modules\\order\\models\\OrderProductForm\":7:{s:10:\"product_id\";N;s:8:\"quantity\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:10:\"customerId\";N;s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'S19FY3dqUHo9Zj1UHA5oHi4mMywSJjs8IjE8AjBcPSoMBQYCJD9mEA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/jeans.id//backend/index.php/catalog/productCategories/default/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=d91e5ffccd81ee104dbacac655b3811efb3e7282a491e027e6a1d8c62f7cfdaaa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MiJtJDYVXLKUui0nFndU3tfnw3AJG4l6%22%2C2592000%5D%22%3B%7D; PHPFRONTSESSID=1fmbp39vje1kvvmfifm95jt8bq; _frontendCSRF=1eff61f6f446e7508e3cc685d7184524cf928412cd57f3b1a381252332f45488a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%229-wqB-3ZaJlRonz9KFJhC0Y7dgCVZSC5%22%3B%7D; PHPBACKSESSID=ki21q629ga0qmj21fdk8mue15a; _csrf=261753020424286bf4d1bd7bfa119812c331dcf3a4526487462ce6e0c2203d49a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22v9x7kd8deyvOeLkFinyaG6mPGZCaSU6j%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\Programs\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\pdyanp.net\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\pdyanp.net\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/jeans.id/backend/index.php'
+    'REMOTE_PORT' => '59622'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id%5B%5D=1&id%5B%5D=2&id%5B%5D=3'
+    'REQUEST_URI' => '/jeans.id//backend/index.php/catalog/productCategories/default/bulk-delete?id%5B%5D=1&id%5B%5D=2&id%5B%5D=3'
+    'SCRIPT_NAME' => '/jeans.id//backend/index.php'
+    'PATH_INFO' => '/catalog/productCategories/default/bulk-delete'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\catalog\\productCategories\\default\\bulk-delete'
+    'PHP_SELF' => '/jeans.id//backend/index.php/catalog/productCategories/default/bulk-delete'
+    'REQUEST_TIME_FLOAT' => 1523278548.176
+    'REQUEST_TIME' => 1523278548
+]
+2018-04-10 08:25:22 [::1][1][ki21q629ga0qmj21fdk8mue15a][error][yii\db\Exception] yii\db\Exception: This is base currency for the system and can not be deleted. in D:\xampp\htdocs\jeans.id\protected\common\modules\localization\modules\currency\models\Currency.php:114
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\db\ActiveRecord.php(642): common\modules\localization\modules\currency\models\Currency->beforeDelete()
+#1 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\db\ActiveRecord.php(613): yii\db\ActiveRecord->deleteInternal()
+#2 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\business\Manager.php(343): yii\db\ActiveRecord->delete()
+#3 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\business\Manager.php(306): usni\library\business\Manager->deleteModel(Object(common\modules\localization\modules\currency\models\Currency))
+#4 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\web\actions\BulkDeleteAction.php(49): usni\library\business\Manager->processBulkDelete(Object(usni\library\dto\GridViewDTO))
+#5 [internal function]: usni\library\web\actions\BulkDeleteAction->run()
+#6 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\Action->runWithParams(Array)
+#8 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('bulk-delete', Array)
+#9 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('localization/cu...', Array)
+#10 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\xampp\htdocs\jeans.id\backend\index.php(47): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+)
+
+2018-04-10 08:25:22 [::1][1][ki21q629ga0qmj21fdk8mue15a][info][application] $_GET = [
+    'id' => [
+        0 => '1'
+        1 => '2'
+    ]
+]
+
+$_COOKIE = [
+    '_backendUser' => 'd91e5ffccd81ee104dbacac655b3811efb3e7282a491e027e6a1d8c62f7cfdaaa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"MiJtJDYVXLKUui0nFndU3tfnw3AJG4l6\",2592000]\";}'
+    'PHPFRONTSESSID' => '1fmbp39vje1kvvmfifm95jt8bq'
+    '_frontendCSRF' => '1eff61f6f446e7508e3cc685d7184524cf928412cd57f3b1a381252332f45488a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"9-wqB-3ZaJlRonz9KFJhC0Y7dgCVZSC5\";}'
+    'PHPBACKSESSID' => 'ki21q629ga0qmj21fdk8mue15a'
+    'whatacartFrontContentLanguage' => '1e9303449001b8a8aa1733d17f8a059e3134e7a72847779adfd3530835b5836ca:2:{i:0;s:29:\"whatacartFrontContentLanguage\";i:1;s:5:\"en-US\";}'
+    'PHPSESSID' => 'usmcmtvp1p7qj5pc3d09uiipq8'
+    '_csrf' => '18e0d1f12d92dbce710e4c97a8d87b96ae4585262c271d1d4c7b71c2976b5d38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"p4qt7anntwqVxCFPBRd-8Z-UsMtrE6P5\";}'
+    'whatacartAdminContentLanguage' => '8f179adbf0ff41fb3d5b2c4bb16a46a5c83e7f6d9d50558565077e1bdba8e8faa:2:{i:0;s:29:\"whatacartAdminContentLanguage\";i:1;s:5:\"en-US\";}'
+    'whatacartFrontCurrency' => '6b5feed668b2760fd296a8963ea23d182faec07fbbfb6e4fc4a5957fff3f313ca:2:{i:0;s:22:\"whatacartFrontCurrency\";i:1;s:3:\"IDR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'customer' => 'O:27:\"backend\\components\\Customer\":5:{s:4:\"cart\";O:21:\"cart\\models\\AdminCart\":6:{s:9:\"itemsList\";O:26:\"cart\\models\\ItemCollection\":1:{s:34:\"\0cart\\models\\ItemCollection\0_items\";a:0:{}}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:8:\"checkout\";O:41:\"common\\modules\\order\\models\\AdminCheckout\":13:{s:5:\"order\";O:33:\"common\\modules\\order\\models\\Order\":13:{s:36:\"\0yii\\db\\BaseActiveRecord\0_attributes\";a:0:{}s:39:\"\0yii\\db\\BaseActiveRecord\0_oldAttributes\";N;s:33:\"\0yii\\db\\BaseActiveRecord\0_related\";a:0:{}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:5:{s:12:\"beforeInsert\";a:2:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:19:\"updateCreatedFields\";}i:1;N;}i:1;a:2:{i:0;a:2:{i:0;r:11;i:1;s:20:\"updateModifiedFields\";}i:1;N;}}s:12:\"beforeUpdate\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:20:\"updateModifiedFields\";}i:1;N;}}s:9:\"afterFind\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:12:\"onFindRecord\";}i:1;N;}}s:11:\"afterInsert\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:11:\"afterInsert\";}i:1;N;}}s:11:\"afterUpdate\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:11:\"afterUpdate\";}i:1;N;}}}s:30:\"\0yii\\base\\Component\0_behaviors\";a:0:{}s:8:\"relation\";s:12:\"translations\";s:11:\"localeField\";s:8:\"language\";s:21:\"translationAttributes\";a:1:{i:0;s:17:\"shipping_comments\";}s:10:\"\0*\0_models\";a:0:{}s:51:\"\0usni\\library\\db\\TranslatableActiveRecord\0_language\";N;}s:19:\"billingInfoEditForm\";O:31:\"cart\\models\\BillingInfoEditForm\":16:{s:5:\"email\";N;s:9:\"firstname\";N;s:8:\"lastname\";N;s:11:\"mobilephone\";N;s:11:\"officephone\";N;s:8:\"address1\";N;s:4:\"city\";N;s:7:\"country\";N;s:11:\"postal_code\";N;s:8:\"address2\";N;s:5:\"state\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:20:\"deliveryInfoEditForm\";O:32:\"cart\\models\\DeliveryInfoEditForm\":17:{s:20:\"sameAsBillingAddress\";N;s:5:\"email\";N;s:9:\"firstname\";N;s:8:\"lastname\";N;s:11:\"mobilephone\";N;s:11:\"officephone\";N;s:8:\"address1\";N;s:4:\"city\";N;s:7:\"country\";N;s:11:\"postal_code\";N;s:8:\"address2\";N;s:5:\"state\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:23:\"deliveryOptionsEditForm\";O:35:\"cart\\models\\DeliveryOptionsEditForm\":8:{s:8:\"shipping\";N;s:8:\"comments\";N;s:12:\"shipping_fee\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:21:\"paymentMethodEditForm\";O:33:\"cart\\models\\PaymentMethodEditForm\":8:{s:14:\"payment_method\";N;s:8:\"comments\";N;s:5:\"agree\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:20:\"confirmOrderEditForm\";O:53:\"common\\modules\\order\\models\\AdminConfirmOrderEditForm\":7:{s:6:\"status\";N;s:8:\"comments\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:12:\"customerForm\";O:40:\"common\\modules\\order\\models\\CustomerForm\":8:{s:10:\"customerId\";N;s:7:\"storeId\";N;s:12:\"currencyCode\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:16:\"orderProductForm\";O:44:\"common\\modules\\order\\models\\OrderProductForm\":7:{s:10:\"product_id\";N;s:8:\"quantity\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:10:\"customerId\";N;s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'NG5hSV9CdTVEWhA9aCMbW0AZEB8nATNldjwFZGcYWGBHIxU7GnQlAA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/jeans.id//backend/index.php/localization/currency/default/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=d91e5ffccd81ee104dbacac655b3811efb3e7282a491e027e6a1d8c62f7cfdaaa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MiJtJDYVXLKUui0nFndU3tfnw3AJG4l6%22%2C2592000%5D%22%3B%7D; PHPFRONTSESSID=1fmbp39vje1kvvmfifm95jt8bq; _frontendCSRF=1eff61f6f446e7508e3cc685d7184524cf928412cd57f3b1a381252332f45488a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%229-wqB-3ZaJlRonz9KFJhC0Y7dgCVZSC5%22%3B%7D; PHPBACKSESSID=ki21q629ga0qmj21fdk8mue15a; whatacartFrontContentLanguage=1e9303449001b8a8aa1733d17f8a059e3134e7a72847779adfd3530835b5836ca%3A2%3A%7Bi%3A0%3Bs%3A29%3A%22whatacartFrontContentLanguage%22%3Bi%3A1%3Bs%3A5%3A%22en-US%22%3B%7D; PHPSESSID=usmcmtvp1p7qj5pc3d09uiipq8; _csrf=18e0d1f12d92dbce710e4c97a8d87b96ae4585262c271d1d4c7b71c2976b5d38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22p4qt7anntwqVxCFPBRd-8Z-UsMtrE6P5%22%3B%7D; whatacartAdminContentLanguage=8f179adbf0ff41fb3d5b2c4bb16a46a5c83e7f6d9d50558565077e1bdba8e8faa%3A2%3A%7Bi%3A0%3Bs%3A29%3A%22whatacartAdminContentLanguage%22%3Bi%3A1%3Bs%3A5%3A%22en-US%22%3B%7D; whatacartFrontCurrency=6b5feed668b2760fd296a8963ea23d182faec07fbbfb6e4fc4a5957fff3f313ca%3A2%3A%7Bi%3A0%3Bs%3A22%3A%22whatacartFrontCurrency%22%3Bi%3A1%3Bs%3A3%3A%22IDR%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\Programs\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\pdyanp.net\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\pdyanp.net\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/jeans.id/backend/index.php'
+    'REMOTE_PORT' => '62002'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id%5B%5D=1&id%5B%5D=2'
+    'REQUEST_URI' => '/jeans.id//backend/index.php/localization/currency/default/bulk-delete?id%5B%5D=1&id%5B%5D=2'
+    'SCRIPT_NAME' => '/jeans.id//backend/index.php'
+    'PATH_INFO' => '/localization/currency/default/bulk-delete'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\localization\\currency\\default\\bulk-delete'
+    'PHP_SELF' => '/jeans.id//backend/index.php/localization/currency/default/bulk-delete'
+    'REQUEST_TIME_FLOAT' => 1523323522.277
+    'REQUEST_TIME' => 1523323522
+]
+2018-04-10 08:26:25 [::1][1][ki21q629ga0qmj21fdk8mue15a][error][yii\db\Exception] yii\db\Exception: This is base currency for the system and can not be deleted. in D:\xampp\htdocs\jeans.id\protected\common\modules\localization\modules\currency\models\Currency.php:114
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\db\ActiveRecord.php(642): common\modules\localization\modules\currency\models\Currency->beforeDelete()
+#1 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\db\ActiveRecord.php(613): yii\db\ActiveRecord->deleteInternal()
+#2 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\business\Manager.php(343): yii\db\ActiveRecord->delete()
+#3 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\business\Manager.php(306): usni\library\business\Manager->deleteModel(Object(common\modules\localization\modules\currency\models\Currency))
+#4 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\web\actions\BulkDeleteAction.php(49): usni\library\business\Manager->processBulkDelete(Object(usni\library\dto\GridViewDTO))
+#5 [internal function]: usni\library\web\actions\BulkDeleteAction->run()
+#6 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\Action->runWithParams(Array)
+#8 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('bulk-delete', Array)
+#9 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('localization/cu...', Array)
+#10 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\xampp\htdocs\jeans.id\backend\index.php(47): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+)
+
+2018-04-10 08:26:25 [::1][1][ki21q629ga0qmj21fdk8mue15a][info][application] $_GET = [
+    'id' => [
+        0 => '1'
+        1 => '2'
+    ]
+]
+
+$_COOKIE = [
+    '_backendUser' => 'd91e5ffccd81ee104dbacac655b3811efb3e7282a491e027e6a1d8c62f7cfdaaa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"MiJtJDYVXLKUui0nFndU3tfnw3AJG4l6\",2592000]\";}'
+    'PHPFRONTSESSID' => '1fmbp39vje1kvvmfifm95jt8bq'
+    '_frontendCSRF' => '1eff61f6f446e7508e3cc685d7184524cf928412cd57f3b1a381252332f45488a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"9-wqB-3ZaJlRonz9KFJhC0Y7dgCVZSC5\";}'
+    'PHPBACKSESSID' => 'ki21q629ga0qmj21fdk8mue15a'
+    'whatacartFrontContentLanguage' => '1e9303449001b8a8aa1733d17f8a059e3134e7a72847779adfd3530835b5836ca:2:{i:0;s:29:\"whatacartFrontContentLanguage\";i:1;s:5:\"en-US\";}'
+    'PHPSESSID' => 'usmcmtvp1p7qj5pc3d09uiipq8'
+    '_csrf' => '18e0d1f12d92dbce710e4c97a8d87b96ae4585262c271d1d4c7b71c2976b5d38a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"p4qt7anntwqVxCFPBRd-8Z-UsMtrE6P5\";}'
+    'whatacartAdminContentLanguage' => '8f179adbf0ff41fb3d5b2c4bb16a46a5c83e7f6d9d50558565077e1bdba8e8faa:2:{i:0;s:29:\"whatacartAdminContentLanguage\";i:1;s:5:\"en-US\";}'
+    'whatacartFrontCurrency' => '6b5feed668b2760fd296a8963ea23d182faec07fbbfb6e4fc4a5957fff3f313ca:2:{i:0;s:22:\"whatacartFrontCurrency\";i:1;s:3:\"IDR\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'customer' => 'O:27:\"backend\\components\\Customer\":5:{s:4:\"cart\";O:21:\"cart\\models\\AdminCart\":6:{s:9:\"itemsList\";O:26:\"cart\\models\\ItemCollection\":1:{s:34:\"\0cart\\models\\ItemCollection\0_items\";a:0:{}}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:8:\"checkout\";O:41:\"common\\modules\\order\\models\\AdminCheckout\":13:{s:5:\"order\";O:33:\"common\\modules\\order\\models\\Order\":13:{s:36:\"\0yii\\db\\BaseActiveRecord\0_attributes\";a:0:{}s:39:\"\0yii\\db\\BaseActiveRecord\0_oldAttributes\";N;s:33:\"\0yii\\db\\BaseActiveRecord\0_related\";a:0:{}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:5:{s:12:\"beforeInsert\";a:2:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:19:\"updateCreatedFields\";}i:1;N;}i:1;a:2:{i:0;a:2:{i:0;r:11;i:1;s:20:\"updateModifiedFields\";}i:1;N;}}s:12:\"beforeUpdate\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:20:\"updateModifiedFields\";}i:1;N;}}s:9:\"afterFind\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:12:\"onFindRecord\";}i:1;N;}}s:11:\"afterInsert\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:11:\"afterInsert\";}i:1;N;}}s:11:\"afterUpdate\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:11:\"afterUpdate\";}i:1;N;}}}s:30:\"\0yii\\base\\Component\0_behaviors\";a:0:{}s:8:\"relation\";s:12:\"translations\";s:11:\"localeField\";s:8:\"language\";s:21:\"translationAttributes\";a:1:{i:0;s:17:\"shipping_comments\";}s:10:\"\0*\0_models\";a:0:{}s:51:\"\0usni\\library\\db\\TranslatableActiveRecord\0_language\";N;}s:19:\"billingInfoEditForm\";O:31:\"cart\\models\\BillingInfoEditForm\":16:{s:5:\"email\";N;s:9:\"firstname\";N;s:8:\"lastname\";N;s:11:\"mobilephone\";N;s:11:\"officephone\";N;s:8:\"address1\";N;s:4:\"city\";N;s:7:\"country\";N;s:11:\"postal_code\";N;s:8:\"address2\";N;s:5:\"state\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:20:\"deliveryInfoEditForm\";O:32:\"cart\\models\\DeliveryInfoEditForm\":17:{s:20:\"sameAsBillingAddress\";N;s:5:\"email\";N;s:9:\"firstname\";N;s:8:\"lastname\";N;s:11:\"mobilephone\";N;s:11:\"officephone\";N;s:8:\"address1\";N;s:4:\"city\";N;s:7:\"country\";N;s:11:\"postal_code\";N;s:8:\"address2\";N;s:5:\"state\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:23:\"deliveryOptionsEditForm\";O:35:\"cart\\models\\DeliveryOptionsEditForm\":8:{s:8:\"shipping\";N;s:8:\"comments\";N;s:12:\"shipping_fee\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:21:\"paymentMethodEditForm\";O:33:\"cart\\models\\PaymentMethodEditForm\":8:{s:14:\"payment_method\";N;s:8:\"comments\";N;s:5:\"agree\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:20:\"confirmOrderEditForm\";O:53:\"common\\modules\\order\\models\\AdminConfirmOrderEditForm\":7:{s:6:\"status\";N;s:8:\"comments\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:12:\"customerForm\";O:40:\"common\\modules\\order\\models\\CustomerForm\":8:{s:10:\"customerId\";N;s:7:\"storeId\";N;s:12:\"currencyCode\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:16:\"orderProductForm\";O:44:\"common\\modules\\order\\models\\OrderProductForm\":7:{s:10:\"product_id\";N;s:8:\"quantity\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:10:\"customerId\";N;s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html, */*; q=0.01'
+    'HTTP_X_CSRF_TOKEN' => 'dzlHVUJqVTUHDTYhdQs7WwNONgM6KRNlNWsjeHoweGAEdDMnB1wFAA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/jeans.id//backend/index.php/localization/currency/default/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_backendUser=d91e5ffccd81ee104dbacac655b3811efb3e7282a491e027e6a1d8c62f7cfdaaa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MiJtJDYVXLKUui0nFndU3tfnw3AJG4l6%22%2C2592000%5D%22%3B%7D; PHPFRONTSESSID=1fmbp39vje1kvvmfifm95jt8bq; _frontendCSRF=1eff61f6f446e7508e3cc685d7184524cf928412cd57f3b1a381252332f45488a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%229-wqB-3ZaJlRonz9KFJhC0Y7dgCVZSC5%22%3B%7D; PHPBACKSESSID=ki21q629ga0qmj21fdk8mue15a; whatacartFrontContentLanguage=1e9303449001b8a8aa1733d17f8a059e3134e7a72847779adfd3530835b5836ca%3A2%3A%7Bi%3A0%3Bs%3A29%3A%22whatacartFrontContentLanguage%22%3Bi%3A1%3Bs%3A5%3A%22en-US%22%3B%7D; PHPSESSID=usmcmtvp1p7qj5pc3d09uiipq8; _csrf=18e0d1f12d92dbce710e4c97a8d87b96ae4585262c271d1d4c7b71c2976b5d38a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22p4qt7anntwqVxCFPBRd-8Z-UsMtrE6P5%22%3B%7D; whatacartAdminContentLanguage=8f179adbf0ff41fb3d5b2c4bb16a46a5c83e7f6d9d50558565077e1bdba8e8faa%3A2%3A%7Bi%3A0%3Bs%3A29%3A%22whatacartAdminContentLanguage%22%3Bi%3A1%3Bs%3A5%3A%22en-US%22%3B%7D; whatacartFrontCurrency=6b5feed668b2760fd296a8963ea23d182faec07fbbfb6e4fc4a5957fff3f313ca%3A2%3A%7Bi%3A0%3Bs%3A22%3A%22whatacartFrontCurrency%22%3Bi%3A1%3Bs%3A3%3A%22IDR%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\Programs\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\pdyanp.net\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\pdyanp.net\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.14 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.29 (Win32) OpenSSL/1.0.2n PHP/7.1.14'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/jeans.id/backend/index.php'
+    'REMOTE_PORT' => '62024'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id%5B%5D=1&id%5B%5D=2'
+    'REQUEST_URI' => '/jeans.id//backend/index.php/localization/currency/default/bulk-delete?id%5B%5D=1&id%5B%5D=2'
+    'SCRIPT_NAME' => '/jeans.id//backend/index.php'
+    'PATH_INFO' => '/localization/currency/default/bulk-delete'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\localization\\currency\\default\\bulk-delete'
+    'PHP_SELF' => '/jeans.id//backend/index.php/localization/currency/default/bulk-delete'
+    'REQUEST_TIME_FLOAT' => 1523323585.114
+    'REQUEST_TIME' => 1523323585
+]
+2018-04-16 13:52:41 [::1][1][0bfggkr5ab3j5cqbgdo90ih5f6][error][yii\db\Exception] yii\base\ErrorException: PDOStatement::execute(): MySQL server has gone away in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\Command.php:902
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'PDOStatement::e...', 'C:\\xampp\\htdocs...', 902, Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\Command.php(902): PDOStatement->execute()
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\Query.php(213): yii\db\Command->queryAll()
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\data\ActiveDataProvider.php(113): yii\db\Query->all(NULL)
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\ushainformatique\yiichimp\library\dataproviders\ArrayRecordDataProvider.php(26): yii\data\ActiveDataProvider->prepareModels()
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\data\BaseDataProvider.php(81): usni\library\dataproviders\ArrayRecordDataProvider->prepareModels()
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\data\BaseDataProvider.php(94): yii\data\BaseDataProvider->prepare()
+#8 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\data\BaseDataProvider.php(135): yii\data\BaseDataProvider->getModels()
+#9 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\widgets\BaseListView.php(182): yii\data\BaseDataProvider->getCount()
+#10 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\widgets\BaseListView.php(153): yii\widgets\BaseListView->renderSummary()
+#11 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\grid\GridView.php(316): yii\widgets\BaseListView->renderSection('{summary}')
+#12 C:\xampp\htdocs\Dropbox\jeans\vendor\ushainformatique\yiichimp\library\grid\GridView.php(162): yii\grid\GridView->renderSection('{summary}')
+#13 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\widgets\BaseListView.php(130): usni\library\grid\GridView->renderSection('{summary}')
+#14 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#15 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\widgets\BaseListView.php(133): preg_replace_callback('/{\\w+}/', Object(Closure), '<div class='pan...')
+#16 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\grid\GridView.php(291): yii\widgets\BaseListView->run()
+#17 C:\xampp\htdocs\Dropbox\jeans\vendor\ushainformatique\yiichimp\library\grid\GridView.php(122): yii\grid\GridView->run()
+#18 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Widget.php(139): usni\library\grid\GridView->run()
+#19 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\catalog\modules\products\views\_assignedAttributesGridView.php(30): yii\base\Widget::widget(Array)
+#20 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#22 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#23 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\catalog\modules\products\views\_manageAttributes.php(16): yii\base\View->render('/_assignedAttri...', Array)
+#24 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#25 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#26 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#27 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\catalog\modules\products\views\_tabform.php(89): yii\base\View->render('/_manageAttribu...', Array)
+#28 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#29 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#30 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#31 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\catalog\modules\products\views\update.php(30): yii\base\View->render('/_tabform', Array)
+#32 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#33 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#34 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(products\controllers\DefaultController))
+#35 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('/update', Array, Object(products\controllers\DefaultController))
+#36 C:\xampp\htdocs\Dropbox\jeans\vendor\ushainformatique\yiichimp\library\web\actions\UpdateAction.php(72): yii\base\Controller->render('/update', Array)
+#37 [internal function]: usni\library\web\actions\UpdateAction->run('60')
+#38 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#39 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\Action->runWithParams(Array)
+#40 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('update', Array)
+#41 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('catalog/product...', Array)
+#42 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#43 C:\xampp\htdocs\Dropbox\jeans\backend\index.php(47): yii\base\Application->run()
+#44 {main}
+
+Next yii\db\Exception: PDOStatement::execute(): MySQL server has gone away
+The SQL being executed was: SELECT `pam`.*, `pat`.`name` FROM `tbl_product_attribute_mapping` `pam`, `tbl_product_attribute` `pa`, `tbl_product_attribute_translated` `pat` WHERE pam.product_id = 60 AND pam.attribute_id = pa.id AND pa.id = pat.owner_id AND pat.language = 'en-US' in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\Schema.php:636
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\Command.php(917): yii\db\Schema->convertException(Object(yii\base\ErrorException), 'SELECT `pam`.*,...')
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\Query.php(213): yii\db\Command->queryAll()
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\data\ActiveDataProvider.php(113): yii\db\Query->all(NULL)
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\ushainformatique\yiichimp\library\dataproviders\ArrayRecordDataProvider.php(26): yii\data\ActiveDataProvider->prepareModels()
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\data\BaseDataProvider.php(81): usni\library\dataproviders\ArrayRecordDataProvider->prepareModels()
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\data\BaseDataProvider.php(94): yii\data\BaseDataProvider->prepare()
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\data\BaseDataProvider.php(135): yii\data\BaseDataProvider->getModels()
+#8 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\widgets\BaseListView.php(182): yii\data\BaseDataProvider->getCount()
+#9 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\widgets\BaseListView.php(153): yii\widgets\BaseListView->renderSummary()
+#10 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\grid\GridView.php(316): yii\widgets\BaseListView->renderSection('{summary}')
+#11 C:\xampp\htdocs\Dropbox\jeans\vendor\ushainformatique\yiichimp\library\grid\GridView.php(162): yii\grid\GridView->renderSection('{summary}')
+#12 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\widgets\BaseListView.php(130): usni\library\grid\GridView->renderSection('{summary}')
+#13 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#14 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\widgets\BaseListView.php(133): preg_replace_callback('/{\\w+}/', Object(Closure), '<div class='pan...')
+#15 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\grid\GridView.php(291): yii\widgets\BaseListView->run()
+#16 C:\xampp\htdocs\Dropbox\jeans\vendor\ushainformatique\yiichimp\library\grid\GridView.php(122): yii\grid\GridView->run()
+#17 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Widget.php(139): usni\library\grid\GridView->run()
+#18 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\catalog\modules\products\views\_assignedAttributesGridView.php(30): yii\base\Widget::widget(Array)
+#19 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#20 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#21 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#22 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\catalog\modules\products\views\_manageAttributes.php(16): yii\base\View->render('/_assignedAttri...', Array)
+#23 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#24 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#25 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#26 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\catalog\modules\products\views\_tabform.php(89): yii\base\View->render('/_manageAttribu...', Array)
+#27 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#28 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#29 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#30 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\catalog\modules\products\views\update.php(30): yii\base\View->render('/_tabform', Array)
+#31 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#32 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#33 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(products\controllers\DefaultController))
+#34 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('/update', Array, Object(products\controllers\DefaultController))
+#35 C:\xampp\htdocs\Dropbox\jeans\vendor\ushainformatique\yiichimp\library\web\actions\UpdateAction.php(72): yii\base\Controller->render('/update', Array)
+#36 [internal function]: usni\library\web\actions\UpdateAction->run('60')
+#37 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#38 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\Action->runWithParams(Array)
+#39 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('update', Array)
+#40 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('catalog/product...', Array)
+#41 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#42 C:\xampp\htdocs\Dropbox\jeans\backend\index.php(47): yii\base\Application->run()
+#43 {main}
+Additional Information:
+
+2018-04-16 13:51:56 [::1][1][0bfggkr5ab3j5cqbgdo90ih5f6][info][application] $_GET = [
+    'id' => '60'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'f3qtiu1hvdvie4905tnnmaqdh5'
+    'PHPFRONTSESSID' => '2abdbbc73ilhgnho8rq9g58n75'
+    '_frontendCSRF' => '51feecab2b65a9b71b2a034b2a8ffc755aad3b36a4a9b732924719ce5d3d3715a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"D4uMBXvNa8XCFaFQTp_TxwwgaGFaIq2J\";}'
+    '_csrf' => '8244da31f6363d03fd4a5ba199356b47b6dfdbf66cea4b234eb094488252fab6a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"tr1lE6Z5GimTH3yA2diGVshprgXJZgU-\";}'
+    'PHPBACKSESSID' => '0bfggkr5ab3j5cqbgdo90ih5f6'
+    '_backendUser' => 'd91e5ffccd81ee104dbacac655b3811efb3e7282a491e027e6a1d8c62f7cfdaaa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"MiJtJDYVXLKUui0nFndU3tfnw3AJG4l6\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'customer' => 'O:27:\"backend\\components\\Customer\":5:{s:4:\"cart\";O:21:\"cart\\models\\AdminCart\":6:{s:9:\"itemsList\";O:26:\"cart\\models\\ItemCollection\":1:{s:34:\"\0cart\\models\\ItemCollection\0_items\";a:0:{}}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:8:\"checkout\";O:41:\"common\\modules\\order\\models\\AdminCheckout\":13:{s:5:\"order\";O:33:\"common\\modules\\order\\models\\Order\":13:{s:36:\"\0yii\\db\\BaseActiveRecord\0_attributes\";a:0:{}s:39:\"\0yii\\db\\BaseActiveRecord\0_oldAttributes\";N;s:33:\"\0yii\\db\\BaseActiveRecord\0_related\";a:0:{}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:5:{s:12:\"beforeInsert\";a:2:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:19:\"updateCreatedFields\";}i:1;N;}i:1;a:2:{i:0;a:2:{i:0;r:11;i:1;s:20:\"updateModifiedFields\";}i:1;N;}}s:12:\"beforeUpdate\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:20:\"updateModifiedFields\";}i:1;N;}}s:9:\"afterFind\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:12:\"onFindRecord\";}i:1;N;}}s:11:\"afterInsert\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:11:\"afterInsert\";}i:1;N;}}s:11:\"afterUpdate\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:11:\"afterUpdate\";}i:1;N;}}}s:30:\"\0yii\\base\\Component\0_behaviors\";a:0:{}s:8:\"relation\";s:12:\"translations\";s:11:\"localeField\";s:8:\"language\";s:21:\"translationAttributes\";a:1:{i:0;s:17:\"shipping_comments\";}s:10:\"\0*\0_models\";a:0:{}s:51:\"\0usni\\library\\db\\TranslatableActiveRecord\0_language\";N;}s:19:\"billingInfoEditForm\";O:31:\"cart\\models\\BillingInfoEditForm\":16:{s:5:\"email\";N;s:9:\"firstname\";N;s:8:\"lastname\";N;s:11:\"mobilephone\";N;s:11:\"officephone\";N;s:8:\"address1\";N;s:4:\"city\";N;s:7:\"country\";N;s:11:\"postal_code\";N;s:8:\"address2\";N;s:5:\"state\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:20:\"deliveryInfoEditForm\";O:32:\"cart\\models\\DeliveryInfoEditForm\":17:{s:20:\"sameAsBillingAddress\";N;s:5:\"email\";N;s:9:\"firstname\";N;s:8:\"lastname\";N;s:11:\"mobilephone\";N;s:11:\"officephone\";N;s:8:\"address1\";N;s:4:\"city\";N;s:7:\"country\";N;s:11:\"postal_code\";N;s:8:\"address2\";N;s:5:\"state\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:23:\"deliveryOptionsEditForm\";O:35:\"cart\\models\\DeliveryOptionsEditForm\":8:{s:8:\"shipping\";N;s:8:\"comments\";N;s:12:\"shipping_fee\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:21:\"paymentMethodEditForm\";O:33:\"cart\\models\\PaymentMethodEditForm\":8:{s:14:\"payment_method\";N;s:8:\"comments\";N;s:5:\"agree\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:20:\"confirmOrderEditForm\";O:53:\"common\\modules\\order\\models\\AdminConfirmOrderEditForm\":7:{s:6:\"status\";N;s:8:\"comments\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:12:\"customerForm\";O:40:\"common\\modules\\order\\models\\CustomerForm\":8:{s:10:\"customerId\";N;s:7:\"storeId\";N;s:12:\"currencyCode\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:16:\"orderProductForm\";O:44:\"common\\modules\\order\\models\\OrderProductForm\":7:{s:10:\"product_id\";N;s:8:\"quantity\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:10:\"customerId\";N;s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}'
+    '__returnUrl' => '/Dropbox/jeans/backend/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.114 Safari/537.36 Vivaldi/1.9.818.50'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/Dropbox/jeans/backend/index.php/catalog/products/default/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=f3qtiu1hvdvie4905tnnmaqdh5; PHPFRONTSESSID=2abdbbc73ilhgnho8rq9g58n75; _frontendCSRF=51feecab2b65a9b71b2a034b2a8ffc755aad3b36a4a9b732924719ce5d3d3715a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22D4uMBXvNa8XCFaFQTp_TxwwgaGFaIq2J%22%3B%7D; _csrf=8244da31f6363d03fd4a5ba199356b47b6dfdbf66cea4b234eb094488252fab6a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22tr1lE6Z5GimTH3yA2diGVshprgXJZgU-%22%3B%7D; PHPBACKSESSID=0bfggkr5ab3j5cqbgdo90ih5f6; _backendUser=d91e5ffccd81ee104dbacac655b3811efb3e7282a491e027e6a1d8c62f7cfdaaa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MiJtJDYVXLKUui0nFndU3tfnw3AJG4l6%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\PostgreSQL\\9.6\\bin;C:\\Program Files\\Java\\jdk1.8.0_131\\bin;D:\\runtime\\win64;D:\\Data\\Sampah\\polyspace\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\FPC\\3.0.2\\bin\\i386-Win32;C:\\Program Files\\Git\\cmd;D:\\bin;D:\\polyspace\\bin;D:\\MATLAB\\R2016a\\runtime\\win64;D:\\MATLAB\\R2016a\\bin;D:\\MATLAB\\R2016a\\polyspace\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\USER\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\USER\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Heroku\\bin;C:\\Users\\USER\\AppData\\Roaming\\npm'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.13 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2h PHP/7.0.13'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Dropbox/jeans/backend/index.php'
+    'REMOTE_PORT' => '55115'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=60'
+    'REQUEST_URI' => '/Dropbox/jeans/backend/index.php/catalog/products/default/update?id=60'
+    'SCRIPT_NAME' => '/Dropbox/jeans/backend/index.php'
+    'PATH_INFO' => '/catalog/products/default/update'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\catalog\\products\\default\\update'
+    'PHP_SELF' => '/Dropbox/jeans/backend/index.php/catalog/products/default/update'
+    'REQUEST_TIME_FLOAT' => 1523861516.034
+    'REQUEST_TIME' => 1523861516
+]
+2018-04-28 07:14:40 [::1][1][qdr7dhieacrumcqqfd3qo2b1o9][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' in D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\Command.php:846
+Stack trace:
+#0 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\Command.php(846): PDOStatement->execute()
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\Schema.php(454): yii\db\Command->execute()
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\ActiveRecord.php(494): yii\db\Schema->insert('{{%person}}', Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\ActiveRecord.php(461): yii\db\ActiveRecord->insertInternal(NULL)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\BaseActiveRecord.php(635): yii\db\ActiveRecord->insert(false, NULL)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\ushainformatique\yiichimp\library\modules\users\traits\UserManagerTrait.php(93): yii\db\BaseActiveRecord->save(false)
+#6 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\business\Manager.php(277): customer\business\Manager->processInputData(Object(customer\dto\FormDTO))
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\ushainformatique\yiichimp\library\web\actions\CreateAction.php(40): customer\business\Manager->processEdit(Object(customer\dto\FormDTO))
+#8 [internal function]: usni\library\web\actions\CreateAction->run()
+#9 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#10 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\Action->runWithParams(Array)
+#11 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('create', Array)
+#12 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/defaul...', Array)
+#13 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\xampp\htdocs\Dropbox\jeans\backend\index.php(47): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+The SQL being executed was: INSERT INTO `tbl_person` (`firstname`, `lastname`, `email`, `mobilephone`, `profile_image`, `created_by`, `modified_by`, `created_datetime`, `modified_datetime`) VALUES ('Wara', 'Wara', 'wara@wara.com', '089669664343', '', 1, 1, '2018-04-28 07:14:40', '2018-04-28 07:14:40') in D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\Schema.php:636
+Stack trace:
+#0 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\Command.php(856): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `tb...')
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\Schema.php(454): yii\db\Command->execute()
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\ActiveRecord.php(494): yii\db\Schema->insert('{{%person}}', Array)
+#3 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\ActiveRecord.php(461): yii\db\ActiveRecord->insertInternal(NULL)
+#4 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\BaseActiveRecord.php(635): yii\db\ActiveRecord->insert(false, NULL)
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\ushainformatique\yiichimp\library\modules\users\traits\UserManagerTrait.php(93): yii\db\BaseActiveRecord->save(false)
+#6 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\business\Manager.php(277): customer\business\Manager->processInputData(Object(customer\dto\FormDTO))
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\ushainformatique\yiichimp\library\web\actions\CreateAction.php(40): customer\business\Manager->processEdit(Object(customer\dto\FormDTO))
+#8 [internal function]: usni\library\web\actions\CreateAction->run()
+#9 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#10 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\Action->runWithParams(Array)
+#11 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('create', Array)
+#12 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/defaul...', Array)
+#13 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 D:\xampp\htdocs\Dropbox\jeans\backend\index.php(47): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry '0' for key 'PRIMARY'
+)
+
+2018-04-28 07:14:40 [::1][1][qdr7dhieacrumcqqfd3qo2b1o9][info][application] $_POST = [
+    '_csrf' => 'ODlhRHA2aHhRQy4wP0ZfClteBDUhYQAMXHYCfEhQJT98aTMnQk9YAQ=='
+    'Customer' => [
+        'username' => 'wara'
+        'status' => '1'
+        'timezone' => 'Asia/Jakarta'
+        'groups' => [
+            0 => '2'
+        ]
+        'password' => 'Wara@1'
+        'confirmPassword' => 'Wara@1'
+    ]
+    'Person' => [
+        'firstname' => 'Wara'
+        'lastname' => 'Wara'
+        'email' => 'wara@wara.com'
+        'mobilephone' => '089669664343'
+        'profile_image' => ''
+    ]
+    'Alamat' => [
+        'address1' => 'wara'
+        'address2' => 'wara'
+        'city' => 'wara'
+        'state' => 'wara'
+        'country' => 'ID'
+        'postal_code' => '54352'
+    ]
+]
+
+$_FILES = [
+    'Person' => [
+        'name' => [
+            'profile_image' => ''
+        ]
+        'type' => [
+            'profile_image' => ''
+        ]
+        'tmp_name' => [
+            'profile_image' => ''
+        ]
+        'error' => [
+            'profile_image' => 4
+        ]
+        'size' => [
+            'profile_image' => 0
+        ]
+    ]
+]
+
+$_COOKIE = [
+    '_backendUser' => 'd91e5ffccd81ee104dbacac655b3811efb3e7282a491e027e6a1d8c62f7cfdaaa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"MiJtJDYVXLKUui0nFndU3tfnw3AJG4l6\",2592000]\";}'
+    'PHPFRONTSESSID' => 'inlb6segit1ad1273bn7e1jvu6'
+    '_frontendCSRF' => 'a2d10aeea28d333392ba0c2257a23b3298d986070d76707670864ee6b6f2c4c1a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"8r8tzHfHMmzh9qWkG3IA4OIiIMLwaY0C\";}'
+    'PHPBACKSESSID' => 'qdr7dhieacrumcqqfd3qo2b1o9'
+    '_csrf' => 'eda53ec2230d04867e8983cc9d0414ac83bbebf966820d3bc8ef05a501f338e0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"izOtOp7rcgeqQWhtdOc88fMGDPRc2y0y\";}'
+    '_frontendCustomer' => '95b87da707a6058583d30f75fb317ae733c6e3245c8fae0f157b9a6e630d82bfa:2:{i:0;s:17:\"_frontendCustomer\";i:1;s:46:\"[4,\"OPT_S-mqU3FhFPeJleCJUQ0ir567pvU3\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'customer' => 'O:27:\"backend\\components\\Customer\":5:{s:4:\"cart\";O:21:\"cart\\models\\AdminCart\":6:{s:9:\"itemsList\";O:26:\"cart\\models\\ItemCollection\":1:{s:34:\"\0cart\\models\\ItemCollection\0_items\";a:0:{}}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:8:\"checkout\";O:41:\"common\\modules\\order\\models\\AdminCheckout\":13:{s:5:\"order\";O:33:\"common\\modules\\order\\models\\Order\":13:{s:36:\"\0yii\\db\\BaseActiveRecord\0_attributes\";a:0:{}s:39:\"\0yii\\db\\BaseActiveRecord\0_oldAttributes\";N;s:33:\"\0yii\\db\\BaseActiveRecord\0_related\";a:0:{}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:5:{s:12:\"beforeInsert\";a:2:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:19:\"updateCreatedFields\";}i:1;N;}i:1;a:2:{i:0;a:2:{i:0;r:11;i:1;s:20:\"updateModifiedFields\";}i:1;N;}}s:12:\"beforeUpdate\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:20:\"updateModifiedFields\";}i:1;N;}}s:9:\"afterFind\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:12:\"onFindRecord\";}i:1;N;}}s:11:\"afterInsert\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:11:\"afterInsert\";}i:1;N;}}s:11:\"afterUpdate\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:11:\"afterUpdate\";}i:1;N;}}}s:30:\"\0yii\\base\\Component\0_behaviors\";a:0:{}s:8:\"relation\";s:12:\"translations\";s:11:\"localeField\";s:8:\"language\";s:21:\"translationAttributes\";a:1:{i:0;s:17:\"shipping_comments\";}s:10:\"\0*\0_models\";a:0:{}s:51:\"\0usni\\library\\db\\TranslatableActiveRecord\0_language\";N;}s:19:\"billingInfoEditForm\";O:31:\"cart\\models\\BillingInfoEditForm\":16:{s:5:\"email\";N;s:9:\"firstname\";N;s:8:\"lastname\";N;s:11:\"mobilephone\";N;s:11:\"officephone\";N;s:8:\"address1\";N;s:4:\"city\";N;s:7:\"country\";N;s:11:\"postal_code\";N;s:8:\"address2\";N;s:5:\"state\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:20:\"deliveryInfoEditForm\";O:32:\"cart\\models\\DeliveryInfoEditForm\":17:{s:20:\"sameAsBillingAddress\";N;s:5:\"email\";N;s:9:\"firstname\";N;s:8:\"lastname\";N;s:11:\"mobilephone\";N;s:11:\"officephone\";N;s:8:\"address1\";N;s:4:\"city\";N;s:7:\"country\";N;s:11:\"postal_code\";N;s:8:\"address2\";N;s:5:\"state\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:23:\"deliveryOptionsEditForm\";O:35:\"cart\\models\\DeliveryOptionsEditForm\":8:{s:8:\"shipping\";N;s:8:\"comments\";N;s:12:\"shipping_fee\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:21:\"paymentMethodEditForm\";O:33:\"cart\\models\\PaymentMethodEditForm\":8:{s:14:\"payment_method\";N;s:8:\"comments\";N;s:5:\"agree\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:20:\"confirmOrderEditForm\";O:53:\"common\\modules\\order\\models\\AdminConfirmOrderEditForm\":7:{s:6:\"status\";N;s:8:\"comments\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:12:\"customerForm\";O:40:\"common\\modules\\order\\models\\CustomerForm\":8:{s:10:\"customerId\";N;s:7:\"storeId\";N;s:12:\"currencyCode\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:16:\"orderProductForm\";O:44:\"common\\modules\\order\\models\\OrderProductForm\":7:{s:10:\"product_id\";N;s:8:\"quantity\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:10:\"customerId\";N;s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dropbox/jeans/backend/index.php/customer/default/create'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------132011199431346'
+    'CONTENT_LENGTH' => '2401'
+    'HTTP_COOKIE' => '_backendUser=d91e5ffccd81ee104dbacac655b3811efb3e7282a491e027e6a1d8c62f7cfdaaa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MiJtJDYVXLKUui0nFndU3tfnw3AJG4l6%22%2C2592000%5D%22%3B%7D; PHPFRONTSESSID=inlb6segit1ad1273bn7e1jvu6; _frontendCSRF=a2d10aeea28d333392ba0c2257a23b3298d986070d76707670864ee6b6f2c4c1a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%228r8tzHfHMmzh9qWkG3IA4OIiIMLwaY0C%22%3B%7D; PHPBACKSESSID=qdr7dhieacrumcqqfd3qo2b1o9; _csrf=eda53ec2230d04867e8983cc9d0414ac83bbebf966820d3bc8ef05a501f338e0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22izOtOp7rcgeqQWhtdOc88fMGDPRc2y0y%22%3B%7D; _frontendCustomer=95b87da707a6058583d30f75fb317ae733c6e3245c8fae0f157b9a6e630d82bfa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_frontendCustomer%22%3Bi%3A1%3Bs%3A46%3A%22%5B4%2C%22OPT_S-mqU3FhFPeJleCJUQ0ir567pvU3%22%2C2592000%5D%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\Programs\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\pdyanp.net\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\pdyanp.net\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.0.2n PHP/7.1.16 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.0.2n PHP/7.1.16'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/Dropbox/jeans/backend/index.php'
+    'REMOTE_PORT' => '58646'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/dropbox/jeans/backend/index.php/customer/default/create'
+    'SCRIPT_NAME' => '/dropbox/jeans/backend/index.php'
+    'PATH_INFO' => '/customer/default/create'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\customer\\default\\create'
+    'PHP_SELF' => '/dropbox/jeans/backend/index.php/customer/default/create'
+    'REQUEST_TIME_FLOAT' => 1524874480.002
+    'REQUEST_TIME' => 1524874480
+]
+2018-04-29 09:54:49 [::1][1][4661li1ahif1omacg289bda34d][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1-flat-method_name' for key 'idx_store_code_key' in D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\Command.php:846
+Stack trace:
+#0 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\Command.php(846): PDOStatement->execute()
+#1 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\stores\business\ConfigManager.php(76): yii\db\Command->execute()
+#2 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\shipping\business\flat\Manager.php(45): common\modules\stores\business\ConfigManager->batchInsertStoreConfiguration(Array, 1, 'flat', 'shipping')
+#3 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\shipping\controllers\flat\DefaultController.php(26): common\modules\shipping\business\flat\Manager->processChangeStatus('3', '1')
+#4 [internal function]: common\modules\shipping\controllers\flat\DefaultController->actionChangeStatus('3', '1')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('change-status', Array)
+#8 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('shipping/flat/d...', Array)
+#9 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\xampp\htdocs\Dropbox\jeans\backend\index.php(47): yii\base\Application->run()
+#11 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1-flat-method_name' for key 'idx_store_code_key'
+The SQL being executed was: INSERT INTO `tbl_store_configuration` (`store_id`, `category`, `code`, `key`, `value`, `created_by`, `created_datetime`, `modified_by`, `modified_datetime`) VALUES (1, 'shipping', 'flat', 'method_name', 'fixed', 1, '2018-04-29 09:54:49', 1, '2018-04-29 09:54:49'), (1, 'shipping', 'flat', 'calculateHandlingFee', 'fixed', 1, '2018-04-29 09:54:49', 1, '2018-04-29 09:54:49'), (1, 'shipping', 'flat', 'handlingFee', '0', 1, '2018-04-29 09:54:49', 1, '2018-04-29 09:54:49'), (1, 'shipping', 'flat', 'type', 'perItem', 1, '2018-04-29 09:54:49', 1, '2018-04-29 09:54:49'), (1, 'shipping', 'flat', 'applicableZones', '1', 1, '2018-04-29 09:54:49', 1, '2018-04-29 09:54:49'), (1, 'shipping', 'flat', 'specificZones', 'a:0:{}', 1, '2018-04-29 09:54:49', 1, '2018-04-29 09:54:49'), (1, 'shipping', 'flat', 'price', '5', 1, '2018-04-29 09:54:49', 1, '2018-04-29 09:54:49') in D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\Schema.php:636
+Stack trace:
+#0 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\Command.php(856): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `tb...')
+#1 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\stores\business\ConfigManager.php(76): yii\db\Command->execute()
+#2 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\shipping\business\flat\Manager.php(45): common\modules\stores\business\ConfigManager->batchInsertStoreConfiguration(Array, 1, 'flat', 'shipping')
+#3 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\shipping\controllers\flat\DefaultController.php(26): common\modules\shipping\business\flat\Manager->processChangeStatus('3', '1')
+#4 [internal function]: common\modules\shipping\controllers\flat\DefaultController->actionChangeStatus('3', '1')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('change-status', Array)
+#8 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('shipping/flat/d...', Array)
+#9 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\xampp\htdocs\Dropbox\jeans\backend\index.php(47): yii\base\Application->run()
+#11 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry '1-flat-method_name' for key 'idx_store_code_key'
+)
+
+2018-04-29 09:54:48 [::1][1][4661li1ahif1omacg289bda34d][info][application] $_GET = [
+    'id' => '3'
+    'status' => '1'
+]
+
+$_COOKIE = [
+    'PHPFRONTSESSID' => '9md4h2af99euu2lvvu2jidcqua'
+    '_frontendCSRF' => '9f5adafabb9f845e70a476fa7a71b154197327fb21524b856240ba6fcd912846a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"Yswy5uPwxMy2ZFYH_9WLAoWnLgF82svR\";}'
+    'PHPBACKSESSID' => '4661li1ahif1omacg289bda34d'
+    '_csrf' => 'a688dc067c913bee0ed7d6af2126267c9815558a91b06bcbea026f43c020d81ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"UJLxif9yK6zn1U5R4h3LRkFsgzb0HYKQ\";}'
+    '_backendUser' => 'd91e5ffccd81ee104dbacac655b3811efb3e7282a491e027e6a1d8c62f7cfdaaa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"MiJtJDYVXLKUui0nFndU3tfnw3AJG4l6\",2592000]\";}'
+    '_frontendCustomer' => '19ca3650c8d87f7ce5136d40b99a240fe34a13f374aeaf840f77640b080eba4aa:2:{i:0;s:17:\"_frontendCustomer\";i:1;s:47:\"[13,\"Zj6tDe9Gk8gkZx2Tr_bkLYgLJ_X_B3C6\",2592000]\";}'
+    'PHPSESSID' => '4vq8mvhrmisgrl0udcf20qess4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'customer' => 'O:27:\"backend\\components\\Customer\":5:{s:4:\"cart\";O:21:\"cart\\models\\AdminCart\":6:{s:9:\"itemsList\";O:26:\"cart\\models\\ItemCollection\":1:{s:34:\"\0cart\\models\\ItemCollection\0_items\";a:0:{}}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:8:\"checkout\";O:41:\"common\\modules\\order\\models\\AdminCheckout\":13:{s:5:\"order\";O:33:\"common\\modules\\order\\models\\Order\":13:{s:36:\"\0yii\\db\\BaseActiveRecord\0_attributes\";a:0:{}s:39:\"\0yii\\db\\BaseActiveRecord\0_oldAttributes\";N;s:33:\"\0yii\\db\\BaseActiveRecord\0_related\";a:0:{}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:5:{s:12:\"beforeInsert\";a:2:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:19:\"updateCreatedFields\";}i:1;N;}i:1;a:2:{i:0;a:2:{i:0;r:11;i:1;s:20:\"updateModifiedFields\";}i:1;N;}}s:12:\"beforeUpdate\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:20:\"updateModifiedFields\";}i:1;N;}}s:9:\"afterFind\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:12:\"onFindRecord\";}i:1;N;}}s:11:\"afterInsert\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:11:\"afterInsert\";}i:1;N;}}s:11:\"afterUpdate\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:11:\"afterUpdate\";}i:1;N;}}}s:30:\"\0yii\\base\\Component\0_behaviors\";a:0:{}s:8:\"relation\";s:12:\"translations\";s:11:\"localeField\";s:8:\"language\";s:21:\"translationAttributes\";a:1:{i:0;s:17:\"shipping_comments\";}s:10:\"\0*\0_models\";a:0:{}s:51:\"\0usni\\library\\db\\TranslatableActiveRecord\0_language\";N;}s:19:\"billingInfoEditForm\";O:31:\"cart\\models\\BillingInfoEditForm\":16:{s:5:\"email\";N;s:9:\"firstname\";N;s:8:\"lastname\";N;s:11:\"mobilephone\";N;s:11:\"officephone\";N;s:8:\"address1\";N;s:4:\"city\";N;s:7:\"country\";N;s:11:\"postal_code\";N;s:8:\"address2\";N;s:5:\"state\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:20:\"deliveryInfoEditForm\";O:32:\"cart\\models\\DeliveryInfoEditForm\":17:{s:20:\"sameAsBillingAddress\";N;s:5:\"email\";N;s:9:\"firstname\";N;s:8:\"lastname\";N;s:11:\"mobilephone\";N;s:11:\"officephone\";N;s:8:\"address1\";N;s:4:\"city\";N;s:7:\"country\";N;s:11:\"postal_code\";N;s:8:\"address2\";N;s:5:\"state\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:23:\"deliveryOptionsEditForm\";O:35:\"cart\\models\\DeliveryOptionsEditForm\":8:{s:8:\"shipping\";N;s:8:\"comments\";N;s:12:\"shipping_fee\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:21:\"paymentMethodEditForm\";O:33:\"cart\\models\\PaymentMethodEditForm\":8:{s:14:\"payment_method\";N;s:8:\"comments\";N;s:5:\"agree\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:20:\"confirmOrderEditForm\";O:53:\"common\\modules\\order\\models\\AdminConfirmOrderEditForm\":7:{s:6:\"status\";N;s:8:\"comments\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:12:\"customerForm\";O:40:\"common\\modules\\order\\models\\CustomerForm\":8:{s:10:\"customerId\";N;s:7:\"storeId\";N;s:12:\"currencyCode\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:16:\"orderProductForm\";O:44:\"common\\modules\\order\\models\\OrderProductForm\":7:{s:10:\"product_id\";N;s:8:\"quantity\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:10:\"customerId\";N;s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dropbox/jeans/backend/index.php/shipping/default/index'
+    'HTTP_COOKIE' => 'PHPFRONTSESSID=9md4h2af99euu2lvvu2jidcqua; _frontendCSRF=9f5adafabb9f845e70a476fa7a71b154197327fb21524b856240ba6fcd912846a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22Yswy5uPwxMy2ZFYH_9WLAoWnLgF82svR%22%3B%7D; PHPBACKSESSID=4661li1ahif1omacg289bda34d; _csrf=a688dc067c913bee0ed7d6af2126267c9815558a91b06bcbea026f43c020d81ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22UJLxif9yK6zn1U5R4h3LRkFsgzb0HYKQ%22%3B%7D; _backendUser=d91e5ffccd81ee104dbacac655b3811efb3e7282a491e027e6a1d8c62f7cfdaaa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MiJtJDYVXLKUui0nFndU3tfnw3AJG4l6%22%2C2592000%5D%22%3B%7D; _frontendCustomer=19ca3650c8d87f7ce5136d40b99a240fe34a13f374aeaf840f77640b080eba4aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_frontendCustomer%22%3Bi%3A1%3Bs%3A47%3A%22%5B13%2C%22Zj6tDe9Gk8gkZx2Tr_bkLYgLJ_X_B3C6%22%2C2592000%5D%22%3B%7D; PHPSESSID=4vq8mvhrmisgrl0udcf20qess4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\Programs\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\pdyanp.net\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\pdyanp.net\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.0.2n PHP/7.1.16 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.0.2n PHP/7.1.16'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/Dropbox/jeans/backend/index.php'
+    'REMOTE_PORT' => '52254'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=3&status=1'
+    'REQUEST_URI' => '/dropbox/jeans/backend/index.php/shipping/flat/default/change-status?id=3&status=1'
+    'SCRIPT_NAME' => '/dropbox/jeans/backend/index.php'
+    'PATH_INFO' => '/shipping/flat/default/change-status'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\shipping\\flat\\default\\change-status'
+    'PHP_SELF' => '/dropbox/jeans/backend/index.php/shipping/flat/default/change-status'
+    'REQUEST_TIME_FLOAT' => 1524970488.681
+    'REQUEST_TIME' => 1524970488
+]
+2018-04-29 09:56:31 [::1][1][4661li1ahif1omacg289bda34d][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1-flat-method_name' for key 'idx_store_code_key' in D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\Command.php:846
+Stack trace:
+#0 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\Command.php(846): PDOStatement->execute()
+#1 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\stores\business\ConfigManager.php(76): yii\db\Command->execute()
+#2 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\shipping\business\flat\Manager.php(45): common\modules\stores\business\ConfigManager->batchInsertStoreConfiguration(Array, 1, 'flat', 'shipping')
+#3 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\shipping\controllers\flat\DefaultController.php(26): common\modules\shipping\business\flat\Manager->processChangeStatus('3', '1')
+#4 [internal function]: common\modules\shipping\controllers\flat\DefaultController->actionChangeStatus('3', '1')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('change-status', Array)
+#8 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('shipping/flat/d...', Array)
+#9 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\xampp\htdocs\Dropbox\jeans\backend\index.php(47): yii\base\Application->run()
+#11 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1-flat-method_name' for key 'idx_store_code_key'
+The SQL being executed was: INSERT INTO `tbl_store_configuration` (`store_id`, `category`, `code`, `key`, `value`, `created_by`, `created_datetime`, `modified_by`, `modified_datetime`) VALUES (1, 'shipping', 'flat', 'method_name', 'fixed', 1, '2018-04-29 09:56:31', 1, '2018-04-29 09:56:31'), (1, 'shipping', 'flat', 'calculateHandlingFee', 'fixed', 1, '2018-04-29 09:56:31', 1, '2018-04-29 09:56:31'), (1, 'shipping', 'flat', 'handlingFee', '0', 1, '2018-04-29 09:56:31', 1, '2018-04-29 09:56:31'), (1, 'shipping', 'flat', 'type', 'perItem', 1, '2018-04-29 09:56:31', 1, '2018-04-29 09:56:31'), (1, 'shipping', 'flat', 'applicableZones', '1', 1, '2018-04-29 09:56:31', 1, '2018-04-29 09:56:31'), (1, 'shipping', 'flat', 'specificZones', 'a:0:{}', 1, '2018-04-29 09:56:31', 1, '2018-04-29 09:56:31'), (1, 'shipping', 'flat', 'price', '5', 1, '2018-04-29 09:56:31', 1, '2018-04-29 09:56:31') in D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\Schema.php:636
+Stack trace:
+#0 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\Command.php(856): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `tb...')
+#1 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\stores\business\ConfigManager.php(76): yii\db\Command->execute()
+#2 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\shipping\business\flat\Manager.php(45): common\modules\stores\business\ConfigManager->batchInsertStoreConfiguration(Array, 1, 'flat', 'shipping')
+#3 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\shipping\controllers\flat\DefaultController.php(26): common\modules\shipping\business\flat\Manager->processChangeStatus('3', '1')
+#4 [internal function]: common\modules\shipping\controllers\flat\DefaultController->actionChangeStatus('3', '1')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('change-status', Array)
+#8 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('shipping/flat/d...', Array)
+#9 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\xampp\htdocs\Dropbox\jeans\backend\index.php(47): yii\base\Application->run()
+#11 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry '1-flat-method_name' for key 'idx_store_code_key'
+)
+
+2018-04-29 09:56:31 [::1][1][4661li1ahif1omacg289bda34d][info][application] $_GET = [
+    'id' => '3'
+    'status' => '1'
+]
+
+$_COOKIE = [
+    'PHPFRONTSESSID' => '9md4h2af99euu2lvvu2jidcqua'
+    '_frontendCSRF' => '9f5adafabb9f845e70a476fa7a71b154197327fb21524b856240ba6fcd912846a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"Yswy5uPwxMy2ZFYH_9WLAoWnLgF82svR\";}'
+    'PHPBACKSESSID' => '4661li1ahif1omacg289bda34d'
+    '_csrf' => 'a688dc067c913bee0ed7d6af2126267c9815558a91b06bcbea026f43c020d81ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"UJLxif9yK6zn1U5R4h3LRkFsgzb0HYKQ\";}'
+    '_backendUser' => 'd91e5ffccd81ee104dbacac655b3811efb3e7282a491e027e6a1d8c62f7cfdaaa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"MiJtJDYVXLKUui0nFndU3tfnw3AJG4l6\",2592000]\";}'
+    '_frontendCustomer' => '19ca3650c8d87f7ce5136d40b99a240fe34a13f374aeaf840f77640b080eba4aa:2:{i:0;s:17:\"_frontendCustomer\";i:1;s:47:\"[13,\"Zj6tDe9Gk8gkZx2Tr_bkLYgLJ_X_B3C6\",2592000]\";}'
+    'PHPSESSID' => '4vq8mvhrmisgrl0udcf20qess4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'customer' => 'O:27:\"backend\\components\\Customer\":5:{s:4:\"cart\";O:21:\"cart\\models\\AdminCart\":6:{s:9:\"itemsList\";O:26:\"cart\\models\\ItemCollection\":1:{s:34:\"\0cart\\models\\ItemCollection\0_items\";a:0:{}}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:8:\"checkout\";O:41:\"common\\modules\\order\\models\\AdminCheckout\":13:{s:5:\"order\";O:33:\"common\\modules\\order\\models\\Order\":13:{s:36:\"\0yii\\db\\BaseActiveRecord\0_attributes\";a:0:{}s:39:\"\0yii\\db\\BaseActiveRecord\0_oldAttributes\";N;s:33:\"\0yii\\db\\BaseActiveRecord\0_related\";a:0:{}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:5:{s:12:\"beforeInsert\";a:2:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:19:\"updateCreatedFields\";}i:1;N;}i:1;a:2:{i:0;a:2:{i:0;r:11;i:1;s:20:\"updateModifiedFields\";}i:1;N;}}s:12:\"beforeUpdate\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:20:\"updateModifiedFields\";}i:1;N;}}s:9:\"afterFind\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:12:\"onFindRecord\";}i:1;N;}}s:11:\"afterInsert\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:11:\"afterInsert\";}i:1;N;}}s:11:\"afterUpdate\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:11:\"afterUpdate\";}i:1;N;}}}s:30:\"\0yii\\base\\Component\0_behaviors\";a:0:{}s:8:\"relation\";s:12:\"translations\";s:11:\"localeField\";s:8:\"language\";s:21:\"translationAttributes\";a:1:{i:0;s:17:\"shipping_comments\";}s:10:\"\0*\0_models\";a:0:{}s:51:\"\0usni\\library\\db\\TranslatableActiveRecord\0_language\";N;}s:19:\"billingInfoEditForm\";O:31:\"cart\\models\\BillingInfoEditForm\":16:{s:5:\"email\";N;s:9:\"firstname\";N;s:8:\"lastname\";N;s:11:\"mobilephone\";N;s:11:\"officephone\";N;s:8:\"address1\";N;s:4:\"city\";N;s:7:\"country\";N;s:11:\"postal_code\";N;s:8:\"address2\";N;s:5:\"state\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:20:\"deliveryInfoEditForm\";O:32:\"cart\\models\\DeliveryInfoEditForm\":17:{s:20:\"sameAsBillingAddress\";N;s:5:\"email\";N;s:9:\"firstname\";N;s:8:\"lastname\";N;s:11:\"mobilephone\";N;s:11:\"officephone\";N;s:8:\"address1\";N;s:4:\"city\";N;s:7:\"country\";N;s:11:\"postal_code\";N;s:8:\"address2\";N;s:5:\"state\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:23:\"deliveryOptionsEditForm\";O:35:\"cart\\models\\DeliveryOptionsEditForm\":8:{s:8:\"shipping\";N;s:8:\"comments\";N;s:12:\"shipping_fee\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:21:\"paymentMethodEditForm\";O:33:\"cart\\models\\PaymentMethodEditForm\":8:{s:14:\"payment_method\";N;s:8:\"comments\";N;s:5:\"agree\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:20:\"confirmOrderEditForm\";O:53:\"common\\modules\\order\\models\\AdminConfirmOrderEditForm\":7:{s:6:\"status\";N;s:8:\"comments\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:12:\"customerForm\";O:40:\"common\\modules\\order\\models\\CustomerForm\":8:{s:10:\"customerId\";N;s:7:\"storeId\";N;s:12:\"currencyCode\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:16:\"orderProductForm\";O:44:\"common\\modules\\order\\models\\OrderProductForm\":7:{s:10:\"product_id\";N;s:8:\"quantity\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:10:\"customerId\";N;s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dropbox/jeans/backend/index.php/shipping/default/index'
+    'HTTP_COOKIE' => 'PHPFRONTSESSID=9md4h2af99euu2lvvu2jidcqua; _frontendCSRF=9f5adafabb9f845e70a476fa7a71b154197327fb21524b856240ba6fcd912846a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22Yswy5uPwxMy2ZFYH_9WLAoWnLgF82svR%22%3B%7D; PHPBACKSESSID=4661li1ahif1omacg289bda34d; _csrf=a688dc067c913bee0ed7d6af2126267c9815558a91b06bcbea026f43c020d81ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22UJLxif9yK6zn1U5R4h3LRkFsgzb0HYKQ%22%3B%7D; _backendUser=d91e5ffccd81ee104dbacac655b3811efb3e7282a491e027e6a1d8c62f7cfdaaa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MiJtJDYVXLKUui0nFndU3tfnw3AJG4l6%22%2C2592000%5D%22%3B%7D; _frontendCustomer=19ca3650c8d87f7ce5136d40b99a240fe34a13f374aeaf840f77640b080eba4aa%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_frontendCustomer%22%3Bi%3A1%3Bs%3A47%3A%22%5B13%2C%22Zj6tDe9Gk8gkZx2Tr_bkLYgLJ_X_B3C6%22%2C2592000%5D%22%3B%7D; PHPSESSID=4vq8mvhrmisgrl0udcf20qess4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\Programs\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Users\\pdyanp.net\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\pdyanp.net\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.0.2n PHP/7.1.16 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.0.2n PHP/7.1.16'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/Dropbox/jeans/backend/index.php'
+    'REMOTE_PORT' => '52276'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=3&status=1'
+    'REQUEST_URI' => '/dropbox/jeans/backend/index.php/shipping/flat/default/change-status?id=3&status=1'
+    'SCRIPT_NAME' => '/dropbox/jeans/backend/index.php'
+    'PATH_INFO' => '/shipping/flat/default/change-status'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\shipping\\flat\\default\\change-status'
+    'PHP_SELF' => '/dropbox/jeans/backend/index.php/shipping/flat/default/change-status'
+    'REQUEST_TIME_FLOAT' => 1524970591.264
+    'REQUEST_TIME' => 1524970591
+]
+2018-05-08 02:03:48 [::1][1][a0s7jjv7b78m1e7fe5l9bej8cv][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1-flat-method_name' for key 'idx_store_code_key' in D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\Command.php:846
+Stack trace:
+#0 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\Command.php(846): PDOStatement->execute()
+#1 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\stores\business\ConfigManager.php(76): yii\db\Command->execute()
+#2 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\shipping\business\flat\Manager.php(45): common\modules\stores\business\ConfigManager->batchInsertStoreConfiguration(Array, 1, 'flat', 'shipping')
+#3 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\shipping\controllers\flat\DefaultController.php(26): common\modules\shipping\business\flat\Manager->processChangeStatus('3', '1')
+#4 [internal function]: common\modules\shipping\controllers\flat\DefaultController->actionChangeStatus('3', '1')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('change-status', Array)
+#8 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('shipping/flat/d...', Array)
+#9 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\xampp\htdocs\Dropbox\jeans\backend\index.php(47): yii\base\Application->run()
+#11 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1-flat-method_name' for key 'idx_store_code_key'
+The SQL being executed was: INSERT INTO `tbl_store_configuration` (`store_id`, `category`, `code`, `key`, `value`, `created_by`, `created_datetime`, `modified_by`, `modified_datetime`) VALUES (1, 'shipping', 'flat', 'method_name', 'fixed', 1, '2018-05-08 02:03:48', 1, '2018-05-08 02:03:48'), (1, 'shipping', 'flat', 'calculateHandlingFee', 'fixed', 1, '2018-05-08 02:03:48', 1, '2018-05-08 02:03:48'), (1, 'shipping', 'flat', 'handlingFee', '0', 1, '2018-05-08 02:03:48', 1, '2018-05-08 02:03:48'), (1, 'shipping', 'flat', 'type', 'perItem', 1, '2018-05-08 02:03:48', 1, '2018-05-08 02:03:48'), (1, 'shipping', 'flat', 'applicableZones', '1', 1, '2018-05-08 02:03:48', 1, '2018-05-08 02:03:48'), (1, 'shipping', 'flat', 'specificZones', 'a:0:{}', 1, '2018-05-08 02:03:48', 1, '2018-05-08 02:03:48'), (1, 'shipping', 'flat', 'price', '5', 1, '2018-05-08 02:03:48', 1, '2018-05-08 02:03:48') in D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\Schema.php:636
+Stack trace:
+#0 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\db\Command.php(856): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `tb...')
+#1 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\stores\business\ConfigManager.php(76): yii\db\Command->execute()
+#2 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\shipping\business\flat\Manager.php(45): common\modules\stores\business\ConfigManager->batchInsertStoreConfiguration(Array, 1, 'flat', 'shipping')
+#3 D:\xampp\htdocs\Dropbox\jeans\protected\common\modules\shipping\controllers\flat\DefaultController.php(26): common\modules\shipping\business\flat\Manager->processChangeStatus('3', '1')
+#4 [internal function]: common\modules\shipping\controllers\flat\DefaultController->actionChangeStatus('3', '1')
+#5 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#7 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('change-status', Array)
+#8 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('shipping/flat/d...', Array)
+#9 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\xampp\htdocs\Dropbox\jeans\backend\index.php(47): yii\base\Application->run()
+#11 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry '1-flat-method_name' for key 'idx_store_code_key'
+)
+
+2018-05-08 02:03:48 [::1][1][a0s7jjv7b78m1e7fe5l9bej8cv][info][application] $_GET = [
+    'id' => '3'
+    'status' => '1'
+]
+
+$_COOKIE = [
+    '_backendUser' => 'd91e5ffccd81ee104dbacac655b3811efb3e7282a491e027e6a1d8c62f7cfdaaa:2:{i:0;s:12:\"_backendUser\";i:1;s:46:\"[1,\"MiJtJDYVXLKUui0nFndU3tfnw3AJG4l6\",2592000]\";}'
+    'PHPFRONTSESSID' => 'cl8mqeauggnppomtar8q6g49oj'
+    '_frontendCSRF' => '1903c7dac628cb725f39b7744e44275829e09c129e97fdbb83ff67b6f5672c16a:2:{i:0;s:13:\"_frontendCSRF\";i:1;s:32:\"zBnC1fhkE_n8Vs8dd3MV-X5GabbeK7IQ\";}'
+    '_frontendCustomer' => 'c1633591b128f28f99f9873be89be610742f2ead920b48a78364ed2f9c15690da:2:{i:0;s:17:\"_frontendCustomer\";i:1;s:47:\"[18,\"WBUJITRP1VgOASCEfkBmGQ8te6RAzTQ_\",2592000]\";}'
+    'PHPBACKSESSID' => 'a0s7jjv7b78m1e7fe5l9bej8cv'
+    '_csrf' => '63243363006fee6eaa9fd9a3f562f1ddfe2c2e6f36884f435e9a0ff1d0393b07a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VAqq-oPtz5SazTOGJQXVIEBErsCxOoTx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+    'customer' => 'O:27:\"backend\\components\\Customer\":5:{s:4:\"cart\";O:21:\"cart\\models\\AdminCart\":6:{s:9:\"itemsList\";O:26:\"cart\\models\\ItemCollection\":1:{s:34:\"\0cart\\models\\ItemCollection\0_items\";a:0:{}}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:8:\"checkout\";O:41:\"common\\modules\\order\\models\\AdminCheckout\":13:{s:5:\"order\";O:33:\"common\\modules\\order\\models\\Order\":13:{s:36:\"\0yii\\db\\BaseActiveRecord\0_attributes\";a:0:{}s:39:\"\0yii\\db\\BaseActiveRecord\0_oldAttributes\";N;s:33:\"\0yii\\db\\BaseActiveRecord\0_related\";a:0:{}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:5:{s:12:\"beforeInsert\";a:2:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:19:\"updateCreatedFields\";}i:1;N;}i:1;a:2:{i:0;a:2:{i:0;r:11;i:1;s:20:\"updateModifiedFields\";}i:1;N;}}s:12:\"beforeUpdate\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:20:\"updateModifiedFields\";}i:1;N;}}s:9:\"afterFind\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:12:\"onFindRecord\";}i:1;N;}}s:11:\"afterInsert\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:11:\"afterInsert\";}i:1;N;}}s:11:\"afterUpdate\";a:1:{i:0;a:2:{i:0;a:2:{i:0;r:11;i:1;s:11:\"afterUpdate\";}i:1;N;}}}s:30:\"\0yii\\base\\Component\0_behaviors\";a:0:{}s:8:\"relation\";s:12:\"translations\";s:11:\"localeField\";s:8:\"language\";s:21:\"translationAttributes\";a:1:{i:0;s:17:\"shipping_comments\";}s:10:\"\0*\0_models\";a:0:{}s:51:\"\0usni\\library\\db\\TranslatableActiveRecord\0_language\";N;}s:19:\"billingInfoEditForm\";O:31:\"cart\\models\\BillingInfoEditForm\":16:{s:5:\"email\";N;s:9:\"firstname\";N;s:8:\"lastname\";N;s:11:\"mobilephone\";N;s:11:\"officephone\";N;s:8:\"address1\";N;s:4:\"city\";N;s:7:\"country\";N;s:11:\"postal_code\";N;s:8:\"address2\";N;s:5:\"state\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:20:\"deliveryInfoEditForm\";O:32:\"cart\\models\\DeliveryInfoEditForm\":17:{s:20:\"sameAsBillingAddress\";N;s:5:\"email\";N;s:9:\"firstname\";N;s:8:\"lastname\";N;s:11:\"mobilephone\";N;s:11:\"officephone\";N;s:8:\"address1\";N;s:4:\"city\";N;s:7:\"country\";N;s:11:\"postal_code\";N;s:8:\"address2\";N;s:5:\"state\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:23:\"deliveryOptionsEditForm\";O:35:\"cart\\models\\DeliveryOptionsEditForm\":8:{s:8:\"shipping\";N;s:8:\"comments\";N;s:12:\"shipping_fee\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:21:\"paymentMethodEditForm\";O:33:\"cart\\models\\PaymentMethodEditForm\":8:{s:14:\"payment_method\";N;s:8:\"comments\";N;s:5:\"agree\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:20:\"confirmOrderEditForm\";O:53:\"common\\modules\\order\\models\\AdminConfirmOrderEditForm\":7:{s:6:\"status\";N;s:8:\"comments\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:12:\"customerForm\";O:40:\"common\\modules\\order\\models\\CustomerForm\":8:{s:10:\"customerId\";N;s:7:\"storeId\";N;s:12:\"currencyCode\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:16:\"orderProductForm\";O:44:\"common\\modules\\order\\models\\OrderProductForm\":7:{s:10:\"product_id\";N;s:8:\"quantity\";N;s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:23:\"\0yii\\base\\Model\0_errors\";N;s:27:\"\0yii\\base\\Model\0_validators\";N;s:25:\"\0yii\\base\\Model\0_scenario\";s:7:\"default\";s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}s:10:\"customerId\";N;s:27:\"\0yii\\base\\Component\0_events\";a:0:{}s:30:\"\0yii\\base\\Component\0_behaviors\";N;}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://localhost/dropbox/jeans/backend/index.php/shipping/default/index'
+    'HTTP_COOKIE' => '_backendUser=d91e5ffccd81ee104dbacac655b3811efb3e7282a491e027e6a1d8c62f7cfdaaa%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22MiJtJDYVXLKUui0nFndU3tfnw3AJG4l6%22%2C2592000%5D%22%3B%7D; PHPFRONTSESSID=cl8mqeauggnppomtar8q6g49oj; _frontendCSRF=1903c7dac628cb725f39b7744e44275829e09c129e97fdbb83ff67b6f5672c16a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCSRF%22%3Bi%3A1%3Bs%3A32%3A%22zBnC1fhkE_n8Vs8dd3MV-X5GabbeK7IQ%22%3B%7D; _frontendCustomer=c1633591b128f28f99f9873be89be610742f2ead920b48a78364ed2f9c15690da%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_frontendCustomer%22%3Bi%3A1%3Bs%3A47%3A%22%5B18%2C%22WBUJITRP1VgOASCEfkBmGQ8te6RAzTQ_%22%2C2592000%5D%22%3B%7D; PHPBACKSESSID=a0s7jjv7b78m1e7fe5l9bej8cv; _csrf=63243363006fee6eaa9fd9a3f562f1ddfe2c2e6f36884f435e9a0ff1d0393b07a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VAqq-oPtz5SazTOGJQXVIEBErsCxOoTx%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;D:\\Programs\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\pdyanp.net\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\pdyanp.net\\AppData\\Roaming\\Composer\\vendor\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.33 (Win32) OpenSSL/1.0.2n PHP/7.1.16 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win32) OpenSSL/1.0.2n PHP/7.1.16'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/Dropbox/jeans/backend/index.php'
+    'REMOTE_PORT' => '62405'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'id=3&status=1'
+    'REQUEST_URI' => '/dropbox/jeans/backend/index.php/shipping/flat/default/change-status?id=3&status=1'
+    'SCRIPT_NAME' => '/dropbox/jeans/backend/index.php'
+    'PATH_INFO' => '/shipping/flat/default/change-status'
+    'PATH_TRANSLATED' => 'D:\\xampp\\htdocs\\shipping\\flat\\default\\change-status'
+    'PHP_SELF' => '/dropbox/jeans/backend/index.php/shipping/flat/default/change-status'
+    'REQUEST_TIME_FLOAT' => 1525719828.462
+    'REQUEST_TIME' => 1525719828
+]

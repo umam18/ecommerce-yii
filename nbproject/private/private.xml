@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/xampp/htdocs/Dropbox/jeans/protected/common/modules/cart/views/view.php</file>
+            <file>file:/D:/xampp/htdocs/Dropbox/jeans/protected/common/modules/customer/business/SiteManager.php</file>
+            <file>file:/D:/xampp/htdocs/Dropbox/jeans/protected/common/modules/customer/views/front/order/myorders.php</file>
+            <file>file:/D:/xampp/htdocs/Dropbox/jeans/vendor/ushainformatique/yiichimp/library/dto/FormDTO.php</file>
+            <file>file:/D:/xampp/htdocs/Dropbox/jeans/protected/common/modules/customer/views/measurement-profile/_form.php</file>
+            <file>file:/D:/xampp/htdocs/Dropbox/jeans/protected/common/modules/customer/views/measurement-profile/index.php</file>
+            <file>file:/D:/xampp/htdocs/Dropbox/jeans/protected/common/modules/cart/views/revieworder.php</file>
+            <file>file:/D:/xampp/htdocs/Dropbox/jeans/index-test.php</file>
+            <file>file:/D:/xampp/htdocs/Dropbox/jeans/protected/common/modules/customer/views/measurement-profile/update.php</file>
+            <file>file:/D:/xampp/htdocs/Dropbox/jeans/protected/common/modules/customer/controllers/MeasurementProfileController.php</file>
+            <file>file:/D:/xampp/htdocs/Dropbox/jeans/protected/common/modules/customer/views/front/registration.php</file>
+            <file>file:/D:/xampp/htdocs/Dropbox/jeans/protected/common/modules/customer/views/front/_sidebar.php</file>
+            <file>file:/D:/xampp/htdocs/Dropbox/jeans/protected/common/modules/cart/views/_cartbuttons.php</file>
+            <file>file:/D:/xampp/htdocs/Dropbox/jeans/protected/common/modules/customer/controllers/SiteController.php</file>
+            <file>file:/D:/xampp/htdocs/Dropbox/jeans/protected/common/modules/customer/models/MeasurementProfileSearch.php</file>
+            <file>file:/D:/xampp/htdocs/Dropbox/jeans/protected/common/modules/cart/widgets/SiteCartSubView.php</file>
+            <file>file:/D:/xampp/htdocs/Dropbox/jeans/protected/common/modules/cart/controllers/DefaultController.php</file>
+            <file>file:/D:/xampp/htdocs/Dropbox/jeans/protected/common/modules/cart/views/_cartdetails.php</file>
+            <file>file:/D:/xampp/htdocs/Dropbox/jeans/protected/common/modules/customer/views/front/_tabform.php</file>
+            <file>file:/D:/xampp/htdocs/Dropbox/jeans/protected/frontend/views/cart/_headercart.php</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,896 @@
+2018-04-09 13:24:12 [::1][-][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-09 13:24:20 [::1][-][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-09 13:24:32 [::1][-][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-09 13:24:35 [::1][-][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-09 13:24:37 [::1][-][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-09 14:18:29 [::1][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Request.php:1279
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Request.php(1261): yii\web\Request->loadCookies()
+#1 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\User.php(555): yii\web\Request->getCookies()
+#2 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\User.php(287): yii\web\User->getIdentityAndDurationFromCookie()
+#3 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\User.php(674): yii\web\User->loginByCookie()
+#4 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\User.php(188): yii\web\User->renewAuthStatus()
+#5 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\User.php(343): yii\web\User->getIdentity()
+#6 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\business\Manager.php(64): yii\web\User->getId()
+#7 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Object.php(107): usni\library\business\Manager->init()
+#8 [internal function]: yii\base\Object->__construct(Array)
+#9 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\di\Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#10 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('usni\\library\\bu...', Array, Array)
+#11 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('usni\\library\\bu...', Array, Array)
+#12 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\di\ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#13 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\di\ServiceLocator.php(73): yii\di\ServiceLocator->get('configManager')
+#14 D:\xampp\htdocs\jeans.id\protected\common\traits\WebApplicationTrait.php(24): yii\di\ServiceLocator->__get('configManager')
+#15 D:\xampp\htdocs\jeans.id\protected\backend\web\Application.php(24): backend\web\Application->setDatabaseConfig()
+#16 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Object.php(107): backend\web\Application->init()
+#17 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(205): yii\base\Object->__construct(Array)
+#18 D:\xampp\htdocs\jeans.id\backend\index.php(46): yii\base\Application->__construct(Array)
+#19 {main}
+2018-04-09 14:19:35 [::1][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Request.php:1279
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Request.php(1261): yii\web\Request->loadCookies()
+#1 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\User.php(555): yii\web\Request->getCookies()
+#2 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\User.php(287): yii\web\User->getIdentityAndDurationFromCookie()
+#3 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\User.php(674): yii\web\User->loginByCookie()
+#4 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\User.php(188): yii\web\User->renewAuthStatus()
+#5 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\User.php(343): yii\web\User->getIdentity()
+#6 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\business\Manager.php(64): yii\web\User->getId()
+#7 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Object.php(107): usni\library\business\Manager->init()
+#8 [internal function]: yii\base\Object->__construct(Array)
+#9 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\di\Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#10 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('usni\\library\\bu...', Array, Array)
+#11 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('usni\\library\\bu...', Array, Array)
+#12 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\di\ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#13 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\di\ServiceLocator.php(73): yii\di\ServiceLocator->get('configManager')
+#14 D:\xampp\htdocs\jeans.id\protected\common\traits\WebApplicationTrait.php(24): yii\di\ServiceLocator->__get('configManager')
+#15 D:\xampp\htdocs\jeans.id\protected\backend\web\Application.php(24): backend\web\Application->setDatabaseConfig()
+#16 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Object.php(107): backend\web\Application->init()
+#17 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(205): yii\base\Object->__construct(Array)
+#18 D:\xampp\htdocs\jeans.id\backend\index.php(46): yii\base\Application->__construct(Array)
+#19 {main}
+2018-04-09 14:19:43 [::1][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Request.php:1279
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Request.php(1261): yii\web\Request->loadCookies()
+#1 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\User.php(555): yii\web\Request->getCookies()
+#2 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\User.php(287): yii\web\User->getIdentityAndDurationFromCookie()
+#3 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\User.php(674): yii\web\User->loginByCookie()
+#4 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\User.php(188): yii\web\User->renewAuthStatus()
+#5 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\User.php(343): yii\web\User->getIdentity()
+#6 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\business\Manager.php(64): yii\web\User->getId()
+#7 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Object.php(107): usni\library\business\Manager->init()
+#8 [internal function]: yii\base\Object->__construct(Array)
+#9 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\di\Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#10 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('usni\\library\\bu...', Array, Array)
+#11 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('usni\\library\\bu...', Array, Array)
+#12 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\di\ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#13 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\di\ServiceLocator.php(73): yii\di\ServiceLocator->get('configManager')
+#14 D:\xampp\htdocs\jeans.id\protected\common\traits\WebApplicationTrait.php(24): yii\di\ServiceLocator->__get('configManager')
+#15 D:\xampp\htdocs\jeans.id\protected\backend\web\Application.php(24): backend\web\Application->setDatabaseConfig()
+#16 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Object.php(107): backend\web\Application->init()
+#17 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(205): yii\base\Object->__construct(Array)
+#18 D:\xampp\htdocs\jeans.id\backend\index.php(46): yii\base\Application->__construct(Array)
+#19 {main}
+2018-04-09 14:19:54 [::1][-][-][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: yii\web\Request::cookieValidationKey must be configured with a secret key. in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Request.php:1279
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Request.php(1261): yii\web\Request->loadCookies()
+#1 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\User.php(555): yii\web\Request->getCookies()
+#2 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\User.php(287): yii\web\User->getIdentityAndDurationFromCookie()
+#3 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\User.php(674): yii\web\User->loginByCookie()
+#4 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\User.php(188): yii\web\User->renewAuthStatus()
+#5 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\User.php(343): yii\web\User->getIdentity()
+#6 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\business\Manager.php(64): yii\web\User->getId()
+#7 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Object.php(107): usni\library\business\Manager->init()
+#8 [internal function]: yii\base\Object->__construct(Array)
+#9 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\di\Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#10 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('usni\\library\\bu...', Array, Array)
+#11 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('usni\\library\\bu...', Array, Array)
+#12 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\di\ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#13 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\di\ServiceLocator.php(73): yii\di\ServiceLocator->get('configManager')
+#14 D:\xampp\htdocs\jeans.id\protected\common\traits\WebApplicationTrait.php(24): yii\di\ServiceLocator->__get('configManager')
+#15 D:\xampp\htdocs\jeans.id\protected\backend\web\Application.php(24): backend\web\Application->setDatabaseConfig()
+#16 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Object.php(107): backend\web\Application->init()
+#17 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(205): yii\base\Object->__construct(Array)
+#18 D:\xampp\htdocs\jeans.id\backend\index.php(46): yii\base\Application->__construct(Array)
+#19 {main}
+2018-04-09 19:20:16 [::1][-][1l1hs1sp7fc0sk21e5t519rghc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "gii". in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('gii', Array)
+#1 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\jeans.id\backend\index.php(47): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\jeans.id\backend\index.php(47): yii\base\Application->run()
+#2 {main}
+2018-04-09 19:20:16 [::1][-][1l1hs1sp7fc0sk21e5t519rghc][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "gii". in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('gii', Array)
+#1 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\jeans.id\backend\index.php(47): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\jeans.id\backend\index.php(47): yii\base\Application->run()
+#2 {main}
+2018-04-09 19:26:28 [::1][1][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Setting unknown property: usni\library\web\AdminView::footerView in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Component.php:201
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\BaseYii.php(525): yii\base\Component->__set('footerView', '@app/views/site...')
+#1 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Object.php(105): yii\BaseYii::configure(Object(usni\library\web\AdminView), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\di\Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#4 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('usni\\library\\we...', Array, Array)
+#5 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('usni\\library\\we...', Array, Array)
+#6 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\di\ServiceLocator.php(135): yii\BaseYii::createObject(Array)
+#7 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(559): yii\di\ServiceLocator->get('view')
+#8 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2-debug\Module.php(187): yii\base\Application->getView()
+#9 [internal function]: yii\debug\Module->yii\debug\{closure}(Object(yii\base\Event))
+#10 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Object(Closure), Object(yii\base\Event))
+#11 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(377): yii\base\Component->trigger('beforeRequest')
+#12 D:\xampp\htdocs\jeans.id\backend\index.php(47): yii\base\Application->run()
+#13 {main}
+2018-04-09 19:26:28 [::1][1][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Unknown Property: Setting unknown property: usni\library\web\AdminView::footerView
+2018-04-09 20:06:21 [::1][1][ki21q629ga0qmj21fdk8mue15a][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: catalog/productCategories/default/indexgggf in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('indexgggf', Array)
+#1 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('catalog/product...', Array)
+#2 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\jeans.id\backend\index.php(47): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\jeans.id\backend\index.php(47): yii\base\Application->run()
+#2 {main}
+2018-04-09 20:06:42 [::1][1][ki21q629ga0qmj21fdk8mue15a][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: catalog/productCategories/default/indexgggf in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('indexgggf', Array)
+#1 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('catalog/product...', Array)
+#2 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\jeans.id\backend\index.php(47): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\jeans.id\backend\index.php(47): yii\base\Application->run()
+#2 {main}
+2018-04-09 20:12:00 [::1][1][ki21q629ga0qmj21fdk8mue15a][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: catalog/productCategories/default/indexgggf in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('indexgggf', Array)
+#1 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('catalog/product...', Array)
+#2 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\jeans.id\backend\index.php(47): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\jeans.id\backend\index.php(47): yii\base\Application->run()
+#2 {main}
+2018-04-09 20:12:08 [::1][1][ki21q629ga0qmj21fdk8mue15a][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: catalog/productCategories/default/indexgggf in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('indexgggf', Array)
+#1 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('catalog/product...', Array)
+#2 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\jeans.id\backend\index.php(47): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\jeans.id\backend\index.php(47): yii\base\Application->run()
+#2 {main}
+2018-04-10 05:50:17 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 05:50:17 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 05:50:17 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 05:50:17 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 05:50:17 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 05:50:17 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 05:50:17 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 05:50:17 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 05:50:17 [::1][1][-][info][application] $_POST = [
+    '_csrf' => 'UUI4aGhSdGIhdkkcXzMaDCU1ST4QETIyExBcRVAIWTciD0waLWQkVw=='
+    'Product' => [
+        'name' => 'Stretch Custom Jeans With Fit Guarantee'
+        'alias' => 'stretch-custom-jeans-with-fit-guarantee'
+        'type' => '1'
+        'description' => '<h3>Stop wearing jeans that don\'t fit and get custom-made, pre-washed jeans made exclusively for you.<br style=\"margin: 0px; padding: 0px; color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px; font-weight: 400;\"><span style=\"color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px; font-weight: 400;\">100% Fit Guarantee - If you\'re not satisfied with the fit, simply let us know and we\'ll give you a free remake.</span><br style=\"margin: 0px; padding: 0px; color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px; font-weight: 400;\"><span style=\"color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px; font-weight: 400;\">Jeans made of premium stretch fabric.</span><br style=\"margin: 0px; padding: 0px; color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px; font-weight: 400;\"><li style=\"margin: 0px; padding: 0px; color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px; font-weight: 400;\">12 Oz Dark Blue Denim, 97% Cotton 3% Lycra, full stretch fabric.</li><li style=\"margin: 0px; padding: 0px; color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px; font-weight: 400;\">Each piece is individually cut from rolls of denim fabric and stitched accordingly.</li><li style=\"margin: 0px; padding: 0px; color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px; font-weight: 400;\">Hard Washed at high temperatures to give complete shrinkage.</li><li style=\"margin: 0px; padding: 0px; color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px; font-weight: 400;\">Leather labels.</li><li style=\"margin: 0px; padding: 0px; color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px; font-weight: 400;\">5 Pocket style.</li><li style=\"margin: 0px; padding: 0px; color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px; font-weight: 400;\">Metal Buttons and Rivets Reinforced.</li><li style=\"margin: 0px; padding: 0px; color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px; font-weight: 400;\"><font color=\"red\" style=\"margin: 0px; padding: 0px;\">Made to your measurements</font><dl style=\"margin-right: 0px; margin-left: 0px; padding: 0px;\"><dt style=\"margin: 0px; padding: 0px;\"><a href=\"http://www.makeyourownjeans.com/#\" class=\"faq-question\" style=\"margin: 0px; padding: 0px; color: rgb(61, 41, 11);\"><b style=\"margin: 0px; padding: 0px;\">What if my Jeans do not fit?</b>&nbsp;</a><a rel=\"(Read more...)\" name=\"(Hide text...)\" id=\"first_element\" class=\"read-more\" style=\"margin: 0px; padding: 0px; color: rgb(0, 174, 239);\">(Read more...)</a></dt></dl><dl style=\"margin-right: 0px; margin-left: 0px; padding: 0px;\"><dt style=\"margin: 0px; padding: 0px;\"><a href=\"http://www.makeyourownjeans.com/#\" class=\"faq-question\" style=\"margin: 0px; padding: 0px; color: rgb(61, 41, 11);\"><b style=\"margin: 0px; padding: 0px;\">How do I claim my Remake if needed?</b>&nbsp;</a><a rel=\"(Read more...)\" name=\"(Hide text...)\" id=\"second_element\" class=\"read-more\" style=\"margin: 0px; padding: 0px; color: rgb(0, 174, 239);\">(Read more...)</a></dt></dl><div style=\"margin: 0px 0px 40px; padding: 0px; width: 793px;\"><div id=\"customMadeLink\" style=\"margin: 20px 20px 0px 0px; padding: 0px; float: left;\"><font face=\"bebas,verdana,arial,sans-serif\" size=\"2\" style=\"margin: 0px; padding: 0px;\">Custom-Made</font>&nbsp;<font size=\"2\" style=\"margin: 0px; padding: 0px;\"><a class=\"inlinePopup cboxElement\" href=\"http://www.makeyourownjeans.com/#popupContent\" style=\"margin: 0px; padding: 0px; color: rgb(61, 41, 11);\"><img src=\"http://www.makeyourownjeans.com/images/custom_made.jpg\" style=\"margin: 0px; padding: 0px; height: auto; max-width: 100%; border-width: initial; border-style: none;\"><img src=\"http://www.makeyourownjeans.com/images/popup_icon1.gif\" style=\"margin: 0px; padding: 0px; height: auto; max-width: 100%; border-width: initial; border-style: none;\"></a></font></div><div class=\"clearBoth\" style=\"margin: 0px; padding: 0px; clear: both; position: relative;\"></div><div id=\"fitText\" style=\"margin: 20px 0px 0px; padding: 0px;\"><div class=\"greenCheck\" style=\"margin: 0px; padding: 0px;\"><img src=\"http://www.makeyourownjeans.com/images/icons/green-check.png\" style=\"margin: 0px; padding: 0px; height: 12px; max-width: 100%;\">&nbsp;For Men and Women</div><div class=\"greenCheck\" style=\"margin: 0px; padding: 0px;\"><img src=\"http://www.makeyourownjeans.com/images/icons/green-check.png\" style=\"margin: 0px; padding: 0px; height: 12px; max-width: 100%;\">&nbsp;Measurements to be given on shopping cart page</div><div class=\"greenCheck\" style=\"margin: 0px; padding: 0px;\"><img src=\"http://www.makeyourownjeans.com/images/icons/green-check.png\" style=\"margin: 0px; padding: 0px; height: 12px; max-width: 100%;\">&nbsp;All Fits and Styles<a class=\"stylesPopup cboxElement\" href=\"http://www.makeyourownjeans.com/#availableStyles\" style=\"margin: 0px; padding: 0px; color: rgb(41, 171, 226);\">&nbsp;(View Details)</a></div></div></div></li></h3>'
+        'metakeywords' => ''
+        'metadescription' => ''
+        'tagNames' => ''
+        'status' => '1'
+        'tax_class_id' => ''
+        'image' => ''
+        'minimum_quantity' => ''
+        'stock_status' => '1'
+        'subtract_stock' => '1'
+        'requires_shipping' => '1'
+        'location' => ''
+        'date_available' => ''
+        'length' => ''
+        'width' => ''
+        'height' => ''
+        'weight' => ''
+        'length_class' => '1'
+        'weight_class' => '1'
+        'upc' => ''
+        'ean' => ''
+        'jan' => ''
+        'isbn' => ''
+        'mpn' => ''
+        'is_featured' => '0'
+        'model' => ''
+        'sku' => '-'
+        'price' => '700000'
+        'quantity' => '1'
+        'manufacturer' => '5'
+        'categories' => [
+            0 => '5'
+            1 => '6'
+            2 => '8'
+            3 => '9'
+        ]
+        'relatedProducts' => ''
+        'download_option' => 'download'
+        'downloads' => ''
+    ]
+    'ProductImage' => [
+        0 => [
+            'id' => '-1'
+            'caption' => ''
+        ]
+        1 => [
+            'id' => '-1'
+            'caption' => ''
+        ]
+        2 => [
+            'id' => '-1'
+            'caption' => ''
+        ]
+        3 => [
+            'id' => '-1'
+            'caption' => ''
+        ]
+    ]
+]
+2018-04-10 05:50:18 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 05:50:18 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 05:50:18 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 05:50:18 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 05:50:18 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 05:50:18 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 05:50:18 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 05:50:18 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 05:50:18 [::1][1][-][info][application] $_GET = [
+    'id' => '56'
+]
+2018-04-10 08:34:40 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 08:34:40 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 08:34:40 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 08:34:40 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 08:34:40 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 08:34:40 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 08:34:40 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 08:34:40 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 08:34:39 [::1][1][-][info][application] $_GET = [
+    'id' => '56'
+]
+2018-04-10 09:28:37 [::1][1][ki21q629ga0qmj21fdk8mue15a][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: en-US in D:\xampp\htdocs\jeans.id\protected\backend\widgets\LanguageSelector.php:96
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\protected\backend\widgets\LanguageSelector.php(96): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 96, Array)
+#1 D:\xampp\htdocs\jeans.id\protected\backend\widgets\LanguageSelector.php(82): backend\widgets\LanguageSelector->renderHeaderLink()
+#2 D:\xampp\htdocs\jeans.id\protected\backend\widgets\LanguageSelector.php(64): backend\widgets\LanguageSelector->renderSection('{headerLink}')
+#3 [internal function]: backend\widgets\LanguageSelector->backend\widgets\{closure}(Array)
+#4 D:\xampp\htdocs\jeans.id\protected\backend\widgets\LanguageSelector.php(67): preg_replace_callback('/{\\w+}/', Object(Closure), '<li class="drop...')
+#5 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Widget.php(139): backend\widgets\LanguageSelector->run()
+#6 D:\xampp\htdocs\jeans.id\protected\backend\views\site\_topnav.php(35): yii\base\Widget::widget(Array)
+#7 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(328): require('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#9 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, NULL)
+#10 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\web\AdminView.php(90): yii\base\View->render('@app/views/site...')
+#11 D:\xampp\htdocs\jeans.id\protected\backend\views\layouts\main.php(41): usni\library\web\AdminView->renderHeader()
+#12 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(328): require('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#14 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(usni\library\modules\language\controllers\DefaultController))
+#15 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="pan...')
+#16 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\web\actions\UpdateAction.php(72): yii\base\Controller->render('/update', Array)
+#17 [internal function]: usni\library\web\actions\UpdateAction->run('1')
+#18 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#19 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\Action->runWithParams(Array)
+#20 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('update', Array)
+#21 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('language/defaul...', Array)
+#22 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 D:\xampp\htdocs\jeans.id\backend\index.php(47): yii\base\Application->run()
+#24 {main}
+2018-04-10 09:28:36 [::1][1][ki21q629ga0qmj21fdk8mue15a][info][application] $_GET = [
+    'id' => '1'
+]
+2018-04-10 09:28:45 [::1][1][ki21q629ga0qmj21fdk8mue15a][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: en-US in D:\xampp\htdocs\jeans.id\protected\backend\widgets\LanguageSelector.php:96
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\protected\backend\widgets\LanguageSelector.php(96): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 96, Array)
+#1 D:\xampp\htdocs\jeans.id\protected\backend\widgets\LanguageSelector.php(82): backend\widgets\LanguageSelector->renderHeaderLink()
+#2 D:\xampp\htdocs\jeans.id\protected\backend\widgets\LanguageSelector.php(64): backend\widgets\LanguageSelector->renderSection('{headerLink}')
+#3 [internal function]: backend\widgets\LanguageSelector->backend\widgets\{closure}(Array)
+#4 D:\xampp\htdocs\jeans.id\protected\backend\widgets\LanguageSelector.php(67): preg_replace_callback('/{\\w+}/', Object(Closure), '<li class="drop...')
+#5 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Widget.php(139): backend\widgets\LanguageSelector->run()
+#6 D:\xampp\htdocs\jeans.id\protected\backend\views\site\_topnav.php(35): yii\base\Widget::widget(Array)
+#7 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(328): require('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#9 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, NULL)
+#10 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\web\AdminView.php(90): yii\base\View->render('@app/views/site...')
+#11 D:\xampp\htdocs\jeans.id\protected\backend\views\layouts\main.php(41): usni\library\web\AdminView->renderHeader()
+#12 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(328): require('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#14 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(usni\library\modules\language\controllers\DefaultController))
+#15 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class='blo...')
+#16 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\web\actions\IndexAction.php(56): yii\base\Controller->render('/index', Array)
+#17 [internal function]: usni\library\web\actions\IndexAction->run()
+#18 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#19 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\Action->runWithParams(Array)
+#20 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#21 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('language/defaul...', Array)
+#22 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 D:\xampp\htdocs\jeans.id\backend\index.php(47): yii\base\Application->run()
+#24 {main}
+2018-04-10 09:32:29 [::1][1][ki21q629ga0qmj21fdk8mue15a][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: en-US in D:\xampp\htdocs\jeans.id\protected\backend\widgets\LanguageSelector.php:96
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\protected\backend\widgets\LanguageSelector.php(96): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 96, Array)
+#1 D:\xampp\htdocs\jeans.id\protected\backend\widgets\LanguageSelector.php(82): backend\widgets\LanguageSelector->renderHeaderLink()
+#2 D:\xampp\htdocs\jeans.id\protected\backend\widgets\LanguageSelector.php(64): backend\widgets\LanguageSelector->renderSection('{headerLink}')
+#3 [internal function]: backend\widgets\LanguageSelector->backend\widgets\{closure}(Array)
+#4 D:\xampp\htdocs\jeans.id\protected\backend\widgets\LanguageSelector.php(67): preg_replace_callback('/{\\w+}/', Object(Closure), '<li class="drop...')
+#5 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Widget.php(139): backend\widgets\LanguageSelector->run()
+#6 D:\xampp\htdocs\jeans.id\protected\backend\views\site\_topnav.php(35): yii\base\Widget::widget(Array)
+#7 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(328): require('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#9 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, NULL)
+#10 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\web\AdminView.php(90): yii\base\View->render('@app/views/site...')
+#11 D:\xampp\htdocs\jeans.id\protected\backend\views\layouts\main.php(41): usni\library\web\AdminView->renderHeader()
+#12 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(328): require('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#14 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(usni\library\modules\language\controllers\DefaultController))
+#15 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class='blo...')
+#16 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\web\actions\IndexAction.php(56): yii\base\Controller->render('/index', Array)
+#17 [internal function]: usni\library\web\actions\IndexAction->run()
+#18 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#19 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\Action->runWithParams(Array)
+#20 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#21 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('language/defaul...', Array)
+#22 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 D:\xampp\htdocs\jeans.id\backend\index.php(47): yii\base\Application->run()
+#24 {main}
+2018-04-10 09:32:34 [::1][1][ki21q629ga0qmj21fdk8mue15a][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined index: en-US in D:\xampp\htdocs\jeans.id\protected\backend\widgets\LanguageSelector.php:96
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\protected\backend\widgets\LanguageSelector.php(96): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'D:\\xampp\\htdocs...', 96, Array)
+#1 D:\xampp\htdocs\jeans.id\protected\backend\widgets\LanguageSelector.php(82): backend\widgets\LanguageSelector->renderHeaderLink()
+#2 D:\xampp\htdocs\jeans.id\protected\backend\widgets\LanguageSelector.php(64): backend\widgets\LanguageSelector->renderSection('{headerLink}')
+#3 [internal function]: backend\widgets\LanguageSelector->backend\widgets\{closure}(Array)
+#4 D:\xampp\htdocs\jeans.id\protected\backend\widgets\LanguageSelector.php(67): preg_replace_callback('/{\\w+}/', Object(Closure), '<li class="drop...')
+#5 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Widget.php(139): backend\widgets\LanguageSelector->run()
+#6 D:\xampp\htdocs\jeans.id\protected\backend\views\site\_topnav.php(35): yii\base\Widget::widget(Array)
+#7 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(328): require('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#9 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, NULL)
+#10 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\web\AdminView.php(90): yii\base\View->render('@app/views/site...')
+#11 D:\xampp\htdocs\jeans.id\protected\backend\views\layouts\main.php(41): usni\library\web\AdminView->renderHeader()
+#12 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(328): require('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#14 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(usni\library\modules\language\controllers\DefaultController))
+#15 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class='blo...')
+#16 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\library\web\actions\IndexAction.php(56): yii\base\Controller->render('/index', Array)
+#17 [internal function]: usni\library\web\actions\IndexAction->run()
+#18 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Action.php(94): call_user_func_array(Array, Array)
+#19 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\Action->runWithParams(Array)
+#20 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#21 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('language/defaul...', Array)
+#22 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 D:\xampp\htdocs\jeans.id\backend\index.php(47): yii\base\Application->run()
+#24 {main}
+2018-04-10 09:46:07 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 09:46:07 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 15:10:25 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 15:10:25 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 15:10:25 [::1][1][-][info][application] $_GET = [
+    'id' => '1'
+]
+2018-04-10 15:19:07 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 15:19:07 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 15:19:07 [::1][1][-][info][application] $_GET = [
+    'id' => '1'
+]
+2018-04-10 15:20:45 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 15:20:45 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 15:20:44 [::1][1][-][info][application] $_GET = [
+    'id' => '1'
+]
+2018-04-10 15:26:50 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 15:26:50 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 15:26:50 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 15:26:49 [::1][1][-][info][application] $_GET = [
+    'id' => '2'
+]
+2018-04-10 15:29:25 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 15:29:25 [::1][1][-][info][application] $_GET = [
+    'id' => '2'
+]
+
+$_POST = [
+    '_csrf' => 'NWdXSC5BRGVFUyY8GSAqC0EQJh5WAgI1dzUzZRYbaTBGKiM6a3cUUA=='
+    'User' => [
+        'username' => 'storeowner'
+        'status' => '1'
+        'timezone' => 'Asia/Jakarta'
+        'groups' => [
+            0 => '1'
+        ]
+        'type' => 'system'
+    ]
+    'Person' => [
+        'firstname' => 'Store'
+        'lastname' => 'Owner'
+        'email' => 'storeowner@jeans.id'
+        'mobilephone' => ''
+        'profile_image' => ''
+    ]
+    'Alamat' => [
+        'address1' => '302'
+        'address2' => ''
+        'city' => 'Jakarta'
+        'state' => 'Jakarta'
+        'country' => 'ID'
+        'postal_code' => '-'
+    ]
+]
+2018-04-10 15:29:27 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 15:29:27 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 15:29:27 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 15:29:27 [::1][1][-][info][application] $_GET = [
+    'id' => '2'
+]
+2018-04-10 15:29:37 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 15:29:37 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 15:29:37 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 15:11:29 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 15:11:29 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 15:11:29 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 15:11:29 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 15:11:29 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 15:11:30 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 15:11:30 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 15:11:30 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 15:11:31 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 15:11:31 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 15:11:27 [::1][1][-][info][application] $_POST = [
+    '_csrf' => 'OFJpUTlxNVRuAj0CXgcMIU8fLml/R2NnYQANZn87BRx9ZAFmTjZGEw=='
+    'Product' => [
+        'name' => 'Stretch Custom Jeans With Fit Guarantee'
+        'alias' => 'stretch-custom-jeans-with-fit-guarantee'
+        'type' => '1'
+        'description' => '<p><span style=\"color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px;\">Stop wearing jeans that don\'t fit and get custom-made, pre-washed jeans made exclusively for you.</span><br style=\"margin: 0px; padding: 0px; color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px;\"><span style=\"color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px;\">100% Fit Guarantee - If you\'re not satisfied with the fit, simply let us know and we\'ll give you a free remake.</span><br style=\"margin: 0px; padding: 0px; color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px;\"><span style=\"color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px;\">Jeans made of premium stretch fabric.</span><br style=\"margin: 0px; padding: 0px; color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px;\"></p><li style=\"margin: 0px; padding: 0px; color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px;\">12 Oz Dark Blue Denim, 97% Cotton 3% Lycra, full stretch fabric.</li><li style=\"margin: 0px; padding: 0px; color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px;\">Each piece is individually cut from rolls of denim fabric and stitched accordingly.</li><li style=\"margin: 0px; padding: 0px; color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px;\">Hard Washed at high temperatures to give complete shrinkage.</li><li style=\"margin: 0px; padding: 0px; color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px;\">Leather labels.</li><li style=\"margin: 0px; padding: 0px; color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px;\">5 Pocket style.</li><li style=\"margin: 0px; padding: 0px; color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px;\">Metal Buttons and Rivets Reinforced.</li><li style=\"margin: 0px; padding: 0px; color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px;\"><font color=\"red\" style=\"margin: 0px; padding: 0px;\">Made to your measurements</font><dl style=\"margin-right: 0px; margin-left: 0px; padding: 0px;\"><dt style=\"margin: 0px; padding: 0px;\"><a href=\"http://www.makeyourownjeans.com/#\" class=\"faq-question\" style=\"margin: 0px; padding: 0px; color: rgb(61, 41, 11);\"><b style=\"margin: 0px; padding: 0px;\">What if my Jeans do not fit?</b>&nbsp;</a><a rel=\"(Read more...)\" name=\"(Hide text...)\" id=\"first_element\" class=\"read-more\" style=\"margin: 0px; padding: 0px; color: rgb(0, 174, 239);\">(Read more...)</a></dt></dl><dl style=\"margin-right: 0px; margin-left: 0px; padding: 0px;\"><dt style=\"margin: 0px; padding: 0px;\"><a href=\"http://www.makeyourownjeans.com/#\" class=\"faq-question\" style=\"margin: 0px; padding: 0px; color: rgb(61, 41, 11);\"><b style=\"margin: 0px; padding: 0px;\">How do I claim my Remake if needed?</b>&nbsp;</a><a rel=\"(Read more...)\" name=\"(Hide text...)\" id=\"second_element\" class=\"read-more\" style=\"margin: 0px; padding: 0px; color: rgb(0, 174, 239);\">(Read more...)</a></dt></dl><div style=\"margin: 0px 0px 40px; padding: 0px; width: 590.396px;\"><div id=\"customMadeLink\" style=\"margin: 20px 20px 0px 0px; padding: 0px; float: left;\"><font face=\"bebas,verdana,arial,sans-serif\" size=\"2\" style=\"margin: 0px; padding: 0px;\">Custom-Made</font>&nbsp;<font size=\"2\" style=\"margin: 0px; padding: 0px;\"><a class=\"inlinePopup cboxElement\" href=\"http://www.makeyourownjeans.com/#popupContent\" style=\"margin: 0px; padding: 0px; color: rgb(61, 41, 11);\"><img src=\"http://www.makeyourownjeans.com/images/custom_made.jpg\" style=\"margin: 0px; padding: 0px; height: auto; max-width: 100%; border-width: initial; border-style: none;\"><img src=\"http://www.makeyourownjeans.com/images/popup_icon1.gif\" style=\"margin: 0px; padding: 0px; height: auto; max-width: 100%; border-width: initial; border-style: none;\"></a></font></div><div class=\"clearBoth\" style=\"margin: 0px; padding: 0px; clear: both; position: relative;\"></div><div id=\"fitText\" style=\"margin: 20px 0px 0px; padding: 0px;\"><div class=\"greenCheck\" style=\"margin: 0px; padding: 0px;\"><img src=\"http://www.makeyourownjeans.com/images/icons/green-check.png\" style=\"margin: 0px; padding: 0px; height: 12px; max-width: 100%;\">&nbsp;For Men and Women</div><div class=\"greenCheck\" style=\"margin: 0px; padding: 0px;\"><img src=\"http://www.makeyourownjeans.com/images/icons/green-check.png\" style=\"margin: 0px; padding: 0px; height: 12px; max-width: 100%;\">&nbsp;Measurements to be given on shopping cart page</div><h3 style=\"margin: 0px; padding: 0px;\"><img src=\"http://www.makeyourownjeans.com/images/icons/green-check.png\" style=\"margin: 0px; padding: 0px; height: 12px; max-width: 100%;\">&nbsp;All Fits and Styles<a class=\"stylesPopup cboxElement\" href=\"http://www.makeyourownjeans.com/#availableStyles\" style=\"margin: 0px; padding: 0px; color: rgb(41, 171, 226);\">&nbsp;(View Details)</a></h3></div></div></li>'
+        'metakeywords' => ''
+        'metadescription' => ''
+        'tagNames' => ''
+        'status' => '1'
+        'tax_class_id' => ''
+        'image' => ''
+        'minimum_quantity' => ''
+        'stock_status' => '1'
+        'subtract_stock' => '1'
+        'requires_shipping' => '1'
+        'location' => ''
+        'date_available' => ''
+        'length' => ''
+        'width' => ''
+        'height' => ''
+        'weight' => ''
+        'length_class' => '1'
+        'weight_class' => '1'
+        'upc' => ''
+        'ean' => ''
+        'jan' => ''
+        'isbn' => ''
+        'mpn' => ''
+        'is_featured' => '0'
+        'model' => ''
+        'sku' => '-'
+        'price' => '80000'
+        'quantity' => '1'
+        'manufacturer' => ''
+        'categories' => [
+            0 => '6'
+            1 => '8'
+            2 => '9'
+        ]
+        'relatedProducts' => ''
+        'download_option' => 'download'
+        'downloads' => ''
+    ]
+    'ProductImage' => [
+        0 => [
+            'id' => '-1'
+            'caption' => ''
+        ]
+        1 => [
+            'id' => '-1'
+            'caption' => ''
+        ]
+        2 => [
+            'id' => '-1'
+            'caption' => ''
+        ]
+        3 => [
+            'id' => '-1'
+            'caption' => ''
+        ]
+        4 => [
+            'id' => '-1'
+            'caption' => ''
+        ]
+    ]
+]
+2018-04-12 15:11:39 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 15:11:39 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 15:11:39 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 15:11:39 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 15:11:39 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 15:11:39 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 15:11:39 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 15:11:39 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 15:11:39 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 15:11:39 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 15:11:35 [::1][1][-][info][application] $_GET = [
+    'id' => '57'
+]
+2018-04-12 19:21:26 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:21:26 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:21:26 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:21:26 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:21:26 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:21:27 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:21:27 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:21:27 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:21:27 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:21:27 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:21:23 [::1][1][-][info][application] $_POST = [
+    '_csrf' => 'eXRkZTlxNmIvJDA2XgcPFw45I11/R2BRICYAUn87Bio8QgxSTjZFJQ=='
+    'Product' => [
+        'name' => 'Morris Blue Pull On Stretch Jeans'
+        'alias' => 'morris-blue-pull-on-stretch-jeans'
+        'type' => '1'
+        'description' => '<p><span style=\"color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px;\">Morris Blue Pull On Jeans,A luxurious way to wear loungewear.A great stretch denim on the list of our must try.</span></p><ul style=\"margin-right: 0px; margin-bottom: 0px; margin-left: 20px; padding: 10px 20px 10px 0px; list-style-type: none; color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px;\"><li style=\"margin: 0px; padding: 0px; list-style-type: disc;\">Denim with Slub effect</li><li style=\"margin: 0px; padding: 0px; list-style-type: disc;\">12 Oz Denim, 97% Cotton 3% Lycra, extra soft feel.</li><li style=\"margin: 0px; padding: 0px; list-style-type: disc;\">Each piece is individually cut from rolls of denim fabric and stitched accordingly.</li><li style=\"margin: 0px; padding: 0px; list-style-type: disc;\">Hard Washed at high temperatures to give complete shrinkage and faded look.</li><li style=\"margin: 0px; padding: 0px; list-style-type: disc;\"><font color=\"red\" style=\"margin: 0px; padding: 0px;\">Made to your measurements</font></li></ul><p><br style=\"margin: 0px; padding: 0px; color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px;\"><span style=\"color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px;\">Look Includes</span></p><ul style=\"margin-right: 0px; margin-bottom: 0px; margin-left: 20px; padding: 10px 20px 10px 0px; list-style-type: none; color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px;\"><li style=\"margin: 0px; padding: 0px; list-style-type: disc;\">All around Elasticated Waistband</li><li style=\"margin: 0px; padding: 0px; list-style-type: disc;\">Outer Drawstring</li><li style=\"margin: 0px; padding: 0px; list-style-type: disc;\">Cross Front Pocket</li><li style=\"margin: 0px; padding: 0px; list-style-type: disc;\">Rear Jeans Pocket</li></ul><p><br style=\"margin: 0px; padding: 0px; color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px;\"><span style=\"color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px;\">Any add-on if purchased with this jeans will over-ride the above look and will be given preference.&nbsp;</span><br style=\"margin: 0px; padding: 0px; color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px;\"><br style=\"margin: 0px; padding: 0px; color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px;\"></p><div style=\"margin: 0px 0px 40px; padding: 0px; color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px; width: 584.824px;\"><div class=\"clearBoth\" style=\"margin: 0px; padding: 0px; clear: both; position: relative;\"></div><div id=\"fitText\" style=\"margin: 20px 0px 0px; padding: 0px;\"><div class=\"greenCheck\" style=\"margin: 0px; padding: 0px;\"><img src=\"http://www.makeyourownjeans.com/images/icons/green-check.png\" style=\"margin: 0px; padding: 0px; height: 12px; max-width: 100%;\">&nbsp;For Men and Women</div><div class=\"greenCheck\" style=\"margin: 0px; padding: 0px;\"><img src=\"http://www.makeyourownjeans.com/images/icons/green-check.png\" style=\"margin: 0px; padding: 0px; height: 12px; max-width: 100%;\">&nbsp;Measurements to be given on shopping cart page</div><h2 style=\"margin: 0px; padding: 0px;\"><img src=\"http://www.makeyourownjeans.com/images/icons/green-check.png\" style=\"margin: 0px; padding: 0px; height: 12px; max-width: 100%;\">&nbsp;All Fits and Styles<a class=\"stylesPopup cboxElement\" href=\"http://www.makeyourownjeans.com/#availableStyles\" style=\"margin: 0px; padding: 0px; color: rgb(41, 171, 226);\">&nbsp;(View Details)</a></h2></div></div>'
+        'metakeywords' => ''
+        'metadescription' => ''
+        'tagNames' => ''
+        'status' => '1'
+        'tax_class_id' => ''
+        'image' => ''
+        'minimum_quantity' => ''
+        'stock_status' => '1'
+        'subtract_stock' => '1'
+        'requires_shipping' => '1'
+        'location' => ''
+        'date_available' => ''
+        'length' => ''
+        'width' => ''
+        'height' => ''
+        'weight' => ''
+        'length_class' => '1'
+        'weight_class' => '1'
+        'upc' => ''
+        'ean' => ''
+        'jan' => ''
+        'isbn' => ''
+        'mpn' => ''
+        'is_featured' => '0'
+        'model' => ''
+        'sku' => '-'
+        'price' => '650000'
+        'quantity' => '1'
+        'manufacturer' => ''
+        'categories' => [
+            0 => '6'
+            1 => '8'
+            2 => '9'
+        ]
+        'relatedProducts' => ''
+        'download_option' => 'download'
+        'downloads' => ''
+    ]
+    'ProductImage' => [
+        0 => [
+            'id' => '-1'
+            'caption' => ''
+        ]
+        1 => [
+            'id' => '-1'
+            'caption' => ''
+        ]
+        2 => [
+            'id' => '-1'
+            'caption' => ''
+        ]
+        3 => [
+            'id' => '-1'
+            'caption' => ''
+        ]
+        4 => [
+            'id' => '-1'
+            'caption' => ''
+        ]
+    ]
+]
+2018-04-12 19:21:32 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:21:32 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:21:32 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:21:32 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:21:32 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:21:32 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:21:32 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:21:32 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:21:32 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:21:32 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:21:29 [::1][1][-][info][application] $_GET = [
+    'id' => '60'
+]
+2018-04-12 19:29:52 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:29:52 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:29:52 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:29:52 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:29:52 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:29:52 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:29:53 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:29:53 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:29:53 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:29:53 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:29:51 [::1][1][-][info][application] $_POST = [
+    '_csrf' => 'LlhaZXRoeXh4CA42Ex5ADVkVHV0yXi9Ldwo.UjIiSTBrbjJSAy8KPw=='
+    'Product' => [
+        'name' => 'London Blue Stretch Jeans - Hard Wash - Whiskers'
+        'alias' => 'london-blue-stretch-jeans---hard-wash---whiskers'
+        'type' => '1'
+        'description' => '<p><span style=\"color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px;\">London Blue Stretch Jeans are sure to become a staple of your off-duty wardrobe.</span><br style=\"margin: 0px; padding: 0px; color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px;\"><span style=\"color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px;\">A great mid weight super stretch denim jeans on the list of our must try.</span></p><ul style=\"margin-right: 0px; margin-bottom: 0px; margin-left: 20px; padding: 10px 20px 10px 0px; list-style-type: none; color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px;\"><li style=\"margin: 0px; padding: 0px; list-style-type: disc;\">12 Oz Denim, 97% Cotton 3% Lycra, extra soft feel.</li><li style=\"margin: 0px; padding: 0px; list-style-type: disc;\">Mild Whiskers, Scrapped.</li><li style=\"margin: 0px; padding: 0px; list-style-type: disc;\">Each piece is individually cut from rolls of denim fabric and stitched accordingly.</li><li style=\"margin: 0px; padding: 0px; list-style-type: disc;\">Hard Washed at high temperatures to give complete shrinkage and faded look.</li><li style=\"margin: 0px; padding: 0px; list-style-type: disc;\">Leather labels.</li><li style=\"margin: 0px; padding: 0px; list-style-type: disc;\">5 Pocket style.</li><li style=\"margin: 0px; padding: 0px; list-style-type: disc;\">Metal Buttons and Rivets Reinforced.</li><li style=\"margin: 0px; padding: 0px; list-style-type: disc;\"><font color=\"red\" style=\"margin: 0px; padding: 0px;\">Made to your measurements</font></li></ul><div style=\"margin: 0px 0px 40px; padding: 0px; color: rgb(58, 56, 58); font-family: Roboto, sans-serif; font-size: 13px; width: 584.824px;\"><div id=\"customMadeLink\" style=\"margin: 20px 20px 0px 0px; padding: 0px; float: left;\"><font face=\"bebas,verdana,arial,sans-serif\" size=\"2\" style=\"margin: 0px; padding: 0px;\">Custom-Made</font>&nbsp;<font size=\"2\" style=\"margin: 0px; padding: 0px;\"><a class=\"inlinePopup cboxElement\" href=\"http://www.makeyourownjeans.com/#popupContent\" style=\"margin: 0px; padding: 0px; color: rgb(61, 41, 11);\"><img src=\"http://www.makeyourownjeans.com/images/custom_made.jpg\" style=\"margin: 0px; padding: 0px; height: auto; max-width: 100%; border-width: initial; border-style: none;\"><img src=\"http://www.makeyourownjeans.com/images/popup_icon1.gif\" style=\"margin: 0px; padding: 0px; height: auto; max-width: 100%; border-width: initial; border-style: none;\"></a></font></div><div class=\"clearBoth\" style=\"margin: 0px; padding: 0px; clear: both; position: relative;\"></div><div id=\"fitText\" style=\"margin: 20px 0px 0px; padding: 0px;\"><div class=\"greenCheck\" style=\"margin: 0px; padding: 0px;\"><img src=\"http://www.makeyourownjeans.com/images/icons/green-check.png\" style=\"margin: 0px; padding: 0px; height: 12px; max-width: 100%;\">&nbsp;For Men and Women</div><div class=\"greenCheck\" style=\"margin: 0px; padding: 0px;\"><img src=\"http://www.makeyourownjeans.com/images/icons/green-check.png\" style=\"margin: 0px; padding: 0px; height: 12px; max-width: 100%;\">&nbsp;Measurements to be given on shopping cart page</div><div class=\"greenCheck\" style=\"margin: 0px; padding: 0px;\"><img src=\"http://www.makeyourownjeans.com/images/icons/green-check.png\" style=\"margin: 0px; padding: 0px; height: 12px; max-width: 100%;\">&nbsp;All Fits and Styles<a class=\"stylesPopup cboxElement\" href=\"http://www.makeyourownjeans.com/#availableStyles\" style=\"margin: 0px; padding: 0px; color: rgb(41, 171, 226);\">&nbsp;(View Details)</a></div></div></div>'
+        'metakeywords' => ''
+        'metadescription' => ''
+        'tagNames' => ''
+        'status' => '1'
+        'tax_class_id' => ''
+        'image' => ''
+        'minimum_quantity' => ''
+        'stock_status' => '1'
+        'subtract_stock' => '1'
+        'requires_shipping' => '1'
+        'location' => ''
+        'date_available' => ''
+        'length' => ''
+        'width' => ''
+        'height' => ''
+        'weight' => ''
+        'length_class' => '1'
+        'weight_class' => '1'
+        'upc' => ''
+        'ean' => ''
+        'jan' => ''
+        'isbn' => ''
+        'mpn' => ''
+        'is_featured' => '0'
+        'model' => ''
+        'sku' => '-'
+        'price' => '650000'
+        'quantity' => '1'
+        'manufacturer' => ''
+        'categories' => [
+            0 => '6'
+            1 => '8'
+            2 => '9'
+        ]
+        'relatedProducts' => ''
+        'download_option' => 'download'
+        'downloads' => ''
+    ]
+    'ProductImage' => [
+        0 => [
+            'id' => '-1'
+            'caption' => ''
+        ]
+        1 => [
+            'id' => '-1'
+            'caption' => ''
+        ]
+        2 => [
+            'id' => '-1'
+            'caption' => ''
+        ]
+        3 => [
+            'id' => '-1'
+            'caption' => ''
+        ]
+        4 => [
+            'id' => '-1'
+            'caption' => ''
+        ]
+    ]
+]
+2018-04-12 19:29:57 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:29:57 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:29:57 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:29:57 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:29:57 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:29:57 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:29:57 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:29:57 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:29:57 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:29:57 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-12 19:29:54 [::1][1][-][info][application] $_GET = [
+    'id' => '61'
+]
+2018-04-15 13:53:08 [::1][-][-][warning][yii\web\User::getIdentityAndDurationFromCookie] Invalid auth key attempted for user '1': GsAxX91HDpizspBppk--FkvSFWjJiSjy
+2018-04-16 14:04:07 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-16 14:04:07 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-16 14:04:07 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-16 14:04:04 [::1][1][-][info][application] $_GET = [
+    'id' => '5'
+]
+2018-04-16 14:04:27 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-16 14:04:26 [::1][1][-][info][application] $_GET = [
+    'id' => '5'
+]
+
+$_POST = [
+    '_csrf' => 'OW5pU3BLaVl4PlgCFD0MYF8aGjEbGDstTDw9fgYKHTNMKiMrKH4NFA=='
+    'Customer' => [
+        'username' => 'username'
+        'status' => '1'
+        'timezone' => 'Asia/Jakarta'
+        'groups' => [
+            0 => '2'
+        ]
+    ]
+    'Person' => [
+        'firstname' => 'Para'
+        'lastname' => 'Mudi'
+        'email' => 'pdyanp1@yahoo.com'
+        'mobilephone' => '+6289669664343'
+        'profile_image' => ''
+    ]
+    'Alamat' => [
+        'address1' => 'Rumahku di sini'
+        'address2' => 'ia toh'
+        'city' => 'Masa sih'
+        'state' => 'Beneran'
+        'country' => 'ID'
+        'postal_code' => '54352'
+    ]
+]
+2018-04-16 14:04:32 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-16 14:04:32 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-16 14:04:32 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-16 14:04:30 [::1][1][-][info][application] $_GET = [
+    'id' => '5'
+]
+2018-04-27 11:26:31 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-27 11:26:31 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-27 11:26:17 [::1][1][-][info][application] $_GET = [
+    'id' => '1'
+]
+2018-04-27 11:28:31 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-27 11:28:31 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-27 11:28:31 [::1][1][-][info][application] $_GET = [
+    'id' => '1'
+]
+2018-04-27 11:29:19 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-27 11:29:19 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-27 11:29:18 [::1][1][-][info][application] $_GET = [
+    'id' => '1'
+]
+2018-04-27 11:31:06 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-27 11:31:06 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-27 11:31:06 [::1][1][-][info][application] $_GET = [
+    'id' => '1'
+]
+2018-04-27 11:32:44 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-27 11:32:44 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-27 11:32:43 [::1][1][-][info][application] $_GET = [
+    'id' => '1'
+]
+2018-04-27 11:33:38 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-27 11:33:38 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-27 11:33:37 [::1][1][-][info][application] $_GET = [
+    'id' => '1'
+]
+2018-04-28 06:41:55 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-28 06:41:55 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-28 06:41:55 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-28 06:41:55 [::1][1][-][info][application] $_GET = [
+    'id' => '4'
+]
+2018-04-28 07:12:35 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-28 07:12:35 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-28 07:12:35 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-28 07:14:40 [::1][1][qdr7dhieacrumcqqfd3qo2b1o9][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-28 07:14:40 [::1][1][qdr7dhieacrumcqqfd3qo2b1o9][info][application] $_POST = [
+    '_csrf' => 'ODlhRHA2aHhRQy4wP0ZfClteBDUhYQAMXHYCfEhQJT98aTMnQk9YAQ=='
+    'Customer' => [
+        'username' => 'wara'
+        'status' => '1'
+        'timezone' => 'Asia/Jakarta'
+        'groups' => [
+            0 => '2'
+        ]
+        'password' => 'Wara@1'
+        'confirmPassword' => 'Wara@1'
+    ]
+    'Person' => [
+        'firstname' => 'Wara'
+        'lastname' => 'Wara'
+        'email' => 'wara@wara.com'
+        'mobilephone' => '089669664343'
+        'profile_image' => ''
+    ]
+    'Alamat' => [
+        'address1' => 'wara'
+        'address2' => 'wara'
+        'city' => 'wara'
+        'state' => 'wara'
+        'country' => 'ID'
+        'postal_code' => '54352'
+    ]
+]
+2018-04-28 07:44:30 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-28 07:44:25 [::1][1][-][info][application] $_POST = [
+    '_csrf' => 'ODlhRHA2aHhRQy4wP0ZfClteBDUhYQAMXHYCfEhQJT98aTMnQk9YAQ=='
+    'Customer' => [
+        'username' => 'wara'
+        'status' => '1'
+        'timezone' => 'Asia/Jakarta'
+        'groups' => [
+            0 => '2'
+        ]
+        'password' => 'Wara@1'
+        'confirmPassword' => 'Wara@1'
+    ]
+    'Person' => [
+        'firstname' => 'Wara'
+        'lastname' => 'Wara'
+        'email' => 'wara@wara.com'
+        'mobilephone' => '089669664343'
+        'profile_image' => ''
+    ]
+    'Alamat' => [
+        'address1' => 'wara'
+        'address2' => 'wara'
+        'city' => 'wara'
+        'state' => 'wara'
+        'country' => 'ID'
+        'postal_code' => '54352'
+    ]
+]
+2018-04-28 07:44:40 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-28 07:44:40 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-28 07:44:40 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-28 07:44:34 [::1][1][-][info][application] $_GET = [
+    'id' => '12'
+]
+2018-04-28 09:59:56 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-28 09:59:56 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-28 09:59:54 [::1][1][-][info][application] $_GET = [
+    'id' => '1'
+]
+2018-04-28 10:00:34 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-28 10:00:34 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-28 10:00:31 [::1][1][-][info][application] $_GET = [
+    'id' => '1'
+]
+2018-04-28 10:56:35 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-28 10:56:35 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-28 10:56:32 [::1][1][-][info][application] $_GET = [
+    'id' => '1'
+]
+2018-04-28 11:57:18 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-28 11:57:18 [::1][1][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-28 11:57:13 [::1][1][-][info][application] $_GET = [
+    'id' => '1'
+]

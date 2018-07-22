@@ -1,0 +1,57 @@
+Message-ID: <c005ba77ca9bf0365ee8d3da02d46a75@localhost>
+Date: Sat, 28 Apr 2018 07:44:34 +0700
+Subject: New Customer Registration
+From: Super Admin <super_admin@jeans.id>
+To: wara@wara.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1524876274_f6f9a677605db865925aa29a5d39d586_=_"
+
+
+--_=_swift_v4_1524876274_f6f9a677605db865925aa29a5d39d586_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Welcome Wara Wara. Your account has been created successfully at Jeans.id=
+
+
+Your login details are as below
+Username: wara
+Password: Wara@1
+
+Thanks,
+System Admin
+
+--_=_swift_v4_1524876274_f6f9a677605db865925aa29a5d39d586_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/=
+xhtml">
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/ht=
+ml; charset=3DUTF-8" />
+    <title></title>
+    </head>
+<body>
+    =
+    <p>Welcome Wara Wara. Your account has been created successfully at Jea=
+ns.id</p>
+
+<p>Your login details are as below<br /><br/>
+    <strong>Username:</strong> wara<br />
+    <strong>Password</strong>: Wara@1</p>
+
+
+
+
+Thanks,<br />
+System Admin
+
+    </body>
+</html>
+
+
+--_=_swift_v4_1524876274_f6f9a677605db865925aa29a5d39d586_=_--

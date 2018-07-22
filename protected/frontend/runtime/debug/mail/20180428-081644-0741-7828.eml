@@ -1,0 +1,65 @@
+Message-ID: <51f392755cdaeb81e79052696a1ffdfe@localhost>
+Date: Sat, 28 Apr 2018 08:16:44 +0700
+Subject: New Customer Registration
+From: Super Admin <super_admin@jeans.id>
+To: rayn@ryan.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="_=_swift_v4_1524878204_aa2c065ce3e9cd78aaa4e541ead7e0ac_=_"
+
+
+--_=_swift_v4_1524878204_aa2c065ce3e9cd78aaa4e541ead7e0ac_=_
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Welcome Ryan Ryan. Your account has been created successfully at Jeans.id=
+
+
+Your login details are as below
+Username: ryan
+Password: Ryan@1
+
+Please confirm your email by clicking the link below =
+to activate your account.
+Confirm your email account
+
+Thanks,
+System Admin
+
+--_=_swift_v4_1524878204_aa2c065ce3e9cd78aaa4e541ead7e0ac_=_
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns=3D"http://www.w3.org/1999/=
+xhtml">
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/ht=
+ml; charset=3DUTF-8" />
+    <title></title>
+    </head>
+<body>
+    =
+    <p>Welcome Ryan Ryan. Your account has been created successfully at Jea=
+ns.id</p>
+
+<p>Your login details are as below<br /><br/>
+    <strong>Username:</strong> ryan<br />
+    <strong>Password</strong>: Ryan@1</p>
+
+Please confirm your email by clicking the link below to activate your accou=
+nt.<br/><br/>
+<a href=3D'http://localhost/Dropbox/jeans/customer/site/validate-email-addr=
+ess?hash=3DJDJ5JDEzJGxBaEdhbnpzdG93WnhVRlFWT0MwLi5YZWJqZFlxam1wUlhkNTNPMDlR=
+YlAxR2dndC5BOXp5&email=3Drayn@ryan.com'>Confirm your email account</a><br/>=
+<br/>
+
+Thanks,<br />
+System Admin
+
+    </body>
+</html>
+
+
+--_=_swift_v4_1524878204_aa2c065ce3e9cd78aaa4e541ead7e0ac_=_--

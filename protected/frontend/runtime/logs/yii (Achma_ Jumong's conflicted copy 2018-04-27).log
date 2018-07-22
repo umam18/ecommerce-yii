@@ -1,0 +1,1569 @@
+2018-04-09 18:46:30 [::1][-][8998765nhahps635jshtiimqsv][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "/a". in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('/a', Array)
+#1 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\jeans.id\index.php(47): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\jeans.id\index.php(47): yii\base\Application->run()
+#2 {main}
+2018-04-09 20:07:51 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'application' does not exist: D:\xampp\htdocs\jeans.id/messages/id/application.php
+2018-04-09 20:07:51 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'products' does not exist: D:\xampp\htdocs\jeans.id/messages/id/products.php
+2018-04-09 20:07:51 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'users' does not exist: D:\xampp\htdocs\jeans.id/messages/id/users.php
+2018-04-09 20:07:51 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'wishlist' does not exist: D:\xampp\htdocs\jeans.id/messages/id/wishlist.php
+2018-04-09 20:07:51 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cart' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cart.php
+2018-04-09 20:07:51 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'productCategories' does not exist: D:\xampp\htdocs\jeans.id/messages/id/productCategories.php
+2018-04-09 20:07:51 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cms' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cms.php
+2018-04-09 20:07:51 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'customer' does not exist: D:\xampp\htdocs\jeans.id/messages/id/customer.php
+2018-04-09 20:07:51 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'newsletter' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/newsletter.php
+2018-04-09 20:07:51 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'order' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/order.php
+2018-04-09 20:07:51 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'stores' does not exist: D:\xampp\htdocs\jeans.id/messages/id/stores.php
+2018-04-09 20:08:39 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'application' does not exist: D:\xampp\htdocs\jeans.id/messages/id/application.php
+2018-04-09 20:08:39 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'products' does not exist: D:\xampp\htdocs\jeans.id/messages/id/products.php
+2018-04-09 20:08:39 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cart' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cart.php
+2018-04-09 20:08:39 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'wishlist' does not exist: D:\xampp\htdocs\jeans.id/messages/id/wishlist.php
+2018-04-09 20:08:39 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'users' does not exist: D:\xampp\htdocs\jeans.id/messages/id/users.php
+2018-04-09 20:08:39 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'productCategories' does not exist: D:\xampp\htdocs\jeans.id/messages/id/productCategories.php
+2018-04-09 20:08:39 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cms' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cms.php
+2018-04-09 20:08:39 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'customer' does not exist: D:\xampp\htdocs\jeans.id/messages/id/customer.php
+2018-04-09 20:08:39 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'newsletter' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/newsletter.php
+2018-04-09 20:08:39 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'order' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/order.php
+2018-04-09 20:08:39 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'stores' does not exist: D:\xampp\htdocs\jeans.id/messages/id/stores.php
+2018-04-09 20:08:44 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'application' does not exist: D:\xampp\htdocs\jeans.id/messages/id/application.php
+2018-04-09 20:08:44 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'products' does not exist: D:\xampp\htdocs\jeans.id/messages/id/products.php
+2018-04-09 20:08:44 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cart' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cart.php
+2018-04-09 20:08:44 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'wishlist' does not exist: D:\xampp\htdocs\jeans.id/messages/id/wishlist.php
+2018-04-09 20:08:44 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'users' does not exist: D:\xampp\htdocs\jeans.id/messages/id/users.php
+2018-04-09 20:08:44 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'productCategories' does not exist: D:\xampp\htdocs\jeans.id/messages/id/productCategories.php
+2018-04-09 20:08:44 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cms' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cms.php
+2018-04-09 20:08:44 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'customer' does not exist: D:\xampp\htdocs\jeans.id/messages/id/customer.php
+2018-04-09 20:08:44 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'newsletter' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/newsletter.php
+2018-04-09 20:08:44 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'order' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/order.php
+2018-04-09 20:08:44 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'stores' does not exist: D:\xampp\htdocs\jeans.id/messages/id/stores.php
+2018-04-09 20:08:49 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'application' does not exist: D:\xampp\htdocs\jeans.id/messages/id/application.php
+2018-04-09 20:08:49 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'products' does not exist: D:\xampp\htdocs\jeans.id/messages/id/products.php
+2018-04-09 20:08:49 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cart' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cart.php
+2018-04-09 20:08:49 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'wishlist' does not exist: D:\xampp\htdocs\jeans.id/messages/id/wishlist.php
+2018-04-09 20:08:49 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'users' does not exist: D:\xampp\htdocs\jeans.id/messages/id/users.php
+2018-04-09 20:08:49 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'productCategories' does not exist: D:\xampp\htdocs\jeans.id/messages/id/productCategories.php
+2018-04-09 20:08:49 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cms' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cms.php
+2018-04-09 20:08:49 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'customer' does not exist: D:\xampp\htdocs\jeans.id/messages/id/customer.php
+2018-04-09 20:08:49 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'newsletter' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/newsletter.php
+2018-04-09 20:08:49 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'order' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/order.php
+2018-04-09 20:08:49 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'stores' does not exist: D:\xampp\htdocs\jeans.id/messages/id/stores.php
+2018-04-09 20:08:59 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'application' does not exist: D:\xampp\htdocs\jeans.id/messages/id/application.php
+2018-04-09 20:08:59 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'products' does not exist: D:\xampp\htdocs\jeans.id/messages/id/products.php
+2018-04-09 20:08:59 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cart' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cart.php
+2018-04-09 20:08:59 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'wishlist' does not exist: D:\xampp\htdocs\jeans.id/messages/id/wishlist.php
+2018-04-09 20:08:59 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'users' does not exist: D:\xampp\htdocs\jeans.id/messages/id/users.php
+2018-04-09 20:08:59 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'productCategories' does not exist: D:\xampp\htdocs\jeans.id/messages/id/productCategories.php
+2018-04-09 20:08:59 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cms' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cms.php
+2018-04-09 20:08:59 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'customer' does not exist: D:\xampp\htdocs\jeans.id/messages/id/customer.php
+2018-04-09 20:08:59 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'newsletter' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/newsletter.php
+2018-04-09 20:08:59 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'order' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/order.php
+2018-04-09 20:08:59 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'stores' does not exist: D:\xampp\htdocs\jeans.id/messages/id/stores.php
+2018-04-09 20:09:21 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "hf". in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('hf', Array)
+#1 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\jeans.id\index.php(47): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Halaman tidak ditemukan. in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\jeans.id\index.php(47): yii\base\Application->run()
+#2 {main}
+2018-04-09 20:09:21 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'users' does not exist: D:\xampp\htdocs\jeans.id/messages/id/users.php
+2018-04-09 20:09:21 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cart' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cart.php
+2018-04-09 20:09:21 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'productCategories' does not exist: D:\xampp\htdocs\jeans.id/messages/id/productCategories.php
+2018-04-09 20:09:21 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cms' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cms.php
+2018-04-09 20:09:21 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'customer' does not exist: D:\xampp\htdocs\jeans.id/messages/id/customer.php
+2018-04-09 20:09:21 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'newsletter' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/newsletter.php
+2018-04-09 20:09:21 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'application' does not exist: D:\xampp\htdocs\jeans.id/messages/id/application.php
+2018-04-09 20:09:21 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'order' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/order.php
+2018-04-09 20:09:34 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "hf". in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('hf', Array)
+#1 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\jeans.id\index.php(47): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Страница не найдена. in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\jeans.id\index.php(47): yii\base\Application->run()
+#2 {main}
+2018-04-09 20:09:34 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'users' does not exist: D:\xampp\htdocs\jeans.id/messages/ru/users.php
+2018-04-09 20:09:34 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cart' does not exist: D:\xampp\htdocs\jeans.id/messages/ru/cart.php
+2018-04-09 20:09:34 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'productCategories' does not exist: D:\xampp\htdocs\jeans.id/messages/ru/productCategories.php
+2018-04-09 20:09:34 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cms' does not exist: D:\xampp\htdocs\jeans.id/messages/ru/cms.php
+2018-04-09 20:09:34 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'customer' does not exist: D:\xampp\htdocs\jeans.id/messages/ru/customer.php
+2018-04-09 20:09:34 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'newsletter' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/ru/newsletter.php
+2018-04-09 20:09:34 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'application' does not exist: D:\xampp\htdocs\jeans.id/messages/ru/application.php
+2018-04-09 20:09:34 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'order' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/ru/order.php
+2018-04-09 20:09:44 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "hf". in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('hf', Array)
+#1 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\jeans.id\index.php(47): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Halaman tidak ditemukan. in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\jeans.id\index.php(47): yii\base\Application->run()
+#2 {main}
+2018-04-09 20:09:44 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'users' does not exist: D:\xampp\htdocs\jeans.id/messages/id/users.php
+2018-04-09 20:09:44 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cart' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cart.php
+2018-04-09 20:09:44 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'productCategories' does not exist: D:\xampp\htdocs\jeans.id/messages/id/productCategories.php
+2018-04-09 20:09:44 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cms' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cms.php
+2018-04-09 20:09:44 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'customer' does not exist: D:\xampp\htdocs\jeans.id/messages/id/customer.php
+2018-04-09 20:09:44 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'newsletter' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/newsletter.php
+2018-04-09 20:09:44 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'application' does not exist: D:\xampp\htdocs\jeans.id/messages/id/application.php
+2018-04-09 20:09:44 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'order' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/order.php
+2018-04-09 20:12:23 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'application' does not exist: D:\xampp\htdocs\jeans.id/messages/id/application.php
+2018-04-09 20:12:23 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'products' does not exist: D:\xampp\htdocs\jeans.id/messages/id/products.php
+2018-04-09 20:12:23 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cart' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cart.php
+2018-04-09 20:12:23 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'wishlist' does not exist: D:\xampp\htdocs\jeans.id/messages/id/wishlist.php
+2018-04-09 20:12:23 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'users' does not exist: D:\xampp\htdocs\jeans.id/messages/id/users.php
+2018-04-09 20:12:23 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'productCategories' does not exist: D:\xampp\htdocs\jeans.id/messages/id/productCategories.php
+2018-04-09 20:12:23 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cms' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cms.php
+2018-04-09 20:12:23 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'customer' does not exist: D:\xampp\htdocs\jeans.id/messages/id/customer.php
+2018-04-09 20:12:23 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'newsletter' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/newsletter.php
+2018-04-09 20:12:23 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'order' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/order.php
+2018-04-09 20:12:23 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'stores' does not exist: D:\xampp\htdocs\jeans.id/messages/id/stores.php
+2018-04-09 20:12:24 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'application' does not exist: D:\xampp\htdocs\jeans.id/messages/id/application.php
+2018-04-09 20:12:24 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'products' does not exist: D:\xampp\htdocs\jeans.id/messages/id/products.php
+2018-04-09 20:12:24 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cart' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cart.php
+2018-04-09 20:12:24 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'wishlist' does not exist: D:\xampp\htdocs\jeans.id/messages/id/wishlist.php
+2018-04-09 20:12:24 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'users' does not exist: D:\xampp\htdocs\jeans.id/messages/id/users.php
+2018-04-09 20:12:24 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'productCategories' does not exist: D:\xampp\htdocs\jeans.id/messages/id/productCategories.php
+2018-04-09 20:12:24 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cms' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cms.php
+2018-04-09 20:12:24 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'customer' does not exist: D:\xampp\htdocs\jeans.id/messages/id/customer.php
+2018-04-09 20:12:24 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'newsletter' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/newsletter.php
+2018-04-09 20:12:24 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'order' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/order.php
+2018-04-09 20:12:24 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'stores' does not exist: D:\xampp\htdocs\jeans.id/messages/id/stores.php
+2018-04-09 20:12:27 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "a". in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('a', Array)
+#1 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\jeans.id\index.php(47): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Halaman tidak ditemukan. in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\jeans.id\index.php(47): yii\base\Application->run()
+#2 {main}
+2018-04-09 20:12:27 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'users' does not exist: D:\xampp\htdocs\jeans.id/messages/id/users.php
+2018-04-09 20:12:27 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cart' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cart.php
+2018-04-09 20:12:27 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'productCategories' does not exist: D:\xampp\htdocs\jeans.id/messages/id/productCategories.php
+2018-04-09 20:12:27 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cms' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cms.php
+2018-04-09 20:12:27 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'customer' does not exist: D:\xampp\htdocs\jeans.id/messages/id/customer.php
+2018-04-09 20:12:27 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'newsletter' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/newsletter.php
+2018-04-09 20:12:27 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'application' does not exist: D:\xampp\htdocs\jeans.id/messages/id/application.php
+2018-04-09 20:12:27 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'order' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/order.php
+2018-04-10 04:16:05 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "a". in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('a', Array)
+#1 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\jeans.id\index.php(47): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Halaman tidak ditemukan. in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\jeans.id\index.php(47): yii\base\Application->run()
+#2 {main}
+2018-04-10 04:16:06 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'users' does not exist: D:\xampp\htdocs\jeans.id/messages/id/users.php
+2018-04-10 04:16:06 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cart' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cart.php
+2018-04-10 04:16:07 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'productCategories' does not exist: D:\xampp\htdocs\jeans.id/messages/id/productCategories.php
+2018-04-10 04:16:07 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cms' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cms.php
+2018-04-10 04:16:07 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'customer' does not exist: D:\xampp\htdocs\jeans.id/messages/id/customer.php
+2018-04-10 04:16:07 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'newsletter' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/newsletter.php
+2018-04-10 04:16:07 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'application' does not exist: D:\xampp\htdocs\jeans.id/messages/id/application.php
+2018-04-10 04:16:08 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'order' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/order.php
+2018-04-10 04:16:54 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'application' does not exist: D:\xampp\htdocs\jeans.id/messages/id/application.php
+2018-04-10 04:16:55 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'products' does not exist: D:\xampp\htdocs\jeans.id/messages/id/products.php
+2018-04-10 04:16:55 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cart' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cart.php
+2018-04-10 04:16:55 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'wishlist' does not exist: D:\xampp\htdocs\jeans.id/messages/id/wishlist.php
+2018-04-10 04:16:55 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'users' does not exist: D:\xampp\htdocs\jeans.id/messages/id/users.php
+2018-04-10 04:16:55 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'productCategories' does not exist: D:\xampp\htdocs\jeans.id/messages/id/productCategories.php
+2018-04-10 04:16:55 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cms' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cms.php
+2018-04-10 04:16:55 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'customer' does not exist: D:\xampp\htdocs\jeans.id/messages/id/customer.php
+2018-04-10 04:16:55 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'newsletter' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/newsletter.php
+2018-04-10 04:16:55 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'order' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/order.php
+2018-04-10 04:16:55 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'stores' does not exist: D:\xampp\htdocs\jeans.id/messages/id/stores.php
+2018-04-10 04:16:55 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'application' does not exist: D:\xampp\htdocs\jeans.id/messages/id/application.php
+2018-04-10 04:16:55 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'products' does not exist: D:\xampp\htdocs\jeans.id/messages/id/products.php
+2018-04-10 04:16:55 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cart' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cart.php
+2018-04-10 04:16:55 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'wishlist' does not exist: D:\xampp\htdocs\jeans.id/messages/id/wishlist.php
+2018-04-10 04:16:55 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'users' does not exist: D:\xampp\htdocs\jeans.id/messages/id/users.php
+2018-04-10 04:16:55 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'productCategories' does not exist: D:\xampp\htdocs\jeans.id/messages/id/productCategories.php
+2018-04-10 04:16:55 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cms' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cms.php
+2018-04-10 04:16:55 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'customer' does not exist: D:\xampp\htdocs\jeans.id/messages/id/customer.php
+2018-04-10 04:16:55 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'newsletter' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/newsletter.php
+2018-04-10 04:16:55 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'order' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/order.php
+2018-04-10 04:16:55 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'stores' does not exist: D:\xampp\htdocs\jeans.id/messages/id/stores.php
+2018-04-10 04:17:36 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'application' does not exist: D:\xampp\htdocs\jeans.id/messages/id/application.php
+2018-04-10 04:17:36 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'products' does not exist: D:\xampp\htdocs\jeans.id/messages/id/products.php
+2018-04-10 04:17:36 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cart' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cart.php
+2018-04-10 04:17:36 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'wishlist' does not exist: D:\xampp\htdocs\jeans.id/messages/id/wishlist.php
+2018-04-10 04:17:36 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'users' does not exist: D:\xampp\htdocs\jeans.id/messages/id/users.php
+2018-04-10 04:17:36 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'productCategories' does not exist: D:\xampp\htdocs\jeans.id/messages/id/productCategories.php
+2018-04-10 04:17:36 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cms' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cms.php
+2018-04-10 04:17:36 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'customer' does not exist: D:\xampp\htdocs\jeans.id/messages/id/customer.php
+2018-04-10 04:17:36 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'newsletter' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/newsletter.php
+2018-04-10 04:17:36 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'order' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/order.php
+2018-04-10 04:17:36 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'stores' does not exist: D:\xampp\htdocs\jeans.id/messages/id/stores.php
+2018-04-10 04:17:37 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'application' does not exist: D:\xampp\htdocs\jeans.id/messages/id/application.php
+2018-04-10 04:17:37 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'products' does not exist: D:\xampp\htdocs\jeans.id/messages/id/products.php
+2018-04-10 04:17:37 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cart' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cart.php
+2018-04-10 04:17:37 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'wishlist' does not exist: D:\xampp\htdocs\jeans.id/messages/id/wishlist.php
+2018-04-10 04:17:37 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'users' does not exist: D:\xampp\htdocs\jeans.id/messages/id/users.php
+2018-04-10 04:17:37 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'productCategories' does not exist: D:\xampp\htdocs\jeans.id/messages/id/productCategories.php
+2018-04-10 04:17:37 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cms' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cms.php
+2018-04-10 04:17:37 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'customer' does not exist: D:\xampp\htdocs\jeans.id/messages/id/customer.php
+2018-04-10 04:17:37 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'newsletter' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/newsletter.php
+2018-04-10 04:17:37 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'order' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/order.php
+2018-04-10 04:17:37 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'stores' does not exist: D:\xampp\htdocs\jeans.id/messages/id/stores.php
+2018-04-10 04:24:50 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'application' does not exist: D:\xampp\htdocs\jeans.id/messages/id/application.php
+2018-04-10 04:24:50 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'products' does not exist: D:\xampp\htdocs\jeans.id/messages/id/products.php
+2018-04-10 04:24:50 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cart' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cart.php
+2018-04-10 04:24:50 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'wishlist' does not exist: D:\xampp\htdocs\jeans.id/messages/id/wishlist.php
+2018-04-10 04:24:50 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'users' does not exist: D:\xampp\htdocs\jeans.id/messages/id/users.php
+2018-04-10 04:24:50 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'productCategories' does not exist: D:\xampp\htdocs\jeans.id/messages/id/productCategories.php
+2018-04-10 04:24:50 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cms' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cms.php
+2018-04-10 04:24:50 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'customer' does not exist: D:\xampp\htdocs\jeans.id/messages/id/customer.php
+2018-04-10 04:24:50 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'newsletter' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/newsletter.php
+2018-04-10 04:24:50 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'order' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/order.php
+2018-04-10 04:24:50 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'stores' does not exist: D:\xampp\htdocs\jeans.id/messages/id/stores.php
+2018-04-10 04:25:13 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'application' does not exist: D:\xampp\htdocs\jeans.id/messages/id/application.php
+2018-04-10 04:25:13 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'products' does not exist: D:\xampp\htdocs\jeans.id/messages/id/products.php
+2018-04-10 04:25:13 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cart' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cart.php
+2018-04-10 04:25:13 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'wishlist' does not exist: D:\xampp\htdocs\jeans.id/messages/id/wishlist.php
+2018-04-10 04:25:13 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'users' does not exist: D:\xampp\htdocs\jeans.id/messages/id/users.php
+2018-04-10 04:25:13 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'productCategories' does not exist: D:\xampp\htdocs\jeans.id/messages/id/productCategories.php
+2018-04-10 04:25:13 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cms' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cms.php
+2018-04-10 04:25:13 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'customer' does not exist: D:\xampp\htdocs\jeans.id/messages/id/customer.php
+2018-04-10 04:25:13 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'newsletter' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/newsletter.php
+2018-04-10 04:25:13 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'order' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/order.php
+2018-04-10 04:25:13 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'stores' does not exist: D:\xampp\htdocs\jeans.id/messages/id/stores.php
+2018-04-10 04:26:51 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "/g". in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('/g', Array)
+#1 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\jeans.id\index.php(47): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Halaman tidak ditemukan. in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\jeans.id\index.php(47): yii\base\Application->run()
+#2 {main}
+2018-04-10 04:26:51 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'users' does not exist: D:\xampp\htdocs\jeans.id/messages/id/users.php
+2018-04-10 04:26:51 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cart' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cart.php
+2018-04-10 04:26:51 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'productCategories' does not exist: D:\xampp\htdocs\jeans.id/messages/id/productCategories.php
+2018-04-10 04:26:51 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cms' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cms.php
+2018-04-10 04:26:51 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'customer' does not exist: D:\xampp\htdocs\jeans.id/messages/id/customer.php
+2018-04-10 04:26:51 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'newsletter' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/newsletter.php
+2018-04-10 04:26:51 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'application' does not exist: D:\xampp\htdocs\jeans.id/messages/id/application.php
+2018-04-10 04:26:51 [::1][-][1fmbp39vje1kvvmfifm95jt8bq][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'order' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/order.php
+2018-04-10 04:27:02 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'application' does not exist: D:\xampp\htdocs\jeans.id/messages/id/application.php
+2018-04-10 04:27:02 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'products' does not exist: D:\xampp\htdocs\jeans.id/messages/id/products.php
+2018-04-10 04:27:02 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cart' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cart.php
+2018-04-10 04:27:02 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'wishlist' does not exist: D:\xampp\htdocs\jeans.id/messages/id/wishlist.php
+2018-04-10 04:27:02 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'users' does not exist: D:\xampp\htdocs\jeans.id/messages/id/users.php
+2018-04-10 04:27:02 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'productCategories' does not exist: D:\xampp\htdocs\jeans.id/messages/id/productCategories.php
+2018-04-10 04:27:02 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cms' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cms.php
+2018-04-10 04:27:02 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'customer' does not exist: D:\xampp\htdocs\jeans.id/messages/id/customer.php
+2018-04-10 04:27:02 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'newsletter' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/newsletter.php
+2018-04-10 04:27:02 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'order' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/order.php
+2018-04-10 04:27:02 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'stores' does not exist: D:\xampp\htdocs\jeans.id/messages/id/stores.php
+2018-04-10 04:28:01 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'application' does not exist: D:\xampp\htdocs\jeans.id/messages/id/application.php
+2018-04-10 04:28:01 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'products' does not exist: D:\xampp\htdocs\jeans.id/messages/id/products.php
+2018-04-10 04:28:01 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cart' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cart.php
+2018-04-10 04:28:01 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'wishlist' does not exist: D:\xampp\htdocs\jeans.id/messages/id/wishlist.php
+2018-04-10 04:28:01 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'users' does not exist: D:\xampp\htdocs\jeans.id/messages/id/users.php
+2018-04-10 04:28:01 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'productCategories' does not exist: D:\xampp\htdocs\jeans.id/messages/id/productCategories.php
+2018-04-10 04:28:01 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cms' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cms.php
+2018-04-10 04:28:01 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'customer' does not exist: D:\xampp\htdocs\jeans.id/messages/id/customer.php
+2018-04-10 04:28:01 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'newsletter' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/newsletter.php
+2018-04-10 04:28:01 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'order' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/order.php
+2018-04-10 04:28:01 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'stores' does not exist: D:\xampp\htdocs\jeans.id/messages/id/stores.php
+2018-04-10 04:28:02 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'application' does not exist: D:\xampp\htdocs\jeans.id/messages/id/application.php
+2018-04-10 04:28:02 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'products' does not exist: D:\xampp\htdocs\jeans.id/messages/id/products.php
+2018-04-10 04:28:02 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cart' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cart.php
+2018-04-10 04:28:02 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'wishlist' does not exist: D:\xampp\htdocs\jeans.id/messages/id/wishlist.php
+2018-04-10 04:28:02 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'users' does not exist: D:\xampp\htdocs\jeans.id/messages/id/users.php
+2018-04-10 04:28:02 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'productCategories' does not exist: D:\xampp\htdocs\jeans.id/messages/id/productCategories.php
+2018-04-10 04:28:02 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'cms' does not exist: D:\xampp\htdocs\jeans.id/messages/id/cms.php
+2018-04-10 04:28:02 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'customer' does not exist: D:\xampp\htdocs\jeans.id/messages/id/customer.php
+2018-04-10 04:28:02 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'newsletter' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/newsletter.php
+2018-04-10 04:28:02 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'order' does not exist: D:\xampp\htdocs\jeans.id\protected\frontend/messages/id/order.php
+2018-04-10 04:28:02 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'stores' does not exist: D:\xampp\htdocs\jeans.id/messages/id/stores.php
+2018-04-10 08:41:05 [::1][-][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 08:44:28 [::1][-][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 08:47:08 [::1][-][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 08:47:08 [::1][-][-][info][application] $_POST = [
+    '_frontendCSRF' => 'YU9DWmFpY0FYYjQrI0RQGwAFLwgOBxl4KgkJMiJZOnYFKAAMOzogdA=='
+    'Customer' => [
+        'username' => 'user'
+        'status' => '2'
+        'timezone' => 'Asia/Jakarta'
+        'groups' => '2'
+        'password' => '@user1'
+        'confirmPassword' => '@user1'
+    ]
+    'Person' => [
+        'firstname' => 'User'
+        'lastname' => 'User'
+        'email' => 'pdyanp@yahoo.com'
+        'mobilephone' => '+6289669664343'
+        'profile_image' => ''
+    ]
+    'Alamat' => [
+        'address1' => 'Lupakansajalah'
+        'address2' => 'Mana ya'
+        'city' => 'Sini saja'
+        'state' => 'Masak sih'
+        'country' => 'ID'
+        'postal_code' => '54352'
+    ]
+]
+2018-04-10 08:48:32 [::1][-][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 08:50:12 [::1][-][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 08:50:11 [::1][-][-][info][application] $_POST = [
+    '_frontendCSRF' => 'ODZXM0JzeDUBGyBCAF5Lb1l8O2EtHQIMc3AdWwFDIQJcURRlGCA7AA=='
+    'Customer' => [
+        'username' => 'username'
+        'status' => '2'
+        'timezone' => 'Asia/Jakarta'
+        'groups' => '2'
+        'password' => '@user1'
+        'confirmPassword' => '@user1'
+    ]
+    'Person' => [
+        'firstname' => 'Para'
+        'lastname' => 'Mudi'
+        'email' => 'pdyanp@yahoo.com'
+        'mobilephone' => '+6289669664343'
+        'profile_image' => ''
+    ]
+    'Alamat' => [
+        'address1' => 'Rumahku di sini'
+        'address2' => 'ia toh'
+        'city' => 'Masa sih'
+        'state' => 'Beneran'
+        'country' => 'ID'
+        'postal_code' => '54352'
+    ]
+]
+2018-04-10 08:50:49 [::1][-][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 08:50:49 [::1][-][-][info][application] $_POST = [
+    '_frontendCSRF' => 'VVNEbFlCTS1sfjMdG29.dzQZKD42LDcUHhUOBBpyFBoxNAc6AxEOGA=='
+    'Customer' => [
+        'username' => 'username'
+        'status' => '2'
+        'timezone' => 'Asia/Jakarta'
+        'groups' => '2'
+        'password' => '@user1'
+        'confirmPassword' => '@user1'
+    ]
+    'Person' => [
+        'firstname' => 'Para'
+        'lastname' => 'Mudi'
+        'email' => 'pdyanp1@yahoo.com'
+        'mobilephone' => '+6289669664343'
+        'profile_image' => ''
+    ]
+    'Alamat' => [
+        'address1' => 'Rumahku di sini'
+        'address2' => 'ia toh'
+        'city' => 'Masa sih'
+        'state' => 'Beneran'
+        'country' => 'ID'
+        'postal_code' => '54352'
+    ]
+]
+2018-04-10 09:35:17 [::1][4][aupjfv3cmk2ueencjav700991b][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "yruifggfj". in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('yruifggfj', Array)
+#1 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\xampp\htdocs\jeans.id\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\jeans.id\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-10 13:24:20 [::1][4][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Setting unknown property: yii\i18n\PhpMessageSource::language in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Component.php:201
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\BaseYii.php(525): yii\base\Component->__set('language', 'id-ID')
+#1 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Object.php(105): yii\BaseYii::configure(Object(yii\i18n\PhpMessageSource), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\di\Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#4 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\i18n\\PhpMes...', Array, Array)
+#5 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\i18n\\PhpMes...', Array, Array)
+#6 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\i18n\I18N.php(185): yii\BaseYii::createObject(Array)
+#7 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\i18n\I18N.php(88): yii\i18n\I18N->getMessageSource('wishlist')
+#8 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\BaseYii.php(505): yii\i18n\I18N->translate('wishlist', 'Add to Wish Lis...', Array, 'en-US')
+#9 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\UsniAdaptor.php(60): yii\BaseYii::t('wishlist', 'Add to Wish Lis...', Array, NULL)
+#10 D:\xampp\htdocs\jeans.id\protected\common\modules\catalog\modules\products\views\front\_productitem.php(12): usni\UsniAdaptor::t('wishlist', 'Add to Wish Lis...')
+#11 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(328): require('D:\\xampp\\htdocs...')
+#12 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#13 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, NULL)
+#14 D:\xampp\htdocs\jeans.id\protected\frontend\modules\site\views\_latestproductslist.php(18): yii\base\View->render('@products/views...', Array)
+#15 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(328): require('D:\\xampp\\htdocs...')
+#16 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#17 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, NULL)
+#18 D:\xampp\htdocs\jeans.id\protected\frontend\modules\site\views\home.php(11): yii\base\View->render('/_latestproduct...', Array)
+#19 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(328): require('D:\\xampp\\htdocs...')
+#20 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#21 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(frontend\modules\site\controllers\DefaultController))
+#22 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('/home', Array, Object(frontend\modules\site\controllers\DefaultController))
+#23 D:\xampp\htdocs\jeans.id\protected\frontend\modules\site\controllers\DefaultController.php(51): yii\base\Controller->render('/home', Array)
+#24 [internal function]: frontend\modules\site\controllers\DefaultController->actionIndex()
+#25 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#26 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#27 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#28 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#29 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#30 D:\xampp\htdocs\jeans.id\index.php(39): yii\base\Application->run()
+#31 {main}
+2018-04-10 13:25:07 [::1][4][-][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Setting unknown property: yii\i18n\PhpMessageSource::language in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Component.php:201
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\BaseYii.php(525): yii\base\Component->__set('language', 'ru-RU')
+#1 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Object.php(105): yii\BaseYii::configure(Object(yii\i18n\PhpMessageSource), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\di\Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#4 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\i18n\\PhpMes...', Array, Array)
+#5 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\i18n\\PhpMes...', Array, Array)
+#6 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\i18n\I18N.php(185): yii\BaseYii::createObject(Array)
+#7 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\i18n\I18N.php(88): yii\i18n\I18N->getMessageSource('wishlist')
+#8 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\BaseYii.php(505): yii\i18n\I18N->translate('wishlist', 'Add to Wish Lis...', Array, 'en-US')
+#9 D:\xampp\htdocs\jeans.id\vendor\ushainformatique\yiichimp\UsniAdaptor.php(60): yii\BaseYii::t('wishlist', 'Add to Wish Lis...', Array, NULL)
+#10 D:\xampp\htdocs\jeans.id\protected\common\modules\catalog\modules\products\views\front\_productitem.php(12): usni\UsniAdaptor::t('wishlist', 'Add to Wish Lis...')
+#11 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(328): require('D:\\xampp\\htdocs...')
+#12 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#13 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, NULL)
+#14 D:\xampp\htdocs\jeans.id\protected\frontend\modules\site\views\_latestproductslist.php(18): yii\base\View->render('@products/views...', Array)
+#15 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(328): require('D:\\xampp\\htdocs...')
+#16 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#17 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, NULL)
+#18 D:\xampp\htdocs\jeans.id\protected\frontend\modules\site\views\home.php(11): yii\base\View->render('/_latestproduct...', Array)
+#19 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(328): require('D:\\xampp\\htdocs...')
+#20 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('D:\\xampp\\htdocs...', Array)
+#21 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('D:\\xampp\\htdocs...', Array, Object(frontend\modules\site\controllers\DefaultController))
+#22 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('/home', Array, Object(frontend\modules\site\controllers\DefaultController))
+#23 D:\xampp\htdocs\jeans.id\protected\frontend\modules\site\controllers\DefaultController.php(51): yii\base\Controller->render('/home', Array)
+#24 [internal function]: frontend\modules\site\controllers\DefaultController->actionIndex()
+#25 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#26 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#27 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#28 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#29 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#30 D:\xampp\htdocs\jeans.id\index.php(39): yii\base\Application->run()
+#31 {main}
+2018-04-10 16:10:56 [::1][4][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 16:11:07 [::1][4][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-10 16:16:21 [::1][4][aupjfv3cmk2ueencjav700991b][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: customer/site/measurement-profilee in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#1 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#2 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\jeans.id\index.php(39): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\jeans.id\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\jeans.id\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-10 16:16:52 [::1][4][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-14 11:41:48 [::1][-][2abdbbc73ilhgnho8rq9g58n75][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('admin', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-14 11:41:54 [::1][-][2abdbbc73ilhgnho8rq9g58n75][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "fronted". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('fronted', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-15 13:56:36 [::1][6][23247cj98bo06fviu6ckhrntn6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: customer/site/measurement-profilee in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-15 13:57:27 [::1][6][23247cj98bo06fviu6ckhrntn6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: customer/site/measurement-profilee in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-15 13:59:45 [::1][6][23247cj98bo06fviu6ckhrntn6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap-theme.css.map". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap-t...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-15 14:00:34 [::1][6][23247cj98bo06fviu6ckhrntn6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap-theme.css.map". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap-t...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-15 14:04:17 [::1][6][-][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: frontend\web\View::renderFooter() in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Component.php:290
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\views\layouts\main.php(91): yii\base\Component->__call('renderFooter', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(customer\controllers\SiteController))
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class='pan...')
+#5 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php(187): yii\base\Controller->render('/front/myaccoun...', Array)
+#6 [internal function]: customer\controllers\SiteController->actionMyAccount()
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('my-account', Array)
+#10 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#11 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#13 {main}
+2018-04-15 14:04:21 [::1][6][-][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: frontend\web\View::renderFooter() in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Component.php:290
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\views\layouts\main.php(91): yii\base\Component->__call('renderFooter', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(customer\controllers\SiteController))
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class='pan...')
+#5 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php(187): yii\base\Controller->render('/front/myaccoun...', Array)
+#6 [internal function]: customer\controllers\SiteController->actionMyAccount()
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('my-account', Array)
+#10 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#11 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#13 {main}
+2018-04-15 14:04:38 [::1][6][-][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: frontend\web\View::renderFooter() in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Component.php:290
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\views\layouts\main.php(91): yii\base\Component->__call('renderFooter', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(customer\controllers\SiteController))
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class='pan...')
+#5 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php(187): yii\base\Controller->render('/front/myaccoun...', Array)
+#6 [internal function]: customer\controllers\SiteController->actionMyAccount()
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('my-account', Array)
+#10 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#11 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#13 {main}
+2018-04-15 14:04:43 [::1][6][-][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: frontend\web\View::renderFooter() in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Component.php:290
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\views\layouts\main.php(91): yii\base\Component->__call('renderFooter', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(customer\controllers\SiteController))
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class='pan...')
+#5 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\customer\controllers\SiteController.php(187): yii\base\Controller->render('/front/myaccoun...', Array)
+#6 [internal function]: customer\controllers\SiteController->actionMyAccount()
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('my-account', Array)
+#10 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#11 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#13 {main}
+2018-04-15 14:05:33 [::1][6][23247cj98bo06fviu6ckhrntn6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap-theme.css.map". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap-t...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-15 14:05:46 [::1][6][23247cj98bo06fviu6ckhrntn6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap-theme.css.map". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap-t...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-15 14:05:55 [::1][6][23247cj98bo06fviu6ckhrntn6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap-theme.css.map". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap-t...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-15 14:11:12 [::1][6][23247cj98bo06fviu6ckhrntn6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap-theme.css.map". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap-t...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-15 14:15:28 [::1][6][23247cj98bo06fviu6ckhrntn6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: customer/site/measurement-profilee in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-15 14:46:56 [::1][6][23247cj98bo06fviu6ckhrntn6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: customer/site/measurement-profilee in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-15 14:47:55 [::1][6][23247cj98bo06fviu6ckhrntn6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: customer/site/measurement-profilee in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-15 14:47:56 [::1][6][23247cj98bo06fviu6ckhrntn6][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: customer/site/measurement-profilee in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-23 09:48:52 [::1][-][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-23 09:49:47 [::1][-][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-23 09:49:49 [::1][-][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-23 09:49:51 [::1][-][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-23 09:49:52 [::1][-][-][warning][yii\validators\FileValidator::getSizeLimit] PHP.ini's 'post_max_size' is less than 'upload_max_filesize'.
+2018-04-23 10:06:34 [::1][4][2l86lov0o80j30m25ld5gvk4v4][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: customer/site/measurement-profilee in D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-23 11:03:27 [::1][4][l7qh5eivnb2upq3couuurbrb13][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: customer/site/measurement-profilee in D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#1 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#2 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-23 11:17:59 [::1][7][ut2vmviatrn22bj6dnmk00ook1][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: customer/site/measurement-profilee in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('measurement-pro...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('customer/site/m...', Array)
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-26 12:29:18 [::1][6][gcst4mbuaemnudvh3ndk2k4fh5][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap-theme.css.map". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap-t...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-26 12:32:27 [::1][6][gcst4mbuaemnudvh3ndk2k4fh5][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap-theme.css.map". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap-t...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-26 12:33:16 [::1][6][gcst4mbuaemnudvh3ndk2k4fh5][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap-theme.css.map". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap-t...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-26 12:35:50 [::1][6][-][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\xampp\htdocs\Dropbox\jeans\protected\frontend\modules\site\views\resources/images/blanja.png in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php:229
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#1 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\views\common\_header.php(48): yii\base\View->render('/resources/imag...')
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#5 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\View.php(116): yii\base\View->render('//common/_heade...')
+#6 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\views\layouts\main.php(50): frontend\web\View->renderHeader()
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#9 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\modules\site\controllers\DefaultController))
+#10 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="car...')
+#11 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\modules\site\controllers\DefaultController.php(51): yii\base\Controller->render('/home', Array)
+#12 [internal function]: frontend\modules\site\controllers\DefaultController->actionIndex()
+#13 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#16 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#17 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#19 {main}
+2018-04-26 12:36:04 [::1][6][-][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\xampp\htdocs\Dropbox\jeans\protected\frontend\modules\site\views\resources/images/blanja.png in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php:229
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#1 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\views\common\_header.php(48): yii\base\View->render('/resources/imag...')
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#5 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\View.php(116): yii\base\View->render('//common/_heade...')
+#6 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\views\layouts\main.php(50): frontend\web\View->renderHeader()
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#9 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\modules\site\controllers\DefaultController))
+#10 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="car...')
+#11 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\modules\site\controllers\DefaultController.php(51): yii\base\Controller->render('/home', Array)
+#12 [internal function]: frontend\modules\site\controllers\DefaultController->actionIndex()
+#13 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#16 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#17 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#19 {main}
+2018-04-26 12:36:11 [::1][6][-][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\xampp\htdocs\Dropbox\jeans\protected\frontend\modules\site\views\resources/images/blanja.png in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php:229
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#1 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\views\common\_header.php(48): yii\base\View->render('/resources/imag...')
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#5 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\View.php(116): yii\base\View->render('//common/_heade...')
+#6 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\views\layouts\main.php(50): frontend\web\View->renderHeader()
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#9 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\modules\site\controllers\DefaultController))
+#10 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="car...')
+#11 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\modules\site\controllers\DefaultController.php(51): yii\base\Controller->render('/home', Array)
+#12 [internal function]: frontend\modules\site\controllers\DefaultController->actionIndex()
+#13 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#16 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#17 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#19 {main}
+2018-04-26 12:36:22 [::1][6][-][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\xampp\htdocs\Dropbox\jeans\protected\frontend\modules\site\views\resources/images/blanja.png in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php:229
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#1 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\views\common\_header.php(48): yii\base\View->render('/resources/imag...')
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#5 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\View.php(116): yii\base\View->render('//common/_heade...')
+#6 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\views\layouts\main.php(50): frontend\web\View->renderHeader()
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#9 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\modules\site\controllers\DefaultController))
+#10 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="car...')
+#11 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\modules\site\controllers\DefaultController.php(51): yii\base\Controller->render('/home', Array)
+#12 [internal function]: frontend\modules\site\controllers\DefaultController->actionIndex()
+#13 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#16 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#17 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#19 {main}
+2018-04-26 12:36:43 [::1][6][-][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\xampp\htdocs\Dropbox\jeans\protected\frontend\modules\site\views\resources/images/blanja.png in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php:229
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#1 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\views\common\_header.php(48): yii\base\View->render('/resources/imag...')
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#5 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\View.php(116): yii\base\View->render('//common/_heade...')
+#6 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\views\layouts\main.php(50): frontend\web\View->renderHeader()
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#9 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\modules\site\controllers\DefaultController))
+#10 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="car...')
+#11 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\modules\site\controllers\DefaultController.php(51): yii\base\Controller->render('/home', Array)
+#12 [internal function]: frontend\modules\site\controllers\DefaultController->actionIndex()
+#13 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#16 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#17 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#19 {main}
+2018-04-26 12:36:51 [::1][6][-][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\catalog\modules\products\views\resources/images/blanja.png in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php:229
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#1 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\views\common\_header.php(48): yii\base\View->render('/resources/imag...')
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#5 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\View.php(116): yii\base\View->render('//common/_heade...')
+#6 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\views\layouts\main.php(50): frontend\web\View->renderHeader()
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#9 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(products\controllers\SiteController))
+#10 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<h2>Compare Pro...')
+#11 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\catalog\modules\products\controllers\SiteController.php(151): yii\base\Controller->render('/front/comparev...', Array)
+#12 [internal function]: products\controllers\SiteController->actionCompareProducts()
+#13 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('compare-product...', Array)
+#16 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('catalog/product...', Array)
+#17 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#19 {main}
+2018-04-26 12:37:15 [::1][6][-][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\catalog\modules\products\views\resources/images/blanja.png in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php:229
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#1 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\views\common\_header.php(48): yii\base\View->render('/resources/imag...')
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#5 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\View.php(116): yii\base\View->render('//common/_heade...')
+#6 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\views\layouts\main.php(50): frontend\web\View->renderHeader()
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#9 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(products\controllers\SiteController))
+#10 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<h2>Compare Pro...')
+#11 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\catalog\modules\products\controllers\SiteController.php(151): yii\base\Controller->render('/front/comparev...', Array)
+#12 [internal function]: products\controllers\SiteController->actionCompareProducts()
+#13 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('compare-product...', Array)
+#16 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('catalog/product...', Array)
+#17 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#19 {main}
+2018-04-26 12:38:22 [::1][6][-][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\catalog\modules\products\views\resources/images/blanja.png in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php:229
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#1 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\views\common\_header.php(48): yii\base\View->render('/resources/imag...')
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#5 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\View.php(116): yii\base\View->render('//common/_heade...')
+#6 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\views\layouts\main.php(50): frontend\web\View->renderHeader()
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#9 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(products\controllers\SiteController))
+#10 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<h2>Compare Pro...')
+#11 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\catalog\modules\products\controllers\SiteController.php(151): yii\base\Controller->render('/front/comparev...', Array)
+#12 [internal function]: products\controllers\SiteController->actionCompareProducts()
+#13 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('compare-product...', Array)
+#16 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('catalog/product...', Array)
+#17 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#19 {main}
+2018-04-26 12:38:24 [::1][6][-][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\catalog\modules\products\views\resources/images/blanja.png in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php:229
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#1 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\views\common\_header.php(48): yii\base\View->render('/resources/imag...')
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#5 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\View.php(116): yii\base\View->render('//common/_heade...')
+#6 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\views\layouts\main.php(50): frontend\web\View->renderHeader()
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#9 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(products\controllers\SiteController))
+#10 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<h2>Compare Pro...')
+#11 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\catalog\modules\products\controllers\SiteController.php(151): yii\base\Controller->render('/front/comparev...', Array)
+#12 [internal function]: products\controllers\SiteController->actionCompareProducts()
+#13 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('compare-product...', Array)
+#16 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('catalog/product...', Array)
+#17 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#19 {main}
+2018-04-26 12:38:26 [::1][6][-][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\catalog\modules\products\views\resources/images/blanja.png in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php:229
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#1 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\views\common\_header.php(48): yii\base\View->render('/resources/imag...')
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#5 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\View.php(116): yii\base\View->render('//common/_heade...')
+#6 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\views\layouts\main.php(50): frontend\web\View->renderHeader()
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#9 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(products\controllers\SiteController))
+#10 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<h2>Compare Pro...')
+#11 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\catalog\modules\products\controllers\SiteController.php(151): yii\base\Controller->render('/front/comparev...', Array)
+#12 [internal function]: products\controllers\SiteController->actionCompareProducts()
+#13 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('compare-product...', Array)
+#16 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('catalog/product...', Array)
+#17 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#19 {main}
+2018-04-26 12:38:47 [::1][6][-][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\catalog\modules\products\views\resources/images/blanja.png in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php:229
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#1 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\views\common\_header.php(48): yii\base\View->render('/resources/imag...')
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#5 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\View.php(116): yii\base\View->render('//common/_heade...')
+#6 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\views\layouts\main.php(50): frontend\web\View->renderHeader()
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#9 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(products\controllers\SiteController))
+#10 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<h2>Compare Pro...')
+#11 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\catalog\modules\products\controllers\SiteController.php(151): yii\base\Controller->render('/front/comparev...', Array)
+#12 [internal function]: products\controllers\SiteController->actionCompareProducts()
+#13 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('compare-product...', Array)
+#16 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('catalog/product...', Array)
+#17 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#19 {main}
+2018-04-26 12:39:12 [::1][6][-][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\catalog\modules\products\views\resources/images/blanja.png in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php:229
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#1 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\views\common\_header.php(48): yii\base\View->render('/resources/imag...')
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#5 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\View.php(116): yii\base\View->render('//common/_heade...')
+#6 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\views\layouts\main.php(50): frontend\web\View->renderHeader()
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#9 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(products\controllers\SiteController))
+#10 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<h2>Compare Pro...')
+#11 C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\catalog\modules\products\controllers\SiteController.php(151): yii\base\Controller->render('/front/comparev...', Array)
+#12 [internal function]: products\controllers\SiteController->actionCompareProducts()
+#13 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('compare-product...', Array)
+#16 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('catalog/product...', Array)
+#17 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#19 {main}
+2018-04-26 13:30:12 [::1][6][pmh6ba2p3c8hlrl9mqri54pvl4][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap-theme.css.map". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap-t...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-26 13:32:06 [::1][6][pmh6ba2p3c8hlrl9mqri54pvl4][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "dropbox/jenas/resources/images/blanja.png". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('dropbox/jenas/r...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-26 13:32:12 [::1][6][pmh6ba2p3c8hlrl9mqri54pvl4][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap-theme.css.map". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap-t...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-26 13:32:39 [::1][6][pmh6ba2p3c8hlrl9mqri54pvl4][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "dropbox/jeans/resources/images/blanja.png". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('dropbox/jeans/r...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-26 13:33:27 [::1][6][pmh6ba2p3c8hlrl9mqri54pvl4][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap-theme.css.map". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap-t...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-26 13:34:37 [::1][6][pmh6ba2p3c8hlrl9mqri54pvl4][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap-theme.css.map". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap-t...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-26 13:35:02 [::1][6][pmh6ba2p3c8hlrl9mqri54pvl4][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap-theme.css.map". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap-t...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-26 13:36:48 [::1][6][pmh6ba2p3c8hlrl9mqri54pvl4][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap-theme.css.map". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap-t...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-26 13:37:00 [::1][6][pmh6ba2p3c8hlrl9mqri54pvl4][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap-theme.css.map". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap-t...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-26 13:37:14 [::1][6][pmh6ba2p3c8hlrl9mqri54pvl4][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap-theme.css.map". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap-t...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-26 13:38:08 [::1][6][pmh6ba2p3c8hlrl9mqri54pvl4][error][yii\base\InvalidParamException] yii\base\InvalidParamException: Invalid product category in C:\xampp\htdocs\Dropbox\jeans\protected\common\modules\catalog\modules\productCategories\controllers\SiteController.php:30
+Stack trace:
+#0 [internal function]: productCategories\controllers\SiteController->actionView('5')
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view', Array)
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('catalog/product...', Array)
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#7 {main}
+2018-04-26 13:38:04 [::1][6][pmh6ba2p3c8hlrl9mqri54pvl4][info][application] $_GET = [
+    'id' => '5'
+]
+2018-04-26 13:38:11 [::1][6][pmh6ba2p3c8hlrl9mqri54pvl4][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap-theme.css.map". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap-t...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-26 13:38:48 [::1][6][pmh6ba2p3c8hlrl9mqri54pvl4][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap-theme.css.map". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap-t...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-26 13:39:26 [::1][6][pmh6ba2p3c8hlrl9mqri54pvl4][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap-theme.css.map". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap-t...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-26 13:39:55 [::1][6][pmh6ba2p3c8hlrl9mqri54pvl4][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap-theme.css.map". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap-t...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-26 13:40:29 [::1][6][pmh6ba2p3c8hlrl9mqri54pvl4][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap-theme.css.map". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap-t...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-26 13:52:56 [::1][6][pmh6ba2p3c8hlrl9mqri54pvl4][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap-theme.css.map". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap-t...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-26 13:53:14 [::1][6][pmh6ba2p3c8hlrl9mqri54pvl4][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap-theme.css.map". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap-t...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-26 13:57:05 [::1][6][pmh6ba2p3c8hlrl9mqri54pvl4][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap-theme.css.map". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap-t...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-26 13:58:07 [::1][6][pmh6ba2p3c8hlrl9mqri54pvl4][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap-theme.css.map". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap-t...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-26 13:58:53 [::1][6][pmh6ba2p3c8hlrl9mqri54pvl4][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap-theme.css.map". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap-t...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-26 14:47:18 [::1][6][pmh6ba2p3c8hlrl9mqri54pvl4][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap-theme.css.map". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap-t...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-26 14:49:00 [::1][6][pmh6ba2p3c8hlrl9mqri54pvl4][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap-theme.css.map". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap-t...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-26 14:50:20 [::1][6][pmh6ba2p3c8hlrl9mqri54pvl4][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap-theme.css.map". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap-t...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-26 14:54:01 [::1][6][pmh6ba2p3c8hlrl9mqri54pvl4][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/bootstrap-theme.css.map". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('css/bootstrap-t...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-27 08:42:59 [::1][6][e6i32gg0vbk6tt355u2qrbm8a2][error][yii\base\Exception] yii\base\Exception: Selected store is not active. Please contact system admin. in C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php:149
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php(43): frontend\web\BeforeActionBehavior->checkIsSelectedStoreActive()
+#1 [internal function]: frontend\web\BeforeActionBehavior->handleOnBeforeAction(Object(yii\base\ActionEvent))
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(676): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(144): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#9 {main}
+2018-04-27 08:43:14 [::1][6][e6i32gg0vbk6tt355u2qrbm8a2][error][yii\base\Exception] yii\base\Exception: Selected store is not active. Please contact system admin. in C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php:149
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php(43): frontend\web\BeforeActionBehavior->checkIsSelectedStoreActive()
+#1 [internal function]: frontend\web\BeforeActionBehavior->handleOnBeforeAction(Object(yii\base\ActionEvent))
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(676): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(144): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('toolbar', Array)
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('debug/default/t...', Array)
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#9 {main}
+2018-04-27 08:43:01 [::1][6][e6i32gg0vbk6tt355u2qrbm8a2][info][application] $_GET = [
+    'tag' => '5ae28016d71da'
+]
+2018-04-27 08:43:26 [::1][6][e6i32gg0vbk6tt355u2qrbm8a2][error][yii\base\Exception] yii\base\Exception: Selected store is not active. Please contact system admin. in C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php:149
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php(43): frontend\web\BeforeActionBehavior->checkIsSelectedStoreActive()
+#1 [internal function]: frontend\web\BeforeActionBehavior->handleOnBeforeAction(Object(yii\base\ActionEvent))
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(676): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(144): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view', Array)
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('catalog/product...', Array)
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#9 {main}
+2018-04-27 08:43:08 [::1][6][e6i32gg0vbk6tt355u2qrbm8a2][info][application] $_GET = [
+    'id' => '6'
+]
+2018-04-27 08:43:37 [::1][6][e6i32gg0vbk6tt355u2qrbm8a2][error][yii\base\Exception] yii\base\Exception: Selected store is not active. Please contact system admin. in C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php:149
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php(43): frontend\web\BeforeActionBehavior->checkIsSelectedStoreActive()
+#1 [internal function]: frontend\web\BeforeActionBehavior->handleOnBeforeAction(Object(yii\base\ActionEvent))
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(676): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(144): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('toolbar', Array)
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('debug/default/t...', Array)
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#9 {main}
+2018-04-27 08:43:28 [::1][6][e6i32gg0vbk6tt355u2qrbm8a2][info][application] $_GET = [
+    'tag' => '5ae2802ca0258'
+]
+2018-04-27 08:44:14 [::1][6][e6i32gg0vbk6tt355u2qrbm8a2][error][yii\base\Exception] yii\base\Exception: Selected store is not active. Please contact system admin. in C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php:149
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php(43): frontend\web\BeforeActionBehavior->checkIsSelectedStoreActive()
+#1 [internal function]: frontend\web\BeforeActionBehavior->handleOnBeforeAction(Object(yii\base\ActionEvent))
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(676): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(144): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view', Array)
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('catalog/product...', Array)
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#9 {main}
+2018-04-27 08:44:09 [::1][6][e6i32gg0vbk6tt355u2qrbm8a2][info][application] $_GET = [
+    'id' => '6'
+]
+2018-04-27 08:44:22 [::1][6][e6i32gg0vbk6tt355u2qrbm8a2][error][yii\base\Exception] yii\base\Exception: Selected store is not active. Please contact system admin. in C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php:149
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php(43): frontend\web\BeforeActionBehavior->checkIsSelectedStoreActive()
+#1 [internal function]: frontend\web\BeforeActionBehavior->handleOnBeforeAction(Object(yii\base\ActionEvent))
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(676): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(144): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('toolbar', Array)
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('debug/default/t...', Array)
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#9 {main}
+2018-04-27 08:44:15 [::1][6][e6i32gg0vbk6tt355u2qrbm8a2][info][application] $_GET = [
+    'tag' => '5ae280696b47b'
+]
+2018-04-27 08:44:37 [::1][6][e6i32gg0vbk6tt355u2qrbm8a2][error][yii\base\Exception] yii\base\Exception: Selected store is not active. Please contact system admin. in C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php:149
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php(43): frontend\web\BeforeActionBehavior->checkIsSelectedStoreActive()
+#1 [internal function]: frontend\web\BeforeActionBehavior->handleOnBeforeAction(Object(yii\base\ActionEvent))
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(676): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(144): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view', Array)
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('cart/default/vi...', Array)
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#9 {main}
+2018-04-27 08:44:53 [::1][6][e6i32gg0vbk6tt355u2qrbm8a2][error][yii\base\Exception] yii\base\Exception: Selected store is not active. Please contact system admin. in C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php:149
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php(43): frontend\web\BeforeActionBehavior->checkIsSelectedStoreActive()
+#1 [internal function]: frontend\web\BeforeActionBehavior->handleOnBeforeAction(Object(yii\base\ActionEvent))
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(676): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(144): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view', Array)
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('catalog/product...', Array)
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#9 {main}
+2018-04-27 08:44:32 [::1][6][e6i32gg0vbk6tt355u2qrbm8a2][info][application] $_GET = [
+    'id' => '9'
+]
+2018-04-27 08:44:59 [::1][6][e6i32gg0vbk6tt355u2qrbm8a2][error][yii\base\Exception] yii\base\Exception: Selected store is not active. Please contact system admin. in C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php:149
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php(43): frontend\web\BeforeActionBehavior->checkIsSelectedStoreActive()
+#1 [internal function]: frontend\web\BeforeActionBehavior->handleOnBeforeAction(Object(yii\base\ActionEvent))
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(676): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(144): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view', Array)
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('catalog/product...', Array)
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#9 {main}
+2018-04-27 08:44:33 [::1][6][e6i32gg0vbk6tt355u2qrbm8a2][info][application] $_GET = [
+    'id' => '9'
+]
+2018-04-27 08:45:15 [::1][6][e6i32gg0vbk6tt355u2qrbm8a2][error][yii\base\Exception] yii\base\Exception: Selected store is not active. Please contact system admin. in C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php:149
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php(43): frontend\web\BeforeActionBehavior->checkIsSelectedStoreActive()
+#1 [internal function]: frontend\web\BeforeActionBehavior->handleOnBeforeAction(Object(yii\base\ActionEvent))
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(676): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(144): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view', Array)
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('catalog/product...', Array)
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#9 {main}
+2018-04-27 08:44:34 [::1][6][e6i32gg0vbk6tt355u2qrbm8a2][info][application] $_GET = [
+    'id' => '7'
+]
+2018-04-27 08:45:25 [::1][6][e6i32gg0vbk6tt355u2qrbm8a2][error][yii\base\Exception] yii\base\Exception: Selected store is not active. Please contact system admin. in C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php:149
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php(43): frontend\web\BeforeActionBehavior->checkIsSelectedStoreActive()
+#1 [internal function]: frontend\web\BeforeActionBehavior->handleOnBeforeAction(Object(yii\base\ActionEvent))
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(676): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(144): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('view', Array)
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('catalog/product...', Array)
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#9 {main}
+2018-04-27 08:44:36 [::1][6][e6i32gg0vbk6tt355u2qrbm8a2][info][application] $_GET = [
+    'id' => '7'
+]
+2018-04-27 08:45:34 [::1][6][e6i32gg0vbk6tt355u2qrbm8a2][error][yii\base\Exception] yii\base\Exception: Selected store is not active. Please contact system admin. in C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php:149
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\protected\frontend\web\BeforeActionBehavior.php(43): frontend\web\BeforeActionBehavior->checkIsSelectedStoreActive()
+#1 [internal function]: frontend\web\BeforeActionBehavior->handleOnBeforeAction(Object(yii\base\ActionEvent))
+#2 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(676): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Controller.php(144): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#5 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('toolbar', Array)
+#6 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('debug/default/t...', Array)
+#7 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#9 {main}
+2018-04-27 08:45:25 [::1][6][e6i32gg0vbk6tt355u2qrbm8a2][info][application] $_GET = [
+    'tag' => '5ae2808406086'
+]
+2018-04-27 08:53:45 [::1][6][e6i32gg0vbk6tt355u2qrbm8a2][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "resources/images/MzBlMmUwMDblanja.png". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('resources/image...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
+2018-04-27 08:53:47 [::1][6][e6i32gg0vbk6tt355u2qrbm8a2][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "resources/images/M2U3MDJmZTjeans.ico". in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('resources/image...', Array)
+#1 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\Dropbox\jeans\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Dropbox\jeans\index.php(39): yii\base\Application->run()
+#2 {main}
